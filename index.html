@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f7f5f1" />
+    <meta name="description" content="Tu colección personal de idol calls y mixes." />
+    <title>Idol Mixes — calls & mixes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <a class="brand" id="brandHome" href="#libraryView" aria-label="Idol Mixes, inicio">
+          <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span>
+          <span class="brand-name">idol<span>mixes</span></span>
+        </a>
+        <div class="topbar-right">
+          <div class="display-switch" role="group" aria-label="Idioma de los nombres">
+            <span class="switch-caption">NOMBRES</span>
+            <button class="segmented" id="nameMode" type="button" aria-label="Cambiar visualización entre romaji y kana" aria-pressed="false">
+              <span class="segment active" data-mode="romaji">A</span>
+              <span class="segment" data-mode="kana">あ</span>
+              <span class="segment-knob" aria-hidden="true"></span>
+            </button>
+            <span class="switch-label" id="nameModeLabel">Romaji</span>
+          </div>
+          <button class="icon-button theme-button" id="themeToggle" type="button" aria-label="Activar modo oscuro" title="Cambiar tema">
+            <svg class="sun-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"/></svg>
+            <svg class="moon-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.2 15.4A8.5 8.5 0 0 1 8.6 3.8 8.5 8.5 0 1 0 20.2 15.4Z"/></svg>
+          </button>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero" aria-labelledby="page-title">
+          <div class="hero-copy">
+            <div class="eyebrow"><span class="eyebrow-dot"></span> TU ARCHIVO DE WOTAGEI</div>
+            <h1 id="page-title">Calls que se<br /><span>quedan contigo.</span></h1>
+            <p>Guarda, encuentra y repasa tus mixes favoritos.<br class="desktop-break" /> Todo tu repertorio, en un solo sitio.</p>
+          </div>
+          <div class="hero-art" aria-hidden="true">
+            <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+            <div class="glow glow-pink"></div><div class="glow glow-lilac"></div>
+            <span class="spark spark-one">✳</span><span class="spark spark-two">✦</span>
+            <span class="hero-kana">コール</span>
+            <span class="hero-tag">YOUR SETLIST<br /><b>01 — ∞</b></span>
+          </div>
+          <div class="hero-index"><span>01</span><i></i><span>LIBRARY</span></div>
+        </section>
+
+        <nav class="view-tabs" aria-label="Secciones">
+          <button class="view-tab active" id="libraryTab" type="button" aria-current="page">Biblioteca <span id="tabMixCount">0</span></button>
+          <button class="view-tab" id="addTabButton" type="button">＋ <span>Añadir un mix</span></button>
+        </nav>
+
+        <section class="workspace" id="libraryView" aria-label="Biblioteca de mixes">
+          <div class="section-heading">
+            <div>
+              <div class="eyebrow section-eyebrow">LA COLECCIÓN</div>
+              <h2 id="sectionTitle">Todos los mixes <span class="count-pill" id="mixCount">0</span></h2>
+            </div>
+            <div class="heading-actions">
+              <button class="text-button" id="exportButton" type="button" title="Descargar una copia de tus mixes">
+                <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 2v10m0 0 3.5-3.5M10 12 6.5 8.5M3 13v3a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-3"/></svg>
+                <span>Exportar</span>
+              </button>
+              <button class="text-button" id="importButton" type="button" title="Cargar una copia guardada">
+                <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 12V2m0 0L6.5 5.5M10 2l3.5 3.5M3 13v3a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-3"/></svg>
+                <span>Importar</span>
+              </button>
+              <input id="importFile" type="file" accept=".json,application/json" hidden />
+            </div>
+          </div>
+
+          <div class="toolbar">
+            <label class="search-box" for="searchInput">
+              <svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.7" cy="8.7" r="5.7"/><path d="m13 13 4 4"/></svg>
+              <input id="searchInput" type="search" placeholder="Busca un mix, una palabra o un call…" autocomplete="off" />
+              <kbd>/</kbd>
+            </label>
+          </div>
+
+          <div class="filter-bar" aria-label="Filtros de la colección">
+            <div class="filter-section"><span class="filter-label">COMPASES · 小節</span><div class="filter-options" id="barFilters"></div></div>
+            <div class="filter-section"><span class="filter-label">ETIQUETAS</span><div class="filter-options" id="tagFilters"></div></div>
+            <button class="clear-filters" id="clearFilters" type="button" hidden>Limpiar filtros</button>
+          </div>
+
+          <div class="results-meta"><span id="resultsLabel">0 mixes guardados</span><span class="results-hint">PULSA UN MIX PARA VER SU LECTURA</span></div>
+          <div class="mix-list" id="mixList" aria-live="polite"></div>
+          <div class="empty-state" id="emptyState" hidden>
+            <div class="empty-orbit" aria-hidden="true"><span>♪</span></div>
+            <h3 id="emptyTitle">Tu colección empieza aquí</h3>
+            <p id="emptyCopy">Añade tu primer mix para tener tus calls siempre a mano.</p>
+            <button class="primary-button" id="emptyAddButton" type="button"><span class="plus">＋</span> Añadir primer mix</button>
+          </div>
+        </section>
+
+        <section class="form-panel" id="addPanel" hidden aria-labelledby="formTitle">
+          <div class="form-topline"><span class="eyebrow section-eyebrow">NUEVA ENTRADA</span><button class="close-form" id="closeForm" type="button" aria-label="Cerrar formulario">×</button></div>
+          <h2 id="formTitle">Añade un mix</h2>
+          <p class="form-intro">Escribe el nombre y la lectura; añade compases y etiquetas para encontrarlo fácilmente.</p>
+          <form id="mixForm">
+            <input id="editId" type="hidden" />
+            <div class="form-grid">
+              <label class="field"><span>Nombre en romaji <b>*</b></span><input id="nameRomaji" name="nameRomaji" required maxlength="120" placeholder="Ej. MIX 1" autocomplete="off" /></label>
+              <label class="field"><span>Nombre en kana <b>*</b></span><input id="nameKana" name="nameKana" required maxlength="120" placeholder="例：ミックス１" autocomplete="off" /></label>
+            </div>
+            <div class="field-block-label"><span>Inicio · 始動</span><span>OPCIONAL</span></div>
+            <div class="form-grid">
+              <label class="field start-field"><span>Inicio en romaji</span><textarea id="startRomaji" name="startRomaji" rows="2" maxlength="3000" placeholder="Escribe el inicio del mix en romaji"></textarea></label>
+              <label class="field start-field"><span>Inicio en kana</span><textarea id="startKana" name="startKana" rows="2" maxlength="3000" placeholder="ミックスの始動をかなで入力"></textarea></label>
+            </div>
+            <div class="field-block-label"><span>Lectura del mix</span><span>ROMAJI PRIMERO</span></div>
+            <div class="form-grid">
+              <label class="field"><span>Lectura en romaji <b>*</b></span><textarea id="readingRomaji" name="readingRomaji" required rows="4" maxlength="3000" placeholder="Tiger! Fire! Cyber! Fiber! …"></textarea></label>
+              <label class="field"><span>Lectura en kana <b>*</b></span><textarea id="readingKana" name="readingKana" required rows="4" maxlength="3000" placeholder="タイガー！ファイヤー！サイバー！…"></textarea></label>
+            </div>
+            <div class="form-grid extra-fields">
+              <div class="field duration-field">
+                <label for="barCountInput"><span>Duración en compases · 小節</span></label>
+                <div class="duration-entry"><input id="barCountInput" type="number" min="1" max="999" step="1" inputmode="numeric" placeholder="Ej. 8" /><button class="secondary-button" id="addBarCount" type="button">＋ Añadir</button></div>
+                <div class="duration-chips" id="durationChips" aria-live="polite"></div>
+                <small class="field-help">Puedes añadir más de una duración.</small>
+              </div>
+              <fieldset class="tag-field">
+                <legend>Etiquetas del mix</legend>
+                <div class="tag-checkboxes">
+                  <label class="tag-option"><input type="checkbox" name="mixTag" value="kahen-sanren" /><span><b>Kahen Sanren</b><small>可変三連</small></span></label>
+                  <label class="tag-option"><input type="checkbox" name="mixTag" value="konton" /><span><b>Konton</b><small>混沌</small></span></label>
+                  <label class="tag-option"><input type="checkbox" name="mixTag" value="koujou" /><span><b>Koujou</b><small>口上</small></span></label>
+                  <label class="tag-option"><input type="checkbox" name="mixTag" value="gengo" /><span><b>Gengo</b><small>言語</small></span></label>
+                </div>
+              </fieldset>
+            </div>
+            <div class="form-footer"><span class="required-note"><b>*</b> Campos obligatorios</span><div><button class="secondary-button" id="cancelForm" type="button">Cancelar</button><button class="primary-button" type="submit" id="saveMixButton">Guardar mix <span aria-hidden="true">↗</span></button></div></div>
+          </form>
+        </section>
+      </main>
+
+      <footer class="footer"><span>HECHO PARA TU PRÓXIMO LIVE <span class="footer-star">✳</span></span><span id="storageLabel">Conectando con el almacenamiento…</span></footer>
+    </div>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  </body>
+</html>
