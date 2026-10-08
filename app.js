@@ -1,6 +1,4 @@
 (() => {
-  const STORAGE_KEY = "idol-mixes.collection.v1";
-  const MIGRATION_KEY = "idol-mixes.json-migrated";
   const THEME_KEY = "idol-mixes.theme";
   const NAME_MODE_KEY = "idol-mixes.name-mode";
   const MIX_TAGS = [
@@ -13,25 +11,30 @@
   const $ = (selector) => document.querySelector(selector);
 
   const elements = {
-    appShell: $(".app-shell"), storageLabel: $("#storageLabel"),
+    appShell: $(".app-shell"), storageLabel: $("#storageLabel"), themeColor: $('meta[name="theme-color"]'),
     list: $("#mixList"), count: $("#mixCount"), tabCount: $("#tabMixCount"), results: $("#resultsLabel"), empty: $("#emptyState"),
     emptyTitle: $("#emptyTitle"), emptyCopy: $("#emptyCopy"), search: $("#searchInput"),
     barFilters: $("#barFilters"), tagFilters: $("#tagFilters"), clearFilters: $("#clearFilters"),
     modeButton: $("#nameMode"), modeLabel: $("#nameModeLabel"), themeButton: $("#themeToggle"),
     workspace: $("#libraryView"), libraryTab: $("#libraryTab"), addTab: $("#addTabButton"),
     panel: $("#addPanel"), form: $("#mixForm"), formTitle: $("#formTitle"), editId: $("#editId"),
+    mainTitle: $("#mainTitle"), mainTitleKana: $("#mainTitleKana"),
     nameRomaji: $("#nameRomaji"), nameKana: $("#nameKana"), readingRomaji: $("#readingRomaji"), readingKana: $("#readingKana"),
     startRomaji: $("#startRomaji"), startKana: $("#startKana"),
     barCountInput: $("#barCountInput"), addBarCount: $("#addBarCount"), durationChips: $("#durationChips"),
+    variantList: $("#variantList"), addVariant: $("#addVariant"), baseReadingHint: $("#baseReadingHint"),
+    baseRomajiRequiredMark: $("#baseRomajiRequiredMark"), baseKanaRequiredMark: $("#baseKanaRequiredMark"),
     tagInputs: [...document.querySelectorAll('input[name="mixTag"]')],
     saveButton: $("#saveMixButton"), toast: $("#toast"), importFile: $("#importFile"),
   };
 
-  let mixes = loadMixes();
+  let mixes = [];
+  let jsonConnected = false;
   let nameMode = readPreference(NAME_MODE_KEY) === "kana" ? "kana" : "romaji";
   let toastTimer;
   let formDraftActive = false;
   let formBarCounts = [];
+  let variantDrafts = [];
   const selectedBars = new Set();
   const selectedTags = new Set();
 
@@ -47,28 +50,27 @@
     return globalThis.crypto?.randomUUID?.() ?? `mix-${Date.now()}-${Math.random().toString(16).slice(2)}`;
   }
 
-  function loadMixes() {
-    try {
-      const saved = localStorage.getItem(STORAGE_KEY);
-      if (!saved) return [];
-      const value = JSON.parse(saved);
-      if (!Array.isArray(value)) return [];
-      return value.map((mix) => normalizeMix(mix)).filter(Boolean);
-    } catch {
-      return [];
-    }
-  }
-
   function normalizeMix(value) {
     if (!value || typeof value !== "object") return null;
-    const fields = ["nameRomaji", "nameKana", "readingRomaji", "readingKana"];
-    if (!fields.every((field) => typeof value[field] === "string" && value[field].trim())
+    if (!["nameRomaji", "nameKana"].every((field) => typeof value[field] === "string" && value[field].trim())
+      || typeof value.readingRomaji !== "string" || typeof value.readingKana !== "string"
       || value.nameRomaji.length > 120 || value.nameKana.length > 120
       || value.readingRomaji.length > 3000 || value.readingKana.length > 3000) return null;
     const startRomaji = value.startRomaji ?? "";
     const startKana = value.startKana ?? "";
     if (typeof startRomaji !== "string" || typeof startKana !== "string"
       || startRomaji.length > 3000 || startKana.length > 3000) return null;
+    const mainTitle = value.mainTitle === undefined ? "Versión principal" : value.mainTitle;
+    const mainTitleKana = value.mainTitleKana === undefined ? "" : value.mainTitleKana;
+    if (typeof mainTitle !== "string" || mainTitle.length > 160) return null;
+    if (typeof mainTitleKana !== "string" || mainTitleKana.length > 160) return null;
+    const rawVariants = value.variants ?? [];
+    if (!Array.isArray(rawVariants) || rawVariants.length > 50) return null;
+    const variants = rawVariants.map(normalizeVariant);
+    if (variants.some((variant) => !variant)) return null;
+    const hasRomaji = Boolean(value.readingRomaji.trim());
+    const hasKana = Boolean(value.readingKana.trim());
+    if (hasRomaji !== hasKana || (!hasRomaji && variants.length === 0)) return null;
     return {
       id: typeof value.id === "string" && value.id ? value.id : makeId(),
       nameRomaji: value.nameRomaji.trim(),
@@ -77,6 +79,9 @@
       readingKana: value.readingKana.trim(),
       startRomaji: startRomaji.trim(),
       startKana: startKana.trim(),
+      mainTitle: mainTitle.trim() || "Versión principal",
+      mainTitleKana: mainTitleKana.trim(),
+      variants,
       barCounts: Array.isArray(value.barCounts)
         ? [...new Set(value.barCounts.map(Number).filter((count) => Number.isInteger(count) && count >= 1 && count <= 999))].sort((a, b) => a - b)
         : [],
@@ -86,34 +91,42 @@
     };
   }
 
-  async function persist() {
-    let browserSaved = false;
+  function normalizeVariant(value) {
+    if (!value || typeof value !== "object") return null;
+    const fields = ["title", "readingRomaji", "readingKana"];
+    if (!fields.every((field) => typeof value[field] === "string" && value[field].trim())
+      || value.title.length > 160 || value.readingRomaji.length > 3000 || value.readingKana.length > 3000) return null;
+    const titleKana = value.titleKana ?? "";
+    if (typeof titleKana !== "string" || titleKana.length > 160) return null;
+    return {
+      id: typeof value.id === "string" && value.id ? value.id : makeId(),
+      title: value.title.trim(),
+      titleKana: titleKana.trim(),
+      readingRomaji: value.readingRomaji.trim(),
+      readingKana: value.readingKana.trim(),
+    };
+  }
+
+  async function persist(nextMixes) {
     try {
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(mixes));
-      browserSaved = true;
-    } catch {
-      // The JSON file remains the primary store when the local browser cache is unavailable.
-    }
-    try {
+      if (!jsonConnected) throw new Error("El servidor JSON no está conectado.");
       const response = await fetch("/api/mixes", {
         method: "PUT",
         headers: { "content-type": "application/json" },
-        body: JSON.stringify(mixes),
+        body: JSON.stringify(nextMixes),
       });
       if (!response.ok) throw new Error("No se pudo escribir el archivo JSON.");
+      mixes = nextMixes;
       elements.storageLabel.textContent = "Guardado en data/mixes.json";
       return "file";
     } catch {
-      elements.storageLabel.textContent = browserSaved
-        ? "Guardado en este navegador · inicia node server.js para usar JSON"
-        : "No se pudo guardar; inicia node server.js para habilitar el archivo JSON";
-      return browserSaved ? "browser" : "failed";
+      elements.storageLabel.textContent = "No se pudo guardar en data/mixes.json";
+      return "failed";
     }
   }
 
   function showSaveResult(result, successMessage) {
     if (result === "file") showToast(successMessage);
-    else if (result === "browser") showToast(`${successMessage} Solo quedó guardado en este navegador.`);
     else showToast("No se pudo guardar el cambio.");
   }
 
@@ -127,31 +140,18 @@
       const payload = await response.json();
       const fileValues = Array.isArray(payload) ? payload : payload?.mixes;
       if (!Array.isArray(fileValues)) throw new Error("El archivo JSON no contiene una lista de mixes.");
-
-      const savedInBrowser = loadMixes();
-      let fileMixes = fileValues.map(normalizeMix).filter(Boolean);
-      const alreadyMigrated = readPreference(MIGRATION_KEY) === "true";
-      if (fileMixes.length === 0 && savedInBrowser.length > 0 && !alreadyMigrated) {
-        const migrationResponse = await fetch("/api/mixes", {
-          method: "PUT",
-          headers: { "content-type": "application/json" },
-          body: JSON.stringify(savedInBrowser),
-        });
-        if (!migrationResponse.ok) throw new Error("No se pudieron migrar los mixes del navegador.");
-        fileMixes = savedInBrowser;
-      }
-
+      const fileMixes = fileValues.map(normalizeMix);
+      if (fileMixes.some((mix) => !mix)) throw new Error("data/mixes.json contiene un mix incompleto o no válido.");
       mixes = fileMixes;
-      try {
-        localStorage.setItem(STORAGE_KEY, JSON.stringify(mixes));
-        localStorage.setItem(MIGRATION_KEY, "true");
-      } catch { /* The JSON file works without a local browser mirror. */ }
+      jsonConnected = true;
       elements.storageLabel.textContent = "Guardado en data/mixes.json";
-    } catch {
-      mixes = loadMixes();
-      elements.storageLabel.textContent = "Guardado en este navegador · inicia node server.js para usar JSON";
+    } catch (error) {
+      mixes = [];
+      jsonConnected = false;
+      elements.storageLabel.textContent = "No se pudo leer data/mixes.json · inicia node server.js y recarga";
+      showToast(error.message || "No se pudo leer data/mixes.json.");
     } finally {
-      elements.appShell.inert = false;
+      elements.appShell.inert = !jsonConnected;
       elements.appShell.removeAttribute("aria-busy");
       render();
     }
@@ -172,7 +172,8 @@
     const searchable = mixes.filter((mix) => {
       const tagText = mix.tags.flatMap((id) => MIX_TAGS.find((tag) => tag.id === id) ?? []);
       const content = normalizeText([
-        mix.nameRomaji, mix.nameKana, mix.startRomaji, mix.startKana, mix.readingRomaji, mix.readingKana,
+        mix.nameRomaji, mix.nameKana, mix.mainTitle, mix.mainTitleKana, mix.startRomaji, mix.startKana, mix.readingRomaji, mix.readingKana,
+        ...mix.variants.flatMap((variant) => [variant.title, variant.titleKana, variant.readingRomaji, variant.readingKana]),
         ...mix.barCounts.flatMap((count) => [String(count), "小節"]),
         ...tagText.flatMap((tag) => [tag.romaji, tag.kana]),
       ].join(" "));
@@ -198,6 +199,48 @@
 
   function renderDurationChips() {
     elements.durationChips.innerHTML = formBarCounts.map((count) => `<span class="duration-chip">${count} 小節<button type="button" data-remove-bar="${count}" aria-label="Quitar ${count} compases">×</button></span>`).join("");
+  }
+
+  function renderVariantForm() {
+    elements.variantList.innerHTML = variantDrafts.map((variant, index) => `<div class="variant-form-card" data-variant-id="${escapeHtml(variant.id)}" role="group" aria-label="Variante ${index + 1}">
+      <div class="variant-form-heading"><span>VARIANTE ${String(index + 1).padStart(2, "0")}</span><button class="remove-variant" type="button" data-remove-variant="${escapeHtml(variant.id)}" aria-label="Eliminar variante ${index + 1}">×</button></div>
+      <div class="form-grid">
+        <label class="field"><span>Subtítulo en romaji <b>*</b></span><input class="variant-title" required maxlength="160" value="${escapeHtml(variant.title)}" placeholder="Ej. Japanese 2ren (Ura Japanese)" /></label>
+        <label class="field"><span>Subtítulo en kana</span><input class="variant-title-kana" maxlength="160" value="${escapeHtml(variant.titleKana)}" placeholder="Ej. ジャパニーズ2連" /></label>
+      </div>
+      <div class="field-block-label"><span>Lectura de la variante</span><span>ROMAJI PRIMERO</span></div>
+      <div class="form-grid">
+        <label class="field"><span>Lectura en romaji <b>*</b></span><textarea class="variant-romaji" required rows="3" maxlength="3000" placeholder="Escribe la variante en romaji">${escapeHtml(variant.readingRomaji)}</textarea></label>
+        <label class="field"><span>Lectura en kana <b>*</b></span><textarea class="variant-kana" required rows="3" maxlength="3000" placeholder="Escribe la variante en kana">${escapeHtml(variant.readingKana)}</textarea></label>
+      </div>
+    </div>`).join("");
+    const hasVariants = variantDrafts.length > 0;
+    elements.readingRomaji.required = !hasVariants;
+    elements.readingKana.required = !hasVariants;
+    elements.baseRomajiRequiredMark.hidden = hasVariants;
+    elements.baseKanaRequiredMark.hidden = hasVariants;
+    elements.baseReadingHint.textContent = hasVariants ? "OPCIONAL CON VARIANTES" : "OBLIGATORIA SIN VARIANTES";
+  }
+
+  function readVariantDrafts() {
+    return [...elements.variantList.querySelectorAll(".variant-form-card")].map((card) => ({
+      id: card.dataset.variantId,
+      title: card.querySelector(".variant-title").value,
+      titleKana: card.querySelector(".variant-title-kana").value,
+      readingRomaji: card.querySelector(".variant-romaji").value,
+      readingKana: card.querySelector(".variant-kana").value,
+    }));
+  }
+
+  function renderReadingPair(romaji, kana) {
+    return `<div class="reading-grid"><div class="reading-column" role="group" aria-label="Romaji"><p class="reading-text">${escapeHtml(romaji)}</p></div><div class="reading-column" role="group" aria-label="Kana"><p class="reading-text" lang="ja">${escapeHtml(kana)}</p></div></div>`;
+  }
+
+  function renderStartPair(romaji, kana) {
+    if (!romaji && !kana) return "";
+    const romajiBlock = romaji ? `<div class="reading-part-label">INICIO · 始動</div><p class="reading-text">${escapeHtml(romaji)}</p>` : "";
+    const kanaBlock = kana ? `<div class="reading-part-label">INICIO · 始動</div><p class="reading-text" lang="ja">${escapeHtml(kana)}</p>` : "";
+    return `<div class="reading-grid shared-start"><div class="reading-column" role="group" aria-label="Romaji">${romajiBlock}</div><div class="reading-column" role="group" aria-label="Kana">${kanaBlock}</div></div>`;
   }
 
   function render() {
@@ -231,13 +274,18 @@
         ...mix.barCounts.map((count) => `<span class="mix-badge">${count} 小節</span>`),
         ...mix.tags.map((id) => MIX_TAGS.find((tag) => tag.id === id)).filter(Boolean)
           .map((tag) => `<span class="mix-badge tag-badge" title="${tag.kana}">${tag.romaji} · ${tag.kana}</span>`),
+        ...(mix.variants.length ? [`<span class="mix-badge variant-badge">${mix.variants.length} ${mix.variants.length === 1 ? "variante" : "variantes"}</span>`] : []),
       ].join("");
-      const startRomaji = mix.startRomaji
-        ? `<div class="reading-part start-part"><div class="reading-part-label">INICIO · 始動</div><p class="reading-text">${escapeHtml(mix.startRomaji)}</p></div>`
+      const sharedStart = renderStartPair(mix.startRomaji, mix.startKana);
+      const visibleMainTitle = nameMode === "kana" ? (mix.mainTitleKana || mix.mainTitle) : mix.mainTitle;
+      const mainReading = mix.readingRomaji || mix.readingKana
+        ? `<section class="variant-display main-version">${mix.variants.length || visibleMainTitle !== "Versión principal" ? `<h3 class="variant-display-title">${escapeHtml(visibleMainTitle || "Versión principal")}</h3>` : ""}${renderReadingPair(mix.readingRomaji, mix.readingKana)}</section>`
         : "";
-      const startKana = mix.startKana
-        ? `<div class="reading-part start-part"><div class="reading-part-label">INICIO · 始動</div><p class="reading-text" lang="ja">${escapeHtml(mix.startKana)}</p></div>`
-        : "";
+      const variantReadings = mix.variants.map((variant) => {
+        const variantTitle = nameMode === "kana" && variant.titleKana ? variant.titleKana : variant.title;
+        const secondaryTitle = nameMode === "kana" ? (variant.titleKana ? variant.title : "") : variant.titleKana;
+        return `<details class="variant-display variant-accordion"><summary class="variant-accordion-summary"><h3 class="variant-display-title"><span>${escapeHtml(variantTitle)}</span>${secondaryTitle && secondaryTitle !== variantTitle ? `<span class="variant-display-subtitle">${escapeHtml(secondaryTitle)}</span>` : ""}</h3><span class="variant-chevron" aria-hidden="true"></span></summary>${renderReadingPair(variant.readingRomaji, variant.readingKana)}</details>`;
+      }).join("");
       return `<details class="mix-card" data-id="${escapeHtml(mix.id)}">
         <summary>
           <span class="mix-order">${String(index + 1).padStart(2, "0")}</span>
@@ -245,10 +293,7 @@
           <span class="mix-summary-right"><span class="chevron" aria-hidden="true"></span></span>
         </summary>
         <div class="mix-detail">
-          <div class="reading-grid">
-            <div class="reading-column" role="group" aria-label="Romaji">${startRomaji}<div class="mix-reading"><p class="reading-text">${escapeHtml(mix.readingRomaji)}</p></div></div>
-            <div class="reading-column" role="group" aria-label="Kana">${startKana}<div class="mix-reading"><p class="reading-text" lang="ja">${escapeHtml(mix.readingKana)}</p></div></div>
-          </div>
+          ${sharedStart}${mainReading}${variantReadings}
           <div class="detail-actions"><button class="small-action" type="button" data-action="edit" data-id="${escapeHtml(mix.id)}">Editar</button><button class="small-action delete" type="button" data-action="delete" data-id="${escapeHtml(mix.id)}">Eliminar</button></div>
         </div>
       </details>`;
@@ -260,6 +305,8 @@
       elements.formTitle.textContent = mix ? "Edita el mix" : "Añade un mix";
       elements.saveButton.innerHTML = mix ? "Guardar cambios <span aria-hidden=\"true\">↗</span>" : "Guardar mix <span aria-hidden=\"true\">↗</span>";
       elements.editId.value = mix?.id ?? "";
+      elements.mainTitle.value = mix?.mainTitle ?? "Versión principal";
+      elements.mainTitleKana.value = mix?.mainTitleKana ?? "";
       elements.nameRomaji.value = mix?.nameRomaji ?? "";
       elements.nameKana.value = mix?.nameKana ?? "";
       elements.readingRomaji.value = mix?.readingRomaji ?? "";
@@ -269,6 +316,8 @@
       elements.barCountInput.value = "";
       formBarCounts = [...(mix?.barCounts ?? [])];
       renderDurationChips();
+      variantDrafts = [...(mix?.variants ?? [])];
+      renderVariantForm();
       elements.tagInputs.forEach((input) => { input.checked = mix?.tags.includes(input.value) ?? false; });
       formDraftActive = true;
     }
@@ -294,6 +343,8 @@
   function closeForm() {
     elements.form.reset();
     elements.editId.value = "";
+    variantDrafts = [];
+    renderVariantForm();
     formDraftActive = false;
     showLibrary();
   }
@@ -339,6 +390,7 @@
     document.documentElement.dataset.theme = theme;
     const dark = theme === "dark";
     elements.themeButton.setAttribute("aria-label", dark ? "Activar modo claro" : "Activar modo oscuro");
+    elements.themeColor.content = dark ? "#2E3440" : "#E5E9F0";
     writePreference(THEME_KEY, theme);
   }
 
@@ -370,12 +422,14 @@
         unique.set(mix.id, mix);
       });
       if (!window.confirm(`Se reemplazarán los ${mixes.length} mixes actuales por los ${unique.size} del archivo. ¿Continuar?`)) return;
-      mixes = [...unique.values()];
-      selectedBars.clear();
-      selectedTags.clear();
-      const saved = await persist();
+      const nextMixes = [...unique.values()];
+      const saved = await persist(nextMixes);
+      if (saved === "file") {
+        selectedBars.clear();
+        selectedTags.clear();
+      }
       render();
-      showSaveResult(saved, `${mixes.length} ${mixes.length === 1 ? "mix importado" : "mixes importados"}.`);
+      showSaveResult(saved, `${nextMixes.length} ${nextMixes.length === 1 ? "mix importado" : "mixes importados"}.`);
     } catch (error) {
       showToast(error instanceof SyntaxError ? "No se pudo leer el JSON." : (error.message || "No se pudo importar el archivo."));
     } finally {
@@ -393,6 +447,23 @@
   $("#emptyAddButton").addEventListener("click", () => openForm());
   $("#closeForm").addEventListener("click", closeForm);
   $("#cancelForm").addEventListener("click", closeForm);
+  elements.addVariant.addEventListener("click", () => {
+    variantDrafts = readVariantDrafts();
+    if (variantDrafts.length >= 50) {
+      showToast("Un mix puede tener hasta 50 variantes.");
+      return;
+    }
+    const variant = { id: makeId(), title: "", titleKana: "", readingRomaji: "", readingKana: "" };
+    variantDrafts.push(variant);
+    renderVariantForm();
+    elements.variantList.querySelector(`[data-variant-id="${variant.id}"] .variant-title`)?.focus();
+  });
+  elements.variantList.addEventListener("click", (event) => {
+    const button = event.target.closest("button[data-remove-variant]");
+    if (!button) return;
+    variantDrafts = readVariantDrafts().filter((variant) => variant.id !== button.dataset.removeVariant);
+    renderVariantForm();
+  });
   elements.addBarCount.addEventListener("click", addBarDuration);
   elements.barCountInput.addEventListener("keydown", (event) => {
     if (event.key === "Enter") {
@@ -440,23 +511,45 @@
     event.preventDefault();
     const editId = elements.editId.value;
     const previous = mixes.find((mix) => mix.id === editId);
+    const variants = readVariantDrafts();
+    const hasBaseRomaji = Boolean(elements.readingRomaji.value.trim());
+    const hasBaseKana = Boolean(elements.readingKana.value.trim());
+    if (hasBaseRomaji !== hasBaseKana) {
+      showToast("Completa la versión principal tanto en romaji como en kana, o deja ambos campos vacíos.");
+      (hasBaseRomaji ? elements.readingKana : elements.readingRomaji).focus();
+      return;
+    }
+    const invalidVariantIndex = variants.findIndex((variant) => !normalizeVariant(variant));
+    if (invalidVariantIndex !== -1) {
+      showToast("Completa el subtítulo y las dos lecturas de cada variante.");
+      const invalidCard = elements.variantList.children[invalidVariantIndex];
+      [...invalidCard.querySelectorAll("input, textarea")].find((field) => !field.value.trim())?.focus();
+      return;
+    }
     const now = new Date().toISOString();
     const mix = normalizeMix({
       id: previous?.id ?? makeId(),
+      mainTitle: elements.mainTitle.value,
+      mainTitleKana: elements.mainTitleKana.value,
       nameRomaji: elements.nameRomaji.value,
       nameKana: elements.nameKana.value,
       readingRomaji: elements.readingRomaji.value,
       readingKana: elements.readingKana.value,
       startRomaji: elements.startRomaji.value,
       startKana: elements.startKana.value,
+      variants,
       barCounts: formBarCounts,
       tags: elements.tagInputs.filter((input) => input.checked).map((input) => input.value),
       createdAt: previous?.createdAt ?? now,
       updatedAt: now,
     });
     if (!mix) return;
-    mixes = previous ? mixes.map((entry) => entry.id === editId ? mix : entry) : [...mixes, mix];
-    const saved = await persist();
+    const nextMixes = previous ? mixes.map((entry) => entry.id === editId ? mix : entry) : [...mixes, mix];
+    const saved = await persist(nextMixes);
+    if (saved !== "file") {
+      showSaveResult(saved, "Mix guardado.");
+      return;
+    }
     closeForm();
     elements.search.value = "";
     selectedBars.clear();
@@ -473,8 +566,12 @@
     if (button.dataset.action === "edit") {
       openForm(mix);
     } else if (button.dataset.action === "delete" && window.confirm(`¿Eliminar “${mix.nameRomaji}” de tu colección?`)) {
-      mixes = mixes.filter((entry) => entry.id !== mix.id);
-      const saved = await persist();
+      const nextMixes = mixes.filter((entry) => entry.id !== mix.id);
+      const saved = await persist(nextMixes);
+      if (saved !== "file") {
+        showSaveResult(saved, "Mix eliminado.");
+        return;
+      }
       render();
       showSaveResult(saved, "Mix eliminado.");
     }

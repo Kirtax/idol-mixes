@@ -14,13 +14,14 @@ Abre [http://localhost:8000](http://localhost:8000) en el navegador. Cada cambio
 
 ## Datos
 
-La fuente principal es `data/mixes.json`, dentro del proyecto. **Exportar** y **Importar** permiten crear o recuperar copias JSON; importar reemplaza la colección abierta. Se migran automáticamente los mixes que hubiera en `localStorage` la primera vez que el servidor JSON se inicia desde ese navegador.
+`data/mixes.json` es la única fuente de la colección: la app la lee al iniciarse y escribe ahí cada alta, edición, eliminación e importación. La colección no se guarda en `localStorage`. **Exportar** y **Importar** permiten crear o recuperar copias JSON; importar reemplaza la colección del archivo.
 
-Si se abre una versión estática sin `server.js` (por ejemplo, desde GitHub Pages), la app vuelve a guardar los cambios en el `localStorage` de ese navegador. Esos cambios no se escriben en el archivo del proyecto.
+Para editar la colección, inicia `node server.js` y abre `http://localhost:8000`. Sin el servidor, la app no carga ni guarda mixes; los cambios no se guardan en el navegador como alternativa.
 
 ## Funciones
 
 - Buscar en los nombres y las lecturas, tanto en romaji como en kana.
+- Añadir varias versiones dentro de un mix, cada una con subtítulo y lectura propia; también puedes cambiar el nombre de la versión principal.
 - Guardar un inicio opcional (始動) en romaji y kana.
 - Guardar una o varias duraciones en compases (小節) y filtrar por ellas.
 - Etiquetar y filtrar por Kahen Sanren (可変三連), Konton (混沌), Koujou (口上) y Gengo (言語).

@@ -1,12 +1,15 @@
 [
   {
     "id": "0de8f7bf-e19e-4264-b071-4d255e631b15",
-    "nameRomaji": "Standard mix",
+    "nameRomaji": "Standard MIX",
     "nameKana": "スタンダードmix",
-    "startRomaji": "Ja! Ikuzo!",
+    "startRomaji": "Ja~ Ikuzo!",
     "startKana": "しゃーいくぞ",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
     "readingRomaji": "Taiga! Faiya! Saiba! Faiba!\nDaiba! Baiba! Jya-jya-!\n(Faibo~ Waipa~)",
     "readingKana": "タイガー ファイヤー サイバー ファイバー\nダイバー バイバー ジャージャー\n(ファイボ　ワイパー)",
+    "variants": [],
     "barCounts": [
       4,
       5,
@@ -16,6 +19,93 @@
       "gengo"
     ],
     "createdAt": "2026-10-07T12:56:46.031Z",
-    "updatedAt": "2026-10-07T13:09:02.459Z"
+    "updatedAt": "2026-10-08T11:37:16.162Z"
+  },
+  {
+    "id": "951436be-a257-401b-9bdf-80f001bc3810",
+    "nameRomaji": "Japanese MIX",
+    "nameKana": "日本語 mix",
+    "startRomaji": "Ja~ Ikuzo!",
+    "startKana": "しゃーいくぞ",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Tora! Hi! Jinzou! Seni!\nAma! Shindou! Kasen!\n(Tobi! Jokyo!)",
+    "readingKana": "虎　火　人造　繊維　\n海女　振動　化繊\n飛　除去",
+    "variants": [],
+    "barCounts": [
+      4,
+      5
+    ],
+    "tags": [
+      "gengo"
+    ],
+    "createdAt": "2026-10-08T11:17:26.502Z",
+    "updatedAt": "2026-10-08T12:11:13.081Z"
+  },
+  {
+    "id": "6c126e68-00ca-4361-a008-91292fcccd77",
+    "nameRomaji": "Ainu MIX",
+    "nameKana": "アイヌ語 mix",
+    "startRomaji": "Ja~ Ikuzo!",
+    "startKana": "しゃーいくぞ",
+    "mainTitle": "Ainu 1ren",
+    "mainTitleKana": "アイヌ1連",
+    "readingRomaji": "Chape! Ape! Kara! Kina!\nRara! Tusuke! Wisupe!\nKesui! Suisupa!",
+    "readingKana": "チャペ　アペ　カラ　キナ\nララ　トゥスケ　ウィスペ\nケスィ　スィスゥパ",
+    "variants": [
+      {
+        "id": "046e51a7-b1a5-4ee3-ab01-34588b799a79",
+        "title": "Ainu 1ren (Zenkyou)",
+        "titleKana": "アイヌ1連(ゼンキョウ)",
+        "readingRomaji": "Chape! Ape! Kara! Kina!\nRara! Tusuke! Myohontusuke!",
+        "readingKana": "チャペ　アペ　カラ　キナ\nララ　トゥスケ　ミョーホントゥスケ"
+      },
+      {
+        "id": "e0b1b98d-bb1c-47ed-b7ed-cdf8223a8d6e",
+        "title": "Ura Ainu",
+        "titleKana": "裏アイヌ",
+        "readingRomaji": "Chape! Ape! Kara! Kina!\nRara! Tusuke! Myohontusuke!\nKamui! Popunika! Aahoiyo!",
+        "readingKana": "チャペ　アペ　カラ　キナ\nララ　トゥスケ　ミョーホントゥスケ\nカムイ　ホロカプ(ポプニカ)　アーホイヨ"
+      }
+    ],
+    "barCounts": [
+      4,
+      5,
+      6
+    ],
+    "tags": [
+      "gengo"
+    ],
+    "createdAt": "2026-10-08T11:25:14.435Z",
+    "updatedAt": "2026-10-08T12:11:56.554Z"
+  },
+  {
+    "id": "566aef02-a8e5-4b67-887e-1525cd1cf003",
+    "nameRomaji": "Spanish MIX",
+    "nameKana": "スペイン語 mix",
+    "startRomaji": "¡Vamos!",
+    "startKana": "バーモス",
+    "mainTitle": "Spanish 1ren",
+    "mainTitleKana": "スペイン1連",
+    "readingRomaji": "Tigre! Fuego! Cíber! Fibra!\nBuzo! Vibra! Jersey!\nVolaré! Limpiaparabrisas!",
+    "readingKana": "ティグレ　フェゴ　シベル　フィブラ\nブゾ　ビブラル　ヘルセイ\nボラーレ　リンピアパラブリサス",
+    "variants": [
+      {
+        "id": "b10be61d-bae2-4de2-a83d-f89ae646e282",
+        "title": "Spanish 2ren (Urasupe)",
+        "titleKana": "スペイン2連(裏スペイン)",
+        "readingRomaji": "Tigre! Fuego! Cíber! Fibra!\nBuzo! Vibra! Sirena!\nDiosa! Navidad! Reno! Ángel!\nCenicienta! Expansión!\nPaís de las Maravillas!",
+        "readingKana": "ティグレ　フェゴ　シベル　フィブラ\nブゾ　ビブラル　シーレナ\nディオサ　ナビダ　レノ　アンヘル\nセニシエンタ　エスパンシオン\nパイースデラス　マラビージャス"
+      }
+    ],
+    "barCounts": [
+      5,
+      8
+    ],
+    "tags": [
+      "gengo"
+    ],
+    "createdAt": "2026-10-08T12:10:56.746Z",
+    "updatedAt": "2026-10-08T12:18:14.239Z"
   }
 ]

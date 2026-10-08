@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#f7f5f1" />
+    <meta name="theme-color" content="#E5E9F0" />
     <meta name="description" content="Tu colección personal de idol calls y mixes." />
     <title>Idol Mixes — calls & mixes</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -37,22 +37,6 @@
       </header>
 
       <main>
-        <section class="hero" aria-labelledby="page-title">
-          <div class="hero-copy">
-            <div class="eyebrow"><span class="eyebrow-dot"></span> TU ARCHIVO DE WOTAGEI</div>
-            <h1 id="page-title">Calls que se<br /><span>quedan contigo.</span></h1>
-            <p>Guarda, encuentra y repasa tus mixes favoritos.<br class="desktop-break" /> Todo tu repertorio, en un solo sitio.</p>
-          </div>
-          <div class="hero-art" aria-hidden="true">
-            <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
-            <div class="glow glow-pink"></div><div class="glow glow-lilac"></div>
-            <span class="spark spark-one">✳</span><span class="spark spark-two">✦</span>
-            <span class="hero-kana">コール</span>
-            <span class="hero-tag">YOUR SETLIST<br /><b>01 — ∞</b></span>
-          </div>
-          <div class="hero-index"><span>01</span><i></i><span>LIBRARY</span></div>
-        </section>
-
         <nav class="view-tabs" aria-label="Secciones">
           <button class="view-tab active" id="libraryTab" type="button" aria-current="page">Biblioteca <span id="tabMixCount">0</span></button>
           <button class="view-tab" id="addTabButton" type="button">＋ <span>Añadir un mix</span></button>
@@ -104,7 +88,7 @@
         <section class="form-panel" id="addPanel" hidden aria-labelledby="formTitle">
           <div class="form-topline"><span class="eyebrow section-eyebrow">NUEVA ENTRADA</span><button class="close-form" id="closeForm" type="button" aria-label="Cerrar formulario">×</button></div>
           <h2 id="formTitle">Añade un mix</h2>
-          <p class="form-intro">Escribe el nombre y la lectura; añade compases y etiquetas para encontrarlo fácilmente.</p>
+          <p class="form-intro">Escribe el nombre y las lecturas; añade variantes, compases y etiquetas para organizarlo.</p>
           <form id="mixForm">
             <input id="editId" type="hidden" />
             <div class="form-grid">
@@ -116,10 +100,18 @@
               <label class="field start-field"><span>Inicio en romaji</span><textarea id="startRomaji" name="startRomaji" rows="2" maxlength="3000" placeholder="Escribe el inicio del mix en romaji"></textarea></label>
               <label class="field start-field"><span>Inicio en kana</span><textarea id="startKana" name="startKana" rows="2" maxlength="3000" placeholder="ミックスの始動をかなで入力"></textarea></label>
             </div>
-            <div class="field-block-label"><span>Lectura del mix</span><span>ROMAJI PRIMERO</span></div>
+            <div class="field-block-label main-version-heading"><span>Versión principal</span><span id="baseReadingHint">OBLIGATORIA SIN VARIANTES</span></div>
+            <div class="form-grid main-title-grid">
+              <label class="field"><span>Nombre en romaji</span><input id="mainTitle" name="mainTitle" maxlength="160" value="Versión principal" autocomplete="off" /></label>
+              <label class="field"><span>Nombre en kana</span><input id="mainTitleKana" name="mainTitleKana" maxlength="160" placeholder="Versión principal en kana" autocomplete="off" /></label>
+            </div>
             <div class="form-grid">
-              <label class="field"><span>Lectura en romaji <b>*</b></span><textarea id="readingRomaji" name="readingRomaji" required rows="4" maxlength="3000" placeholder="Tiger! Fire! Cyber! Fiber! …"></textarea></label>
-              <label class="field"><span>Lectura en kana <b>*</b></span><textarea id="readingKana" name="readingKana" required rows="4" maxlength="3000" placeholder="タイガー！ファイヤー！サイバー！…"></textarea></label>
+              <label class="field"><span>Versión principal en romaji <b id="baseRomajiRequiredMark">*</b></span><textarea id="readingRomaji" name="readingRomaji" rows="4" maxlength="3000" placeholder="Tiger! Fire! Cyber! Fiber! …"></textarea></label>
+              <label class="field"><span>Versión principal en kana <b id="baseKanaRequiredMark">*</b></span><textarea id="readingKana" name="readingKana" rows="4" maxlength="3000" placeholder="タイガー！ファイヤー！サイバー！…"></textarea></label>
+            </div>
+            <div class="variants-editor">
+              <div class="variants-heading"><div><div class="field-block-label"><span>Variantes</span></div><p>Añade versiones con su propio subtítulo y lectura.</p></div><button class="secondary-button" id="addVariant" type="button">＋ Añadir variante</button></div>
+              <div id="variantList"></div>
             </div>
             <div class="form-grid extra-fields">
               <div class="field duration-field">

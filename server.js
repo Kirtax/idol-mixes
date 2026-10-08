@@ -25,16 +25,44 @@ function sendJson(response, status, value) {
   response.end(JSON.stringify(value));
 }
 
+function normalizeVariant(value) {
+  if (!value || typeof value !== "object" || Array.isArray(value)) return null;
+  const fields = ["title", "readingRomaji", "readingKana"];
+  if (!fields.every((field) => typeof value[field] === "string" && value[field].trim())) return null;
+  if (value.title.length > 160 || value.readingRomaji.length > 3000 || value.readingKana.length > 3000) return null;
+  const titleKana = value.titleKana === undefined ? "" : value.titleKana;
+  if (typeof titleKana !== "string" || titleKana.length > 160) return null;
+  return {
+    id: typeof value.id === "string" && value.id ? value.id : randomUUID(),
+    title: value.title.trim(),
+    titleKana: titleKana.trim(),
+    readingRomaji: value.readingRomaji.trim(),
+    readingKana: value.readingKana.trim(),
+  };
+}
+
 function normalizeMix(value) {
-  const fields = ["nameRomaji", "nameKana", "readingRomaji", "readingKana"];
+  const fields = ["nameRomaji", "nameKana"];
   if (!value || typeof value !== "object" || Array.isArray(value)) return null;
   if (!fields.every((field) => typeof value[field] === "string" && value[field].trim())) return null;
+  if (typeof value.readingRomaji !== "string" || typeof value.readingKana !== "string") return null;
   if (value.nameRomaji.length > 120 || value.nameKana.length > 120
     || value.readingRomaji.length > 3000 || value.readingKana.length > 3000) return null;
   const startRomaji = value.startRomaji === undefined ? "" : value.startRomaji;
   const startKana = value.startKana === undefined ? "" : value.startKana;
   if (typeof startRomaji !== "string" || typeof startKana !== "string"
     || startRomaji.length > 3000 || startKana.length > 3000) return null;
+  const mainTitle = value.mainTitle === undefined ? "Versión principal" : value.mainTitle;
+  const mainTitleKana = value.mainTitleKana === undefined ? "" : value.mainTitleKana;
+  if (typeof mainTitle !== "string" || mainTitle.length > 160) return null;
+  if (typeof mainTitleKana !== "string" || mainTitleKana.length > 160) return null;
+  const rawVariants = value.variants === undefined ? [] : value.variants;
+  if (!Array.isArray(rawVariants) || rawVariants.length > 50) return null;
+  const variants = rawVariants.map(normalizeVariant);
+  if (variants.some((variant) => !variant)) return null;
+  const hasRomaji = Boolean(value.readingRomaji.trim());
+  const hasKana = Boolean(value.readingKana.trim());
+  if (hasRomaji !== hasKana || (!hasRomaji && variants.length === 0)) return null;
 
   const barCounts = value.barCounts === undefined ? [] : value.barCounts;
   const tags = value.tags === undefined ? [] : value.tags;
@@ -48,8 +76,11 @@ function normalizeMix(value) {
     nameKana: value.nameKana.trim(),
     startRomaji: startRomaji.trim(),
     startKana: startKana.trim(),
+    mainTitle: mainTitle.trim() || "Versión principal",
+    mainTitleKana: mainTitleKana.trim(),
     readingRomaji: value.readingRomaji.trim(),
     readingKana: value.readingKana.trim(),
+    variants,
     barCounts: [...new Set(barCounts)].sort((a, b) => a - b),
     tags: [...new Set(tags)],
     createdAt: typeof value.createdAt === "string" ? value.createdAt : now,
