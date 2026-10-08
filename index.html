@@ -95,6 +95,10 @@
               <label class="field"><span>Nombre en romaji <b>*</b></span><input id="nameRomaji" name="nameRomaji" required maxlength="120" placeholder="Ej. MIX 1" autocomplete="off" /></label>
               <label class="field"><span>Nombre en kana <b>*</b></span><input id="nameKana" name="nameKana" required maxlength="120" placeholder="例：ミックス１" autocomplete="off" /></label>
             </div>
+            <div class="mix-order-field">
+              <label class="field" for="sortOrderInput"><span>Orden en la lista · opcional</span><input id="sortOrderInput" name="sortOrder" type="number" min="1" step="1" inputmode="numeric" placeholder="—" aria-describedby="sortOrderHelp" /></label>
+              <small id="sortOrderHelp">Vacío = al final. Los empates se ordenan alfabéticamente.</small>
+            </div>
             <div class="field-block-label"><span>Inicio · 始動</span><span>OPCIONAL</span></div>
             <div class="form-grid form-grid--three">
               <label class="field start-field"><span>Inicio en romaji</span><textarea id="startRomaji" name="startRomaji" rows="2" maxlength="3000" placeholder="Escribe el inicio del mix en romaji"></textarea></label>

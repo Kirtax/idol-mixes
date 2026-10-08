@@ -18,7 +18,7 @@
     modeButton: $("#nameMode"), modeLabel: $("#nameModeLabel"), themeButton: $("#themeToggle"),
     workspace: $("#libraryView"), libraryTab: $("#libraryTab"), addTab: $("#addTabButton"),
     panel: $("#addPanel"), form: $("#mixForm"), formTitle: $("#formTitle"), editId: $("#editId"),
-    mainTitle: $("#mainTitle"), mainTitleKana: $("#mainTitleKana"),
+    mainTitle: $("#mainTitle"), mainTitleKana: $("#mainTitleKana"), sortOrder: $("#sortOrderInput"),
     nameRomaji: $("#nameRomaji"), nameKana: $("#nameKana"), readingRomaji: $("#readingRomaji"), readingKana: $("#readingKana"), readingKanaRomaji: $("#readingKanaRomaji"),
     startRomaji: $("#startRomaji"), startKana: $("#startKana"), startKanaRomaji: $("#startKanaRomaji"),
     barCountInput: $("#barCountInput"), addBarCount: $("#addBarCount"), durationChips: $("#durationChips"),
@@ -52,6 +52,8 @@
 
   function normalizeMix(value) {
     if (!value || typeof value !== "object") return null;
+    const sortOrder = value.sortOrder === undefined || value.sortOrder === null || value.sortOrder === "" ? null : Number(value.sortOrder);
+    if (sortOrder !== null && (!Number.isSafeInteger(sortOrder) || sortOrder < 1)) return null;
     if (!["nameRomaji", "nameKana"].every((field) => typeof value[field] === "string" && value[field].trim())
       || typeof value.readingRomaji !== "string" || typeof value.readingKana !== "string"
       || value.nameRomaji.length > 120 || value.nameKana.length > 120
@@ -77,6 +79,7 @@
     if (hasRomaji !== hasKana || (!hasRomaji && variants.length === 0)) return null;
     return {
       id: typeof value.id === "string" && value.id ? value.id : makeId(),
+      ...(sortOrder === null ? {} : { sortOrder }),
       nameRomaji: value.nameRomaji.trim(),
       nameKana: value.nameKana.trim(),
       readingRomaji: value.readingRomaji.trim(),
@@ -201,7 +204,12 @@
       return matchesSearch && matchesBars && matchesTags;
     });
     const collator = new Intl.Collator(nameMode === "kana" ? "ja" : "en", { sensitivity: "base", numeric: true });
-    return searchable.sort((a, b) => collator.compare(nameMode === "kana" ? a.nameKana : a.nameRomaji, nameMode === "kana" ? b.nameKana : b.nameRomaji));
+    return searchable.sort((a, b) => {
+      const orderA = Number.isSafeInteger(a.sortOrder) && a.sortOrder >= 1 ? a.sortOrder : Number.POSITIVE_INFINITY;
+      const orderB = Number.isSafeInteger(b.sortOrder) && b.sortOrder >= 1 ? b.sortOrder : Number.POSITIVE_INFINITY;
+      if (orderA !== orderB) return orderA < orderB ? -1 : 1;
+      return collator.compare(nameMode === "kana" ? a.nameKana : a.nameRomaji, nameMode === "kana" ? b.nameKana : b.nameRomaji);
+    });
   }
 
   function renderFilterOptions() {
@@ -262,7 +270,7 @@
   }
 
   function renderReadingPair(romaji, kana, kanaRomaji = "") {
-    const extraColumn = kanaRomaji ? `<div class="reading-column japanese-romaji-column" role="group" aria-label="Romaji japonés"><div class="reading-part-label">ROMAJI JAPONÉS</div><p class="reading-text" lang="ja-Latn">${escapeHtml(kanaRomaji)}</p></div>` : "";
+    const extraColumn = kanaRomaji ? `<div class="reading-column japanese-romaji-column" role="group" aria-label="Transcripción en alfabeto latino del kana"><p class="reading-text" lang="ja-Latn">${escapeHtml(kanaRomaji)}</p></div>` : "";
     return `<div class="reading-grid${kanaRomaji ? " reading-grid--three" : ""}"><div class="reading-column" role="group" aria-label="Romaji"><p class="reading-text">${escapeHtml(romaji)}</p></div><div class="reading-column" role="group" aria-label="Kana"><p class="reading-text" lang="ja">${escapeHtml(kana)}</p></div>${extraColumn}</div>`;
   }
 
@@ -270,8 +278,8 @@
     if (!romaji && !kana && !kanaRomaji) return "";
     const romajiBlock = romaji ? `<div class="reading-part-label">INICIO · 始動</div><p class="reading-text">${escapeHtml(romaji)}</p>` : "";
     const kanaBlock = kana ? `<div class="reading-part-label">INICIO · 始動</div><p class="reading-text" lang="ja">${escapeHtml(kana)}</p>` : "";
-    const kanaRomajiBlock = kanaRomaji ? `<div class="reading-part-label">INICIO · ROMAJI JAPONÉS</div><p class="reading-text" lang="ja-Latn">${escapeHtml(kanaRomaji)}</p>` : "";
-    return `<div class="reading-grid shared-start${kanaRomaji ? " reading-grid--three" : ""}"><div class="reading-column" role="group" aria-label="Romaji">${romajiBlock}</div><div class="reading-column" role="group" aria-label="Kana">${kanaBlock}</div>${kanaRomaji ? `<div class="reading-column japanese-romaji-column" role="group" aria-label="Romaji japonés">${kanaRomajiBlock}</div>` : ""}</div>`;
+    const kanaRomajiBlock = kanaRomaji ? `<div class="reading-part-label">INICIO · 始動</div><p class="reading-text" lang="ja-Latn">${escapeHtml(kanaRomaji)}</p>` : "";
+    return `<div class="reading-grid shared-start${kanaRomaji ? " reading-grid--three" : ""}"><div class="reading-column" role="group" aria-label="Romaji">${romajiBlock}</div><div class="reading-column" role="group" aria-label="Kana">${kanaBlock}</div>${kanaRomaji ? `<div class="reading-column japanese-romaji-column" role="group" aria-label="Transcripción en alfabeto latino del kana">${kanaRomajiBlock}</div>` : ""}</div>`;
   }
 
   function render() {
@@ -341,6 +349,7 @@
       elements.mainTitleKana.value = mix?.mainTitleKana ?? "";
       elements.nameRomaji.value = mix?.nameRomaji ?? "";
       elements.nameKana.value = mix?.nameKana ?? "";
+      elements.sortOrder.value = mix?.sortOrder ?? "";
       elements.readingRomaji.value = mix?.readingRomaji ?? "";
       elements.readingKana.value = mix?.readingKana ?? "";
       elements.readingKanaRomaji.value = mix?.readingKanaRomaji ?? "";
@@ -567,6 +576,7 @@
       mainTitleKana: elements.mainTitleKana.value,
       nameRomaji: elements.nameRomaji.value,
       nameKana: elements.nameKana.value,
+      sortOrder: elements.sortOrder.value,
       readingRomaji: elements.readingRomaji.value,
       readingKana: elements.readingKana.value,
       readingKanaRomaji: elements.readingKanaRomaji.value,

@@ -68,6 +68,8 @@ function normalizeMix(value) {
   const readingKanaRomaji = value.readingKanaRomaji === undefined ? "" : value.readingKanaRomaji;
   if (typeof startKanaRomaji !== "string" || typeof readingKanaRomaji !== "string"
     || startKanaRomaji.length > 3000 || readingKanaRomaji.length > 3000) return null;
+  const sortOrder = value.sortOrder === undefined || value.sortOrder === null || value.sortOrder === "" ? null : Number(value.sortOrder);
+  if (sortOrder !== null && (!Number.isSafeInteger(sortOrder) || sortOrder < 1)) return null;
   const mainTitle = value.mainTitle === undefined ? "Versión principal" : value.mainTitle;
   const mainTitleKana = value.mainTitleKana === undefined ? "" : value.mainTitleKana;
   if (typeof mainTitle !== "string" || mainTitle.length > 160) return null;
@@ -88,6 +90,7 @@ function normalizeMix(value) {
   const now = new Date().toISOString();
   return {
     id: typeof value.id === "string" && value.id ? value.id : randomUUID(),
+    ...(sortOrder === null ? {} : { sortOrder }),
     nameRomaji: value.nameRomaji.trim(),
     nameKana: value.nameKana.trim(),
     startRomaji: startRomaji.trim(),

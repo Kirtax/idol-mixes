@@ -140,6 +140,10 @@ kbd { min-width: 21px; height: 22px; display: grid; place-items: center; border:
 .field input, .field textarea { width: 100%; border: 1px solid var(--line); border-radius: 9px; background: var(--page); color: var(--ink); font-size: 12px; outline: none; transition: border .2s, box-shadow .2s; }.field input { height: 42px; padding: 0 12px; }.field textarea { min-height: 120px; padding: 11px 12px; resize: vertical; line-height: 1.7; }.field input::placeholder, .field textarea::placeholder { color: var(--ink-faint); }.field input:focus, .field textarea:focus { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
 .start-field textarea { min-height: 76px; }
 .field-block-label { margin: 8px 0 10px; display: flex; justify-content: space-between; align-items: baseline; }.field-block-label > span:last-child { color: var(--ink-faint); font: 9px var(--mono); letter-spacing: 1px; }
+.mix-order-field { margin: 3px 0 13px; display: flex; align-items: flex-end; gap: 12px; }
+.mix-order-field .field { width: 185px; margin-bottom: 0; }
+.mix-order-field .field input { max-width: 86px; }
+.mix-order-field small { padding-bottom: 12px; color: var(--ink-faint); font-size: 10px; }
 .extra-fields { margin-top: 7px; align-items: start; }
 .duration-field > label { display: flex; flex-direction: column; gap: 8px; }
 .duration-field > label > span { color: var(--ink); font-size: 11px; font-weight: 600; }

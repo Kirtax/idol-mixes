@@ -5,7 +5,10 @@ IMPORTANTE: sigue todas estas instrucciones antes de añadir o modificar datos. 
 Fuente de datos y esquema
 - Toda la información se lee y se guarda en data/mixes.json. Antes de trabajar, revisa el JSON completo, Add.txt y este archivo.
 - Añade solo mixes o variantes que aún falten. Agrupa las versiones de un mismo idioma bajo un mix principal; no dupliques títulos ni borres datos existentes.
-- Cada mix usa nameRomaji, nameKana, startRomaji, startKana, startKanaRomaji, mainTitle, mainTitleKana, readingRomaji, readingKana, readingKanaRomaji, variants, barCounts, tags, createdAt y updatedAt.
+- En listas con encabezados principales numerados (por ejemplo, «8.» o «9.»), cada encabezado numerado crea un mix y sus variantes se agrupan dentro de ese mix. Los encabezados de secuencia «1連», «2連», etc. son versiones del mismo mix.
+- Una lista también puede presentar varios encabezados de idioma sin numerar que terminan en «語mix»; cada uno crea su propio mix y las secuencias que siguen son sus variantes. Un encabezado genérico de sección, como «祖語mix», solo agrupa y no crea un mix.
+- Un encabezado de idioma con prefijo editorial (por ejemplo, «S1.印欧祖語mix») también crea su propio mix: usa el nombre posterior al prefijo y omite tanto el prefijo «S1.»–«S4.» como los emojis. El encabezado genérico «祖語mix» por sí solo solo agrupa y no crea un mix.
+- Cada mix usa nameRomaji, nameKana, sortOrder (opcional), startRomaji, startKana, startKanaRomaji, mainTitle, mainTitleKana, readingRomaji, readingKana, readingKanaRomaji, variants, barCounts, tags, createdAt y updatedAt.
 - Cada variante usa id, title, titleKana, startRomaji, startKana, startKanaRomaji, readingRomaji, readingKana y readingKanaRomaji. Los campos startKanaRomaji y readingKanaRomaji son opcionales y pueden quedar vacíos.
 - Si cambia el esquema, actualiza y revisa app.js y server.js para que la interfaz cargue, edite, busque y guarde los nuevos campos. Guarda JSON válido y legible; actualiza updatedAt cuando cambies un mix existente.
 
@@ -25,6 +28,13 @@ Inicio
 - Si el documento marca explícitamente el inicio con (始動), ponlo en startRomaji y startKana, sin repetirlo en las lecturas del contenido.
 - Si no indica inicio, usa “Ja~ Ikuzo!” y “しゃーいくぞ”.
 - Si una variante tiene un inicio distinto, rellena sus propios campos startRomaji y startKana; deja vacíos los campos propios si comparte el inicio del mix. Usa startKanaRomaji si la diferencia de pronunciación lo justifica.
+
+Tiempo de transcripción
+- Tómate el tiempo necesario para estudiar cada fuente y revisar la transcripción completa; prioriza la fidelidad sobre la rapidez. Comprueba la correspondencia entre kana y romaji, los inicios, el orden, los saltos de línea y las duraciones. Si una palabra o lectura sigue siendo dudosa, contrástala con una fuente fiable y conserva una transliteración sencilla en vez de inventar una traducción.
+
+Orden de la colección
+- sortOrder es opcional: los números menores aparecen antes; si dos mixes comparten número, se ordenan alfabéticamente según el idioma de nombres elegido. Sin número, el mix queda al final.
+- El campo de orden solo se muestra en el formulario de alta o edición, no en la biblioteca.
 
 Etiquetas y 小節
 - Los mixes de idioma llevan la etiqueta “gengo”.
