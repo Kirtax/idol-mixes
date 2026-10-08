@@ -32,12 +32,24 @@ function normalizeVariant(value) {
   if (value.title.length > 160 || value.readingRomaji.length > 3000 || value.readingKana.length > 3000) return null;
   const titleKana = value.titleKana === undefined ? "" : value.titleKana;
   if (typeof titleKana !== "string" || titleKana.length > 160) return null;
+  const startRomaji = value.startRomaji === undefined ? "" : value.startRomaji;
+  const startKana = value.startKana === undefined ? "" : value.startKana;
+  if (typeof startRomaji !== "string" || typeof startKana !== "string"
+    || startRomaji.length > 3000 || startKana.length > 3000) return null;
+  const startKanaRomaji = value.startKanaRomaji === undefined ? "" : value.startKanaRomaji;
+  const readingKanaRomaji = value.readingKanaRomaji === undefined ? "" : value.readingKanaRomaji;
+  if (typeof startKanaRomaji !== "string" || typeof readingKanaRomaji !== "string"
+    || startKanaRomaji.length > 3000 || readingKanaRomaji.length > 3000) return null;
   return {
     id: typeof value.id === "string" && value.id ? value.id : randomUUID(),
     title: value.title.trim(),
     titleKana: titleKana.trim(),
+    startRomaji: startRomaji.trim(),
+    startKana: startKana.trim(),
+    startKanaRomaji: startKanaRomaji.trim(),
     readingRomaji: value.readingRomaji.trim(),
     readingKana: value.readingKana.trim(),
+    readingKanaRomaji: readingKanaRomaji.trim(),
   };
 }
 
@@ -52,6 +64,10 @@ function normalizeMix(value) {
   const startKana = value.startKana === undefined ? "" : value.startKana;
   if (typeof startRomaji !== "string" || typeof startKana !== "string"
     || startRomaji.length > 3000 || startKana.length > 3000) return null;
+  const startKanaRomaji = value.startKanaRomaji === undefined ? "" : value.startKanaRomaji;
+  const readingKanaRomaji = value.readingKanaRomaji === undefined ? "" : value.readingKanaRomaji;
+  if (typeof startKanaRomaji !== "string" || typeof readingKanaRomaji !== "string"
+    || startKanaRomaji.length > 3000 || readingKanaRomaji.length > 3000) return null;
   const mainTitle = value.mainTitle === undefined ? "Versión principal" : value.mainTitle;
   const mainTitleKana = value.mainTitleKana === undefined ? "" : value.mainTitleKana;
   if (typeof mainTitle !== "string" || mainTitle.length > 160) return null;
@@ -76,10 +92,12 @@ function normalizeMix(value) {
     nameKana: value.nameKana.trim(),
     startRomaji: startRomaji.trim(),
     startKana: startKana.trim(),
+    startKanaRomaji: startKanaRomaji.trim(),
     mainTitle: mainTitle.trim() || "Versión principal",
     mainTitleKana: mainTitleKana.trim(),
     readingRomaji: value.readingRomaji.trim(),
     readingKana: value.readingKana.trim(),
+    readingKanaRomaji: readingKanaRomaji.trim(),
     variants,
     barCounts: [...new Set(barCounts)].sort((a, b) => a - b),
     tags: [...new Set(tags)],

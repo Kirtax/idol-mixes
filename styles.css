@@ -116,7 +116,8 @@ kbd { min-width: 21px; height: 22px; display: grid; place-items: center; border:
 .chevron { width: 8px; height: 8px; border-right: 1.5px solid currentColor; border-bottom: 1.5px solid currentColor; transform: rotate(45deg) translateY(-2px); transition: transform .2s; }
 .mix-card[open] summary { background: var(--surface-soft); }.mix-card[open] .chevron { transform: rotate(225deg) translate(-2px, -1px); color: var(--accent); }
 .mix-detail { padding: 0 22px 22px 61px; background: var(--surface-soft); }
-.reading-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 26px; padding: 18px 0 20px; }
+.reading-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 26px; padding: 18px 0 20px; }
+.reading-grid--three { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
 .reading-column + .reading-column { padding-left: 25px; border-left: 1px solid var(--line); }
 .reading-part-label { margin-bottom: 7px; color: var(--ink-faint); font: 500 9px var(--mono); letter-spacing: 1px; }
 .start-part { padding-bottom: 14px; border-bottom: 1px solid var(--line); }
@@ -133,7 +134,8 @@ kbd { min-width: 21px; height: 22px; display: grid; place-items: center; border:
 .form-panel[hidden] { display: none; }
 .form-topline { display: flex; justify-content: space-between; align-items: center; }.close-form { width: 29px; height: 29px; border: 1px solid var(--line); border-radius: 50%; background: transparent; color: var(--ink-soft); font-size: 19px; line-height: 1; cursor: pointer; }.close-form:hover { color: var(--accent-dark); border-color: var(--accent); }
 .form-panel h2 { margin-top: 8px; }.form-intro { margin: 7px 0 24px; color: var(--ink-soft); font-size: 12px; }
-.form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; }
+.form-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 15px; }
+.form-grid--three { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 13px; }
 .field { min-width: 0; display: flex; flex-direction: column; gap: 8px; margin-bottom: 15px; }.field > span, .field-block-label > span:first-child { color: var(--ink); font-size: 11px; font-weight: 600; }.field > span b, .required-note b { color: var(--accent); }
 .field input, .field textarea { width: 100%; border: 1px solid var(--line); border-radius: 9px; background: var(--page); color: var(--ink); font-size: 12px; outline: none; transition: border .2s, box-shadow .2s; }.field input { height: 42px; padding: 0 12px; }.field textarea { min-height: 120px; padding: 11px 12px; resize: vertical; line-height: 1.7; }.field input::placeholder, .field textarea::placeholder { color: var(--ink-faint); }.field input:focus, .field textarea:focus { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
 .start-field textarea { min-height: 76px; }

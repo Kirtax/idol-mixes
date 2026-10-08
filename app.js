@@ -19,8 +19,8 @@
     workspace: $("#libraryView"), libraryTab: $("#libraryTab"), addTab: $("#addTabButton"),
     panel: $("#addPanel"), form: $("#mixForm"), formTitle: $("#formTitle"), editId: $("#editId"),
     mainTitle: $("#mainTitle"), mainTitleKana: $("#mainTitleKana"),
-    nameRomaji: $("#nameRomaji"), nameKana: $("#nameKana"), readingRomaji: $("#readingRomaji"), readingKana: $("#readingKana"),
-    startRomaji: $("#startRomaji"), startKana: $("#startKana"),
+    nameRomaji: $("#nameRomaji"), nameKana: $("#nameKana"), readingRomaji: $("#readingRomaji"), readingKana: $("#readingKana"), readingKanaRomaji: $("#readingKanaRomaji"),
+    startRomaji: $("#startRomaji"), startKana: $("#startKana"), startKanaRomaji: $("#startKanaRomaji"),
     barCountInput: $("#barCountInput"), addBarCount: $("#addBarCount"), durationChips: $("#durationChips"),
     variantList: $("#variantList"), addVariant: $("#addVariant"), baseReadingHint: $("#baseReadingHint"),
     baseRomajiRequiredMark: $("#baseRomajiRequiredMark"), baseKanaRequiredMark: $("#baseKanaRequiredMark"),
@@ -56,10 +56,14 @@
       || typeof value.readingRomaji !== "string" || typeof value.readingKana !== "string"
       || value.nameRomaji.length > 120 || value.nameKana.length > 120
       || value.readingRomaji.length > 3000 || value.readingKana.length > 3000) return null;
+    const readingKanaRomaji = value.readingKanaRomaji ?? "";
+    if (typeof readingKanaRomaji !== "string" || readingKanaRomaji.length > 3000) return null;
     const startRomaji = value.startRomaji ?? "";
     const startKana = value.startKana ?? "";
     if (typeof startRomaji !== "string" || typeof startKana !== "string"
       || startRomaji.length > 3000 || startKana.length > 3000) return null;
+    const startKanaRomaji = value.startKanaRomaji ?? "";
+    if (typeof startKanaRomaji !== "string" || startKanaRomaji.length > 3000) return null;
     const mainTitle = value.mainTitle === undefined ? "Versión principal" : value.mainTitle;
     const mainTitleKana = value.mainTitleKana === undefined ? "" : value.mainTitleKana;
     if (typeof mainTitle !== "string" || mainTitle.length > 160) return null;
@@ -77,8 +81,10 @@
       nameKana: value.nameKana.trim(),
       readingRomaji: value.readingRomaji.trim(),
       readingKana: value.readingKana.trim(),
+      readingKanaRomaji: readingKanaRomaji.trim(),
       startRomaji: startRomaji.trim(),
       startKana: startKana.trim(),
+      startKanaRomaji: startKanaRomaji.trim(),
       mainTitle: mainTitle.trim() || "Versión principal",
       mainTitleKana: mainTitleKana.trim(),
       variants,
@@ -98,12 +104,24 @@
       || value.title.length > 160 || value.readingRomaji.length > 3000 || value.readingKana.length > 3000) return null;
     const titleKana = value.titleKana ?? "";
     if (typeof titleKana !== "string" || titleKana.length > 160) return null;
+    const startRomaji = value.startRomaji ?? "";
+    const startKana = value.startKana ?? "";
+    if (typeof startRomaji !== "string" || typeof startKana !== "string"
+      || startRomaji.length > 3000 || startKana.length > 3000) return null;
+    const startKanaRomaji = value.startKanaRomaji ?? "";
+    if (typeof startKanaRomaji !== "string" || startKanaRomaji.length > 3000) return null;
+    const readingKanaRomaji = value.readingKanaRomaji ?? "";
+    if (typeof readingKanaRomaji !== "string" || readingKanaRomaji.length > 3000) return null;
     return {
       id: typeof value.id === "string" && value.id ? value.id : makeId(),
       title: value.title.trim(),
       titleKana: titleKana.trim(),
+      startRomaji: startRomaji.trim(),
+      startKana: startKana.trim(),
+      startKanaRomaji: startKanaRomaji.trim(),
       readingRomaji: value.readingRomaji.trim(),
       readingKana: value.readingKana.trim(),
+      readingKanaRomaji: readingKanaRomaji.trim(),
     };
   }
 
@@ -172,8 +190,8 @@
     const searchable = mixes.filter((mix) => {
       const tagText = mix.tags.flatMap((id) => MIX_TAGS.find((tag) => tag.id === id) ?? []);
       const content = normalizeText([
-        mix.nameRomaji, mix.nameKana, mix.mainTitle, mix.mainTitleKana, mix.startRomaji, mix.startKana, mix.readingRomaji, mix.readingKana,
-        ...mix.variants.flatMap((variant) => [variant.title, variant.titleKana, variant.readingRomaji, variant.readingKana]),
+        mix.nameRomaji, mix.nameKana, mix.mainTitle, mix.mainTitleKana, mix.startRomaji, mix.startKana, mix.startKanaRomaji, mix.readingRomaji, mix.readingKana, mix.readingKanaRomaji,
+        ...mix.variants.flatMap((variant) => [variant.title, variant.titleKana, variant.startRomaji, variant.startKana, variant.startKanaRomaji, variant.readingRomaji, variant.readingKana, variant.readingKanaRomaji]),
         ...mix.barCounts.flatMap((count) => [String(count), "小節"]),
         ...tagText.flatMap((tag) => [tag.romaji, tag.kana]),
       ].join(" "));
@@ -208,10 +226,17 @@
         <label class="field"><span>Subtítulo en romaji <b>*</b></span><input class="variant-title" required maxlength="160" value="${escapeHtml(variant.title)}" placeholder="Ej. Japanese 2ren (Ura Japanese)" /></label>
         <label class="field"><span>Subtítulo en kana</span><input class="variant-title-kana" maxlength="160" value="${escapeHtml(variant.titleKana)}" placeholder="Ej. ジャパニーズ2連" /></label>
       </div>
+      <div class="field-block-label"><span>Inicio propio</span><span>OPCIONAL · VACÍO = INICIO DEL MIX</span></div>
+      <div class="form-grid form-grid--three">
+        <label class="field"><span>Inicio en romaji</span><input class="variant-start-romaji" maxlength="3000" value="${escapeHtml(variant.startRomaji)}" placeholder="Aruka!" /></label>
+        <label class="field"><span>Inicio en kana</span><input class="variant-start-kana" maxlength="3000" value="${escapeHtml(variant.startKana)}" placeholder="アルカ" /></label>
+        <label class="field"><span>Inicio en romaji japonés · opcional</span><input class="variant-start-kana-romaji" maxlength="3000" value="${escapeHtml(variant.startKanaRomaji)}" placeholder="Arukaa!" /></label>
+      </div>
       <div class="field-block-label"><span>Lectura de la variante</span><span>ROMAJI PRIMERO</span></div>
-      <div class="form-grid">
+      <div class="form-grid form-grid--three">
         <label class="field"><span>Lectura en romaji <b>*</b></span><textarea class="variant-romaji" required rows="3" maxlength="3000" placeholder="Escribe la variante en romaji">${escapeHtml(variant.readingRomaji)}</textarea></label>
         <label class="field"><span>Lectura en kana <b>*</b></span><textarea class="variant-kana" required rows="3" maxlength="3000" placeholder="Escribe la variante en kana">${escapeHtml(variant.readingKana)}</textarea></label>
+        <label class="field"><span>Romaji de la lectura japonesa · opcional</span><textarea class="variant-kana-romaji" rows="3" maxlength="3000" placeholder="Transcribe el kana a romaji si la pronunciación difiere">${escapeHtml(variant.readingKanaRomaji)}</textarea></label>
       </div>
     </div>`).join("");
     const hasVariants = variantDrafts.length > 0;
@@ -227,20 +252,26 @@
       id: card.dataset.variantId,
       title: card.querySelector(".variant-title").value,
       titleKana: card.querySelector(".variant-title-kana").value,
+      startRomaji: card.querySelector(".variant-start-romaji").value,
+      startKana: card.querySelector(".variant-start-kana").value,
+      startKanaRomaji: card.querySelector(".variant-start-kana-romaji").value,
       readingRomaji: card.querySelector(".variant-romaji").value,
       readingKana: card.querySelector(".variant-kana").value,
+      readingKanaRomaji: card.querySelector(".variant-kana-romaji").value,
     }));
   }
 
-  function renderReadingPair(romaji, kana) {
-    return `<div class="reading-grid"><div class="reading-column" role="group" aria-label="Romaji"><p class="reading-text">${escapeHtml(romaji)}</p></div><div class="reading-column" role="group" aria-label="Kana"><p class="reading-text" lang="ja">${escapeHtml(kana)}</p></div></div>`;
+  function renderReadingPair(romaji, kana, kanaRomaji = "") {
+    const extraColumn = kanaRomaji ? `<div class="reading-column japanese-romaji-column" role="group" aria-label="Romaji japonés"><div class="reading-part-label">ROMAJI JAPONÉS</div><p class="reading-text" lang="ja-Latn">${escapeHtml(kanaRomaji)}</p></div>` : "";
+    return `<div class="reading-grid${kanaRomaji ? " reading-grid--three" : ""}"><div class="reading-column" role="group" aria-label="Romaji"><p class="reading-text">${escapeHtml(romaji)}</p></div><div class="reading-column" role="group" aria-label="Kana"><p class="reading-text" lang="ja">${escapeHtml(kana)}</p></div>${extraColumn}</div>`;
   }
 
-  function renderStartPair(romaji, kana) {
-    if (!romaji && !kana) return "";
+  function renderStartPair(romaji, kana, kanaRomaji = "") {
+    if (!romaji && !kana && !kanaRomaji) return "";
     const romajiBlock = romaji ? `<div class="reading-part-label">INICIO · 始動</div><p class="reading-text">${escapeHtml(romaji)}</p>` : "";
     const kanaBlock = kana ? `<div class="reading-part-label">INICIO · 始動</div><p class="reading-text" lang="ja">${escapeHtml(kana)}</p>` : "";
-    return `<div class="reading-grid shared-start"><div class="reading-column" role="group" aria-label="Romaji">${romajiBlock}</div><div class="reading-column" role="group" aria-label="Kana">${kanaBlock}</div></div>`;
+    const kanaRomajiBlock = kanaRomaji ? `<div class="reading-part-label">INICIO · ROMAJI JAPONÉS</div><p class="reading-text" lang="ja-Latn">${escapeHtml(kanaRomaji)}</p>` : "";
+    return `<div class="reading-grid shared-start${kanaRomaji ? " reading-grid--three" : ""}"><div class="reading-column" role="group" aria-label="Romaji">${romajiBlock}</div><div class="reading-column" role="group" aria-label="Kana">${kanaBlock}</div>${kanaRomaji ? `<div class="reading-column japanese-romaji-column" role="group" aria-label="Romaji japonés">${kanaRomajiBlock}</div>` : ""}</div>`;
   }
 
   function render() {
@@ -276,15 +307,16 @@
           .map((tag) => `<span class="mix-badge tag-badge" title="${tag.kana}">${tag.romaji} · ${tag.kana}</span>`),
         ...(mix.variants.length ? [`<span class="mix-badge variant-badge">${mix.variants.length} ${mix.variants.length === 1 ? "variante" : "variantes"}</span>`] : []),
       ].join("");
-      const sharedStart = renderStartPair(mix.startRomaji, mix.startKana);
+      const sharedStart = renderStartPair(mix.startRomaji, mix.startKana, mix.startKanaRomaji);
       const visibleMainTitle = nameMode === "kana" ? (mix.mainTitleKana || mix.mainTitle) : mix.mainTitle;
-      const mainReading = mix.readingRomaji || mix.readingKana
-        ? `<section class="variant-display main-version">${mix.variants.length || visibleMainTitle !== "Versión principal" ? `<h3 class="variant-display-title">${escapeHtml(visibleMainTitle || "Versión principal")}</h3>` : ""}${renderReadingPair(mix.readingRomaji, mix.readingKana)}</section>`
+      const mainReading = mix.readingRomaji || mix.readingKana || mix.readingKanaRomaji
+        ? `<section class="variant-display main-version">${mix.variants.length || visibleMainTitle !== "Versión principal" ? `<h3 class="variant-display-title">${escapeHtml(visibleMainTitle || "Versión principal")}</h3>` : ""}${renderReadingPair(mix.readingRomaji, mix.readingKana, mix.readingKanaRomaji)}</section>`
         : "";
       const variantReadings = mix.variants.map((variant) => {
         const variantTitle = nameMode === "kana" && variant.titleKana ? variant.titleKana : variant.title;
         const secondaryTitle = nameMode === "kana" ? (variant.titleKana ? variant.title : "") : variant.titleKana;
-        return `<details class="variant-display variant-accordion"><summary class="variant-accordion-summary"><h3 class="variant-display-title"><span>${escapeHtml(variantTitle)}</span>${secondaryTitle && secondaryTitle !== variantTitle ? `<span class="variant-display-subtitle">${escapeHtml(secondaryTitle)}</span>` : ""}</h3><span class="variant-chevron" aria-hidden="true"></span></summary>${renderReadingPair(variant.readingRomaji, variant.readingKana)}</details>`;
+        const variantStart = renderStartPair(variant.startRomaji, variant.startKana, variant.startKanaRomaji);
+        return `<details class="variant-display variant-accordion"><summary class="variant-accordion-summary"><h3 class="variant-display-title"><span>${escapeHtml(variantTitle)}</span>${secondaryTitle && secondaryTitle !== variantTitle ? `<span class="variant-display-subtitle">${escapeHtml(secondaryTitle)}</span>` : ""}</h3><span class="variant-chevron" aria-hidden="true"></span></summary>${variantStart}${renderReadingPair(variant.readingRomaji, variant.readingKana, variant.readingKanaRomaji)}</details>`;
       }).join("");
       return `<details class="mix-card" data-id="${escapeHtml(mix.id)}">
         <summary>
@@ -311,8 +343,10 @@
       elements.nameKana.value = mix?.nameKana ?? "";
       elements.readingRomaji.value = mix?.readingRomaji ?? "";
       elements.readingKana.value = mix?.readingKana ?? "";
+      elements.readingKanaRomaji.value = mix?.readingKanaRomaji ?? "";
       elements.startRomaji.value = mix?.startRomaji ?? "";
       elements.startKana.value = mix?.startKana ?? "";
+      elements.startKanaRomaji.value = mix?.startKanaRomaji ?? "";
       elements.barCountInput.value = "";
       formBarCounts = [...(mix?.barCounts ?? [])];
       renderDurationChips();
@@ -453,7 +487,7 @@
       showToast("Un mix puede tener hasta 50 variantes.");
       return;
     }
-    const variant = { id: makeId(), title: "", titleKana: "", readingRomaji: "", readingKana: "" };
+    const variant = { id: makeId(), title: "", titleKana: "", startRomaji: "", startKana: "", startKanaRomaji: "", readingRomaji: "", readingKana: "", readingKanaRomaji: "" };
     variantDrafts.push(variant);
     renderVariantForm();
     elements.variantList.querySelector(`[data-variant-id="${variant.id}"] .variant-title`)?.focus();
@@ -535,8 +569,10 @@
       nameKana: elements.nameKana.value,
       readingRomaji: elements.readingRomaji.value,
       readingKana: elements.readingKana.value,
+      readingKanaRomaji: elements.readingKanaRomaji.value,
       startRomaji: elements.startRomaji.value,
       startKana: elements.startKana.value,
+      startKanaRomaji: elements.startKanaRomaji.value,
       variants,
       barCounts: formBarCounts,
       tags: elements.tagInputs.filter((input) => input.checked).map((input) => input.value),

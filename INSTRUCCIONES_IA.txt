@@ -1,0 +1,33 @@
+INSTRUCCIONES OBLIGATORIAS PARA AÑADIR O EDITAR CALLS Y MIXES
+
+IMPORTANTE: sigue todas estas instrucciones antes de añadir o modificar datos. Son obligatorias y reflejan las preferencias expresas del usuario. No las ignores ni las sustituyas por convenciones generales. Si el usuario da una indicación nueva que las cambia, aplica la indicación más reciente y actualiza este archivo.
+
+Fuente de datos y esquema
+- Toda la información se lee y se guarda en data/mixes.json. Antes de trabajar, revisa el JSON completo, Add.txt y este archivo.
+- Añade solo mixes o variantes que aún falten. Agrupa las versiones de un mismo idioma bajo un mix principal; no dupliques títulos ni borres datos existentes.
+- Cada mix usa nameRomaji, nameKana, startRomaji, startKana, startKanaRomaji, mainTitle, mainTitleKana, readingRomaji, readingKana, readingKanaRomaji, variants, barCounts, tags, createdAt y updatedAt.
+- Cada variante usa id, title, titleKana, startRomaji, startKana, startKanaRomaji, readingRomaji, readingKana y readingKanaRomaji. Los campos startKanaRomaji y readingKanaRomaji son opcionales y pueden quedar vacíos.
+- Si cambia el esquema, actualiza y revisa app.js y server.js para que la interfaz cargue, edite, busque y guarde los nuevos campos. Guarda JSON válido y legible; actualiza updatedAt cuando cambies un mix existente.
+
+Nombres y lecturas
+- El orden de lectura en pantalla es: romaji natural de la lengua, kana japonés y, solo cuando haga falta, romaji japonés de ese kana.
+- readingRomaji contiene la forma natural de la lengua cuando se conoce. readingKana conserva la transcripción japonesa del documento. readingKanaRomaji es una transcripción legible del kana japonés al alfabeto latino; no es una segunda traducción.
+- Añade la tercera lectura si la ortografía natural de la lengua se pronuncia de forma claramente distinta a la lectura japonesa escrita en kana. Déjala vacía cuando ambas lecturas sean suficientemente parecidas; no la rellenes automáticamente en todos los mixes. El español existente, por ejemplo, no necesita esa columna. El alemán sí la necesita.
+- La tercera columna aparece a la derecha del kana y debe conservar los mismos saltos de línea y el mismo orden que readingKana. Aplica la misma regla al inicio: rellena startKanaRomaji cuando la pronunciación de startRomaji difiera claramente de startKana.
+- En los tres campos, conserva los saltos de línea y el orden de las llamadas del documento fuente. Escribe las llamadas con exclamaciones, siguiendo los mixes existentes.
+- Transcribe las palabras extranjeras con una ortografía natural y fácil de leer para quien usa alfabeto latino, cuando se pueda identificar con confianza. Para lecturas dudosas, conserva una transliteración sencilla y no inventes traducciones.
+- ジャージャー se escribe siempre exactamente “Jya Jya!” en romaji.
+- 飛 se lee siempre “Tobi”.
+- No uses macrones ni barras sobre vocales largas. Escribe, por ejemplo, “kyou” con ou.
+- No añadas emojis. No añadas nombres alternativos ni aclaraciones entre paréntesis que el documento fuente incluya como notas, salvo que el usuario lo pida.
+
+Inicio
+- Si el documento marca explícitamente el inicio con (始動), ponlo en startRomaji y startKana, sin repetirlo en las lecturas del contenido.
+- Si no indica inicio, usa “Ja~ Ikuzo!” y “しゃーいくぞ”.
+- Si una variante tiene un inicio distinto, rellena sus propios campos startRomaji y startKana; deja vacíos los campos propios si comparte el inicio del mix. Usa startKanaRomaji si la diferencia de pronunciación lo justifica.
+
+Etiquetas y 小節
+- Los mixes de idioma llevan la etiqueta “gengo”.
+- barCounts contiene todas las duraciones disponibles para las versiones del mix, sin duplicados y en orden numérico.
+- Estima la duración contando normalmente cada dos palabras como un tiempo. Una llamada final muy larga puede contar como un tiempo por sí sola. Si el documento especifica una duración, respétala.
+- Comprueba que cada mix y variante de Add.txt no exista ya antes de incorporarlo; si los títulos ya están, compara los contenidos y actualiza solo si hay una diferencia real.

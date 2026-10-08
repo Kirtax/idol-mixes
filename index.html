@@ -96,18 +96,20 @@
               <label class="field"><span>Nombre en kana <b>*</b></span><input id="nameKana" name="nameKana" required maxlength="120" placeholder="例：ミックス１" autocomplete="off" /></label>
             </div>
             <div class="field-block-label"><span>Inicio · 始動</span><span>OPCIONAL</span></div>
-            <div class="form-grid">
+            <div class="form-grid form-grid--three">
               <label class="field start-field"><span>Inicio en romaji</span><textarea id="startRomaji" name="startRomaji" rows="2" maxlength="3000" placeholder="Escribe el inicio del mix en romaji"></textarea></label>
               <label class="field start-field"><span>Inicio en kana</span><textarea id="startKana" name="startKana" rows="2" maxlength="3000" placeholder="ミックスの始動をかなで入力"></textarea></label>
+              <label class="field start-field"><span>Inicio en romaji japonés · opcional</span><textarea id="startKanaRomaji" name="startKanaRomaji" rows="2" maxlength="3000" placeholder="Transcripción en romaji del inicio en kana"></textarea></label>
             </div>
             <div class="field-block-label main-version-heading"><span>Versión principal</span><span id="baseReadingHint">OBLIGATORIA SIN VARIANTES</span></div>
             <div class="form-grid main-title-grid">
               <label class="field"><span>Nombre en romaji</span><input id="mainTitle" name="mainTitle" maxlength="160" value="Versión principal" autocomplete="off" /></label>
               <label class="field"><span>Nombre en kana</span><input id="mainTitleKana" name="mainTitleKana" maxlength="160" placeholder="Versión principal en kana" autocomplete="off" /></label>
             </div>
-            <div class="form-grid">
+            <div class="form-grid form-grid--three">
               <label class="field"><span>Versión principal en romaji <b id="baseRomajiRequiredMark">*</b></span><textarea id="readingRomaji" name="readingRomaji" rows="4" maxlength="3000" placeholder="Tiger! Fire! Cyber! Fiber! …"></textarea></label>
               <label class="field"><span>Versión principal en kana <b id="baseKanaRequiredMark">*</b></span><textarea id="readingKana" name="readingKana" rows="4" maxlength="3000" placeholder="タイガー！ファイヤー！サイバー！…"></textarea></label>
+              <label class="field"><span>Romaji de la lectura japonesa · opcional</span><textarea id="readingKanaRomaji" name="readingKanaRomaji" rows="4" maxlength="3000" placeholder="Transcribe el kana a romaji si la pronunciación difiere"></textarea></label>
             </div>
             <div class="variants-editor">
               <div class="variants-heading"><div><div class="field-block-label"><span>Variantes</span></div><p>Añade versiones con su propio subtítulo y lectura.</p></div><button class="secondary-button" id="addVariant" type="button">＋ Añadir variante</button></div>

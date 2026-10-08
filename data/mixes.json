@@ -5,21 +5,72 @@
     "nameKana": "スタンダードmix",
     "startRomaji": "Ja~ Ikuzo!",
     "startKana": "しゃーいくぞ",
-    "mainTitle": "Versión principal",
-    "mainTitleKana": "",
-    "readingRomaji": "Taiga! Faiya! Saiba! Faiba!\nDaiba! Baiba! Jya-jya-!\n(Faibo~ Waipa~)",
+    "mainTitle": "Standard 1ren",
+    "mainTitleKana": "スタンダード1連",
+    "readingRomaji": "Taiga! Faiya! Saiba! Faiba!\nDaiba! Baiba! Jya Jya!\n(Faibo~ Waipa~)",
     "readingKana": "タイガー ファイヤー サイバー ファイバー\nダイバー バイバー ジャージャー\n(ファイボ　ワイパー)",
-    "variants": [],
+    "variants": [
+      {
+        "id": "c200e371-82d8-4269-9db1-1e808e3d99ae",
+        "title": "Standard 2ren",
+        "titleKana": "スタンダード2連",
+        "startRomaji": "",
+        "startKana": "",
+        "readingRomaji": "Tiger! Fire! Cyber! Fiber!\nDiver! Viber! Jya Jya!\nFaibo! Goddess! Christmas! Reindeer!\nAngel! Cinderella! Expansion!",
+        "readingKana": "タイガー　ファイヤー　サイバー　ファイバー\nダイバー　バイバー　ジャージャー\nファイボ　ゴッデス　クリスマス　レインディア\nエンジェル　シンデレラ　エクスパンション",
+        "readingKanaRomaji": "",
+        "startKanaRomaji": ""
+      },
+      {
+        "id": "c9a9ece6-f344-4c39-b835-b6a5f8371985",
+        "title": "Standard English Reverse",
+        "titleKana": "対偶英語",
+        "startRomaji": "Land of the Wonders!",
+        "startKana": "ランドオブザワンダース",
+        "readingRomaji": "Expansion! Cinderella!\nAngel! Reindeer!\nChristmas! Goddess! Faibo!\nJya Jya! Viber!\nDiver! Fiber! Cyber!\nFire! Tiger! Here we go!",
+        "readingKana": "エクスパンション　シンデレラ\nエンジェル　レインディア\nクリスマス　ゴッデス　ファイボ\nジャージャー　バイバー\nダイバー　ファイバー　サイバー\nファイヤー　タイガー　ヒアウィーゴー",
+        "readingKanaRomaji": "",
+        "startKanaRomaji": ""
+      },
+      {
+        "id": "bd5c32e1-9e89-4179-9548-06e0a328390c",
+        "title": "Standard 3ren · 16 bars",
+        "titleKana": "スタンダード3連 · 16小節",
+        "startRomaji": "",
+        "startKana": "",
+        "readingRomaji": "Tiger! Fire! Cyber! Fiber!\nDiver! Viber! Jya Jya!\nFaibo! Goddess! Christmas! Reindeer!\nAngel! Cinderella! Expansion!\nWonderland! Spark! Flame! Cage!\nPolaris! Pleiades! Starry Sky!",
+        "readingKana": "タイガー　ファイヤー　サイバー　ファイバー\nダイバー　バイバー　ジャージャー\nファイボ　ゴッデス　クリスマス　レインディア\nエンジェル　シンデレラ　エクスパンション\nワンダーランド　スパーク　フレイム　ケージ\nポラリス　プレアデス　スターリースカイ",
+        "readingKanaRomaji": "",
+        "startKanaRomaji": ""
+      },
+      {
+        "id": "0584d7c4-30c1-4367-aae0-677753043234",
+        "title": "Standard 3ren · 18 bars",
+        "titleKana": "スタンダード3連 · 18小節",
+        "startRomaji": "",
+        "startKana": "",
+        "readingRomaji": "Tiger! Fire! Cyber! Fiber!\nDiver! Viber! Jya Jya!\nFaibo! Eliminate! Sailor! Goddess!\nChristmas! Reindeer! Angel!\nCinderella! Expansion!\nLand of the Wonders!\nSpark! Flame! Cage! Polaris!\nPleiades! Starry Sky!",
+        "readingKana": "タイガー　ファイヤー　サイバー　ファイバー\nダイバー　バイバー　ジャージャー\nファイボ　エリミネイト　セイラー　ゴッデス\nクリスマス　レインディア　エンジェル\nシンデレラ　エクスパンション\nランドオブザワンダース\nスパーク　フレイム　ケージ　ポラリス\nプレアデス　スターリースカイ",
+        "readingKanaRomaji": "",
+        "startKanaRomaji": ""
+      }
+    ],
     "barCounts": [
       4,
       5,
-      6
+      6,
+      7,
+      8,
+      16,
+      18
     ],
     "tags": [
       "gengo"
     ],
     "createdAt": "2026-10-07T12:56:46.031Z",
-    "updatedAt": "2026-10-08T11:37:16.162Z"
+    "updatedAt": "2026-10-08T12:52:38.462Z",
+    "readingKanaRomaji": "",
+    "startKanaRomaji": ""
   },
   {
     "id": "951436be-a257-401b-9bdf-80f001bc3810",
@@ -27,20 +78,82 @@
     "nameKana": "日本語 mix",
     "startRomaji": "Ja~ Ikuzo!",
     "startKana": "しゃーいくぞ",
-    "mainTitle": "Versión principal",
-    "mainTitleKana": "",
+    "mainTitle": "Japanese 1ren",
+    "mainTitleKana": "ジャパニーズ1連",
     "readingRomaji": "Tora! Hi! Jinzou! Seni!\nAma! Shindou! Kasen!\n(Tobi! Jokyo!)",
     "readingKana": "虎　火　人造　繊維　\n海女　振動　化繊\n飛　除去",
-    "variants": [],
+    "variants": [
+      {
+        "id": "83163732-7df8-46c3-a44e-f33c4925b5ca",
+        "title": "Japanese 2ren",
+        "titleKana": "ジャパニーズ2連",
+        "startRomaji": "",
+        "startKana": "",
+        "readingRomaji": "Tora! Hi! Jinzou! Seni! Ama! Shindou!\nNingyo! Megami! Seiya! Junroku!\nTenshi! Haihi! Uchuu! Kikan! Oukoku!",
+        "readingKana": "虎　火　人造　繊維　海女　振動\n人魚　女神　聖夜　馴鹿\n天使　灰被　宇宙　奇観　王国",
+        "readingKanaRomaji": "",
+        "startKanaRomaji": ""
+      },
+      {
+        "id": "64d7ac33-b3cf-42c8-bdf4-ee093fc7cb62",
+        "title": "Japanese 3ren",
+        "titleKana": "ジャパニーズ3連",
+        "startRomaji": "",
+        "startKana": "",
+        "readingRomaji": "Tora! Hi! Jinzou! Seni! Ama! Shindou!\nNingyo! Megami! Seiya! Junroku!\nTenshi! Haihi! Uchuu! Kikan! Oukoku!\nHibana! Honoo! Hokkyokusei! Subaru! Kuukan! Unga! Seiun!",
+        "readingKana": "虎　火　人造　繊維　海女　振動\n人魚　女神　聖夜　馴鹿\n天使　灰被　宇宙　奇観　王国\n火花　炎　北極星　昴　空間　運河　星雲",
+        "readingKanaRomaji": "",
+        "startKanaRomaji": ""
+      },
+      {
+        "id": "41326c0c-bddb-4287-8d01-910d56157573",
+        "title": "Jodai Japanese 1ren",
+        "titleKana": "上代日本語1連",
+        "startRomaji": "Iza, ikamu!",
+        "startKana": "いざ、いかむ",
+        "readingRomaji": "Tora! Hi! Tsukurimono! Ito!\nAma! Yurugi! Keshouito!\nTobu! Nozokiharafu!",
+        "readingKana": "トラ　ヒ　ツクリモノ　イト\nアマ　ユルギ　ケショウイト\nトブ　ノゾキハラフ",
+        "readingKanaRomaji": "",
+        "startKanaRomaji": ""
+      },
+      {
+        "id": "7364b091-c6ae-479c-b11f-dc587b991a72",
+        "title": "Jodai Japanese 2ren",
+        "titleKana": "上代日本語2連",
+        "startRomaji": "Iza, ikamu!",
+        "startKana": "いざ、いかむ",
+        "readingRomaji": "Tora! Hi! Tsukurimono! Ito!\nAma! Yurugi! Hitooyo! Menokami!\nIkuhi! Shika! Amatsukaminotsukai!\nHainohime! Akidokoro! Ayashikikuni!",
+        "readingKana": "トラ　ヒ　ツクリモノ　イト\nアマ　ユルギ　ヒトオヨ　メノカミ\nイクヒ　シカ　アマツカミノツカヒ\nハイノヒメ　アキドコロ　アヤシキクニ",
+        "readingKanaRomaji": "",
+        "startKanaRomaji": ""
+      },
+      {
+        "id": "63134f29-c760-4790-9c4e-3c6b59eb5b0e",
+        "title": "Jodai Japanese 3ren",
+        "titleKana": "上代日本語3連",
+        "startRomaji": "Iza, ikamu!",
+        "startKana": "いざ、いかむ",
+        "readingRomaji": "Tora! Hi! Tsukurimono! Ito!\nAma! Yurugi! Hitooyo! Menokami!\nIkuhi! Shika! Amatsukaminotsukai!\nHainohime! Akidokoro! Ayashikikuni!\nHinohana! Honoo! Kitanosumaru!\nSubaru! Hoshinosora!",
+        "readingKana": "トラ　ヒ　ツクリモノ　イト\nアマ　ユルギ　ヒトオヨ　メノカミ\nイクヒ　シカ　アマツカミノツカヒ\nハイノヒメ　アキドコロ　アヤシキクニ\nヒノハナ　ホノオ　キタノスマル\nスバル　ホシノソラ",
+        "readingKanaRomaji": "",
+        "startKanaRomaji": ""
+      }
+    ],
     "barCounts": [
       4,
-      5
+      5,
+      7,
+      8,
+      10,
+      11
     ],
     "tags": [
       "gengo"
     ],
     "createdAt": "2026-10-08T11:17:26.502Z",
-    "updatedAt": "2026-10-08T12:11:13.081Z"
+    "updatedAt": "2026-10-08T12:52:38.462Z",
+    "readingKanaRomaji": "",
+    "startKanaRomaji": ""
   },
   {
     "id": "6c126e68-00ca-4361-a008-91292fcccd77",
@@ -58,26 +171,94 @@
         "title": "Ainu 1ren (Zenkyou)",
         "titleKana": "アイヌ1連(ゼンキョウ)",
         "readingRomaji": "Chape! Ape! Kara! Kina!\nRara! Tusuke! Myohontusuke!",
-        "readingKana": "チャペ　アペ　カラ　キナ\nララ　トゥスケ　ミョーホントゥスケ"
+        "readingKana": "チャペ　アペ　カラ　キナ\nララ　トゥスケ　ミョーホントゥスケ",
+        "startRomaji": "",
+        "startKana": "",
+        "readingKanaRomaji": "",
+        "startKanaRomaji": ""
       },
       {
         "id": "e0b1b98d-bb1c-47ed-b7ed-cdf8223a8d6e",
         "title": "Ura Ainu",
         "titleKana": "裏アイヌ",
         "readingRomaji": "Chape! Ape! Kara! Kina!\nRara! Tusuke! Myohontusuke!\nKamui! Popunika! Aahoiyo!",
-        "readingKana": "チャペ　アペ　カラ　キナ\nララ　トゥスケ　ミョーホントゥスケ\nカムイ　ホロカプ(ポプニカ)　アーホイヨ"
+        "readingKana": "チャペ　アペ　カラ　キナ\nララ　トゥスケ　ミョーホントゥスケ\nカムイ　ホロカプ(ポプニカ)　アーホイヨ",
+        "startRomaji": "",
+        "startKana": "",
+        "readingKanaRomaji": "",
+        "startKanaRomaji": ""
+      },
+      {
+        "id": "f0b0f9d2-56aa-4734-817d-5cdd2c2d2b0e",
+        "title": "Ainu 2ren",
+        "titleKana": "アイヌ2連",
+        "startRomaji": "",
+        "startKana": "",
+        "readingRomaji": "Chape! Ape! Kara! Kina! Rara!\nTusuke! Wisupe!\nWakka! Nui! Rera! Imeru!\nMoshiri! Kanto! Chupu! Nochiu!",
+        "readingKana": "チャペ　アペ　カラ　キナ　ララ\nトゥスケ　ウィスペ\nワッカ　ヌイ　レラ　イメル\nモシリ　カント　チュプ　ノチウ",
+        "readingKanaRomaji": "",
+        "startKanaRomaji": ""
+      },
+      {
+        "id": "ab51c3ba-4878-4875-8618-fc09103e2a39",
+        "title": "Ainu 3ren",
+        "titleKana": "アイヌ3連",
+        "startRomaji": "",
+        "startKana": "",
+        "readingRomaji": "Chape! Ape! Kara! Kina! Rara! Tusuke!\nChepu! Kamui! Chiruupu! Shiyapuka! Kanto!\nPirika! Shumari! Upas! Imeru! Nonno!\nRera! Poronochiu! Koropokkuru! Upoporimuse!\nMyohontusuke!",
+        "readingKana": "チャペ　アペ　カラ　キナ　ララ　トゥスケ\nチェプ　カムイ　チルウプ　シヤプカ　カント\nピリカ　シュマリ　ウパス　イメル　ノンノ\nレラ　ポロノチウ　コロポックル　ウポポリムセ\nミョーホントゥスケ",
+        "readingKanaRomaji": "",
+        "startKanaRomaji": ""
+      },
+      {
+        "id": "7b0d41d7-6bf6-496e-932f-a3d673043842",
+        "title": "Sakhalin Ainu 1ren",
+        "titleKana": "サハリン・アイヌ1連",
+        "startRomaji": "Aruka!",
+        "startKana": "アルカ",
+        "readingRomaji": "Fupu! Ape! Nukaru! Kuranpe!\nMemuaoka! Rapo! Kuranpenukaru!\nKapu! Honno!",
+        "readingKana": "フプ　アペ　ヌカル　クランぺ\nメムアオカ　ラポ　クランぺヌカル\nカプ　ホンノ",
+        "readingKanaRomaji": "",
+        "startKanaRomaji": ""
+      },
+      {
+        "id": "69f14a89-a8c2-4fa2-8c3b-fd64b3901a99",
+        "title": "Sakhalin Ainu 2ren",
+        "titleKana": "サハリン・アイヌ2連",
+        "startRomaji": "Aruka!",
+        "startKana": "アルカ",
+        "readingRomaji": "Fupu! Ape! Nukaru! Kuranpe!\nMemuaoka! Rapo! Memuaokakapu!\nApefuchi! Christmas! Yuku!\nAnkaru! Cinderella! Ime!\nNonne! Nomirapo!",
+        "readingKana": "フプ　アペ　ヌカル　クランぺ\nメムアオカ　ラポ　メムアオカカプ\nアペフチ　キリスマス　ユク\nアンカル　シンデレラ　イメ\nノンネ　ノミラポ",
+        "readingKanaRomaji": "",
+        "startKanaRomaji": ""
+      },
+      {
+        "id": "0c3ce202-3989-471c-af20-59ac1af2c1b7",
+        "title": "Sakhalin Ainu 3ren",
+        "titleKana": "サハリン・アイヌ3連",
+        "startRomaji": "Aruka!",
+        "startKana": "アルカ",
+        "readingRomaji": "Fupu! Ape! Nukaru! Kuranpe!\nMemuaoka! Rapo! Memuaokakapu!\nApefuchi! Christmas! Yuku!\nAnkaru! Cinderella! Ime!\nNonne! Nomirapo!\nAperapo! Apechise! Hokuyuku!\nPleiades! Nomihokuyuku!",
+        "readingKana": "フプ　アペ　ヌカル　クランぺ\nメムアオカ　ラポ　メムアオカカプ\nアペフチ　キリスマス　ユク\nアンカル　シンデレラ　イメ\nノンネ　ノミラポ\nアペラポ　アペチセ　ホクユク\nプレアデス　ノミホクユク",
+        "readingKanaRomaji": "",
+        "startKanaRomaji": ""
       }
     ],
     "barCounts": [
       4,
       5,
-      6
+      6,
+      8,
+      10,
+      11
     ],
     "tags": [
       "gengo"
     ],
     "createdAt": "2026-10-08T11:25:14.435Z",
-    "updatedAt": "2026-10-08T12:11:56.554Z"
+    "updatedAt": "2026-10-08T12:52:38.462Z",
+    "readingKanaRomaji": "",
+    "startKanaRomaji": ""
   },
   {
     "id": "566aef02-a8e5-4b67-887e-1525cd1cf003",
@@ -95,17 +276,195 @@
         "title": "Spanish 2ren (Urasupe)",
         "titleKana": "スペイン2連(裏スペイン)",
         "readingRomaji": "Tigre! Fuego! Cíber! Fibra!\nBuzo! Vibra! Sirena!\nDiosa! Navidad! Reno! Ángel!\nCenicienta! Expansión!\nPaís de las Maravillas!",
-        "readingKana": "ティグレ　フェゴ　シベル　フィブラ\nブゾ　ビブラル　シーレナ\nディオサ　ナビダ　レノ　アンヘル\nセニシエンタ　エスパンシオン\nパイースデラス　マラビージャス"
+        "readingKana": "ティグレ　フェゴ　シベル　フィブラ\nブゾ　ビブラル　シーレナ\nディオサ　ナビダ　レノ　アンヘル\nセニシエンタ　エスパンシオン\nパイースデラス　マラビージャス",
+        "startRomaji": "",
+        "startKana": "",
+        "readingKanaRomaji": "",
+        "startKanaRomaji": ""
+      },
+      {
+        "id": "8a9c9427-d2a1-4cda-b0f5-fc7db226bf94",
+        "title": "Spanish 3ren",
+        "titleKana": "スペイン3連",
+        "startRomaji": "",
+        "startKana": "",
+        "readingRomaji": "Tigre! Fuego! Cíber! Fibra!\nBuzo! Vibra! Sirena!\nDiosa! Navidad! Reno! Ángel!\nCenicienta! Expansión!\nPaís de las Maravillas!\nChispa! Llama! Polar! Pléyades!\nCielo Estrellado!",
+        "readingKana": "ティグレ　フェゴ　シベル　フィブラ\nブゾ　ビブラル　シーレナ\nディオサ　ナビダ　レノ　アンヘル\nセニシエンタ　エスパンシオン\nパイースデラス　マラビージャス\nチスパ　ジャーマ　ポラール　プレーイアディ\nシエロエストレジャード",
+        "readingKanaRomaji": "",
+        "startKanaRomaji": ""
+      },
+      {
+        "id": "a1a6957f-9f9f-4981-90f1-7853a3404d9c",
+        "title": "Chilean Spanish 1ren",
+        "titleKana": "チリスペイン1連",
+        "startRomaji": "¡Vamos, nomás!",
+        "startKana": "バーモス・ノマス",
+        "readingRomaji": "Tigre! Fuego! Artificial!\nFibra! Buceadora! Vibración!\nAlgodón! Volar! Remover!",
+        "readingKana": "ティグレ　フエゴ　アルティフィシャル\nフィブラ　プセアドラ　ビブラシオン\nアルゴドン　ボラー　レモベール",
+        "readingKanaRomaji": "",
+        "startKanaRomaji": ""
+      },
+      {
+        "id": "fb1bfc79-a45c-4033-9bff-4c77aaf66741",
+        "title": "Chilean Spanish 2ren",
+        "titleKana": "チリスペイン2連",
+        "startRomaji": "¡Vamos, nomás!",
+        "startKana": "バーモス・ノマス",
+        "readingRomaji": "Tigre! Fuego! Artificial!\nFibra! Buceadora! Vibración!\nSirenita! Divinidad! Pascua!\nReno! Angelito! Cenizas!\nEspacio! Tierra! Fantástica!",
+        "readingKana": "ティグレ　フエゴ　アルティフィシャル\nフィブラ　プセアドラ　ビブラシオン\nシレニータ　ディヴィニダ　パスクア\nレノ　アンヘリート　セニザス\nエスパシオ　ティエラ　ファンタスィカ",
+        "readingKanaRomaji": "",
+        "startKanaRomaji": ""
+      },
+      {
+        "id": "e2432610-bdbe-4fc1-bfed-854b981445e9",
+        "title": "Chilean Spanish 3ren",
+        "titleKana": "チリスペイン3連",
+        "startRomaji": "¡Vamos, nomás!",
+        "startKana": "バーモス・ノマス",
+        "readingRomaji": "Tigre! Fuego! Artificial!\nFibra! Buceadora! Vibración!\nSirenita! Divinidad! Pascua!\nReno! Angelito! Cenizas!\nEspacio! Tierra! Fantástica!\nDestierro! Llama! Estrella Polar!\nPléyades! Nocturno Estrellado!",
+        "readingKana": "ティグレ　フエゴ　アルティフィシャル\nフィブラ　プセアドラ　ビブラシオン\nシレニータ　ディヴィニダ　パスクア\nレノ　アンヘリート　セニザス\nエスパシオ　ティエラ　ファンタスィカ\nデステーロ　ジャーマ　エストデルノータ\nプレイヤデス　ノクトゥルノ・エストレラード",
+        "readingKanaRomaji": "",
+        "startKanaRomaji": ""
+      },
+      {
+        "id": "ded9b06f-42e8-4bfb-a37c-e75055b0453c",
+        "title": "Galician 1ren",
+        "titleKana": "ガリシア1連",
+        "startRomaji": "Vamos alá!",
+        "startKana": "バーモス・アラー",
+        "readingRomaji": "Tigre! Lume! Artificial!\nFibra! Muller mergulladora!\nVibración! Fibra sintética!\nVoar! Eliminación!",
+        "readingKana": "ティグレ　ルーメ　アルティフィスァル\nフィブラ　ムリエルメルグラドーラ\nビブラシオン　フィブラシンテティカ\nヴォー　エリミナシオン",
+        "readingKanaRomaji": "",
+        "startKanaRomaji": ""
+      },
+      {
+        "id": "026dd1fc-124d-47fd-b021-f34d2844f3af",
+        "title": "Galician 2ren",
+        "titleKana": "ガリシア2連",
+        "startRomaji": "Vamos alá!",
+        "startKana": "バーモス・アラー",
+        "readingRomaji": "Tigre! Lume! Artificial!\nFibra! Muller mergulladora!\nVibración! Sirena! Deusa! Nadal!\nReno! Anxo! Cincenta!\nEspazo! País das Marabillas!",
+        "readingKana": "ティグレ　ルーメ　アルティフィスァル\nフィブラ　ムリエルメルグラドーラ\nビブラシオン　セレーア　デウサ　ナダル\nレーノ　アンショ　シンセイレーシャ\nエスパーソ　パイスダス　マラビリャス",
+        "readingKanaRomaji": "",
+        "startKanaRomaji": ""
+      },
+      {
+        "id": "6a949af5-1540-4ec0-8224-108526ef4092",
+        "title": "Galician 3ren",
+        "titleKana": "ガリシア3連",
+        "startRomaji": "Vamos alá!",
+        "startKana": "バーモス・アラー",
+        "readingRomaji": "Tigre! Lume! Artificial!\nFibra! Muller mergulladora!\nVibración! Sirena! Deusa! Nadal!\nReno! Anxo! Cincenta!\nEspazo! País das Marabillas!\nFaísca! Chama! Estrela Polar!\nPléiades! Ceo Estrelado!",
+        "readingKana": "ティグレ　ルーメ　アルティフィスァル\nフィブラ　ムリエルメルグラドーラ\nビブラシオン　セレーア　デウサ　ナダル\nレーノ　アンショ　シンセイレーシャ\nエスパーソ　パイスダス　マラビリャス\nファイスカ　シャマ　エストレーラ・ポラル\nプレイアデス　セオ・エストレラード",
+        "readingKanaRomaji": "",
+        "startKanaRomaji": ""
       }
     ],
     "barCounts": [
       5,
-      8
+      8,
+      10,
+      11
     ],
     "tags": [
       "gengo"
     ],
     "createdAt": "2026-10-08T12:10:56.746Z",
-    "updatedAt": "2026-10-08T12:18:14.239Z"
+    "updatedAt": "2026-10-08T12:52:38.462Z",
+    "readingKanaRomaji": "",
+    "startKanaRomaji": ""
+  },
+  {
+    "id": "ddeee36a-1feb-4252-b242-62ed29352e81",
+    "nameRomaji": "German MIX",
+    "nameKana": "ドイツ語 mix",
+    "startRomaji": "Gehen wir!",
+    "startKana": "ゲーエンヴィアー",
+    "mainTitle": "German 1ren",
+    "mainTitleKana": "ドイツ1連",
+    "readingRomaji": "Tiger! Feuer! Kunst!\nFieber! Tänzer! Schwingung!\nChemiefaser! Fliegen!\nKarl-Heinz Schneider!",
+    "readingKana": "ティーガァ　フォイエル　クゥンスト\nフィーバー　タゥツァー　シュビングング\nヒェーミーファーザー　フィリーゲン\nカールハインツシュナイダー",
+    "variants": [
+      {
+        "id": "2ac8a3bf-b6d4-40e7-9f0c-8742edced54d",
+        "title": "German 2ren",
+        "titleKana": "ドイツ2連",
+        "readingRomaji": "Tiger! Feuer! Kunst!\nFieber! Tänzer!\nSchwingung! Chemiefaser!\nFliegen! Beseitigen!\nSeejungfer! Göttin!\nWeihnachten! Rentier! Hermann Kaltz!\nKarl-Heinz Schneider!",
+        "readingKana": "ティーガァ　フォイエル　クゥンスト\nフィーバー　タゥツァー\nシュビングング　ヒェーミーファーザー\nフィリーゲン　バザィティガン\nゼーユングファー　ゲッティン\nヴァイナハテン　レン　ヘルマンカルツ\nカールハインツシュナイダー",
+        "startRomaji": "",
+        "startKana": "",
+        "readingKanaRomaji": "Tiigaa! Foieru! Kuunsuto!\nFiibaa! Tautsaa!\nShubingungu! Hyeemiifaazaa!\nFiriigen! Bazaitigan!\nZeeyungufaa! Gettin!\nVainahaten! Ren! Heruman Karutsu!\nKaaru Haintsu Shunaidaa!",
+        "startKanaRomaji": ""
+      },
+      {
+        "id": "465f96b8-ea3b-468d-88c3-5696cde5a20d",
+        "title": "German 3ren · 16 bars",
+        "titleKana": "ドイツ3連 · 16小節",
+        "readingRomaji": "Tiger! Feuer! Kunst!\nFieber! Tänzer! Schwingung!\nChemiefaser!\nFliegen! Beseitigen!\nSeejungfer! Göttin!\nWeihnachten! Aschenputtel!\nWunderland! Funke! Flamme!\nPolarstern! Plejaden!\nHermann Kaltz! Karl-Heinz Schneider!",
+        "readingKana": "ティーガァ　フォイエル　クゥンスト\nフィーバー　タゥツァー　シュビングング\nヒェーミーファーザー\nフィリーゲン　バザィティガン\nゼーユングファー　ゲッティン\nヴァイナハテン　アッシェンプッテル\nヴンダーランド　フンケ　フランメ\nポラースシェテルン　プレヤーデン\nヘルマンカルツ　カールハインツシュナイダー",
+        "startRomaji": "",
+        "startKana": "",
+        "readingKanaRomaji": "Tiigaa! Foieru! Kuunsuto!\nFiibaa! Tautsaa! Shubingungu!\nHyeemiifaazaa!\nFiriigen! Bazaitigan!\nZeeyungufaa! Gettin!\nVainahaten! Asshenputteru!\nVundaarando! Funke! Furanme!\nPoraasusheterun! Pureyaaden!\nHeruman Karutsu! Kaaru Haintsu Shunaidaa!",
+        "startKanaRomaji": ""
+      },
+      {
+        "id": "93a4c956-5b70-4ad0-b8e8-383bedddbf1c",
+        "title": "German 3ren · 18 bars",
+        "titleKana": "ドイツ3連 · 18小節",
+        "readingRomaji": "Tiger! Feuer! Kunst!\nFieber! Tänzer!\nSchwingung! Chemiefaser!\nFliegen! Beseitigen!\nSeejungfer! Göttin!\nWeihnachten! Rentier! Engel!\nAschenputtel! Raum!\nWunderland! Funke! Flamme!\nPolarstern! Plejaden!\nSternenzelt!\nKarl-Heinz Schneider!",
+        "readingKana": "ティーガァ　フォイエル　クゥンスト\nフィーバー　タゥツァー\nシュビングング　ヒェーミーファーザー\nフィリーゲン　バザィティガン\nゼーユングファー　ゲッティン\nヴァイナハテン　レン　エンゲル\nアッシェンプッテル　ラウム\nヴンダーランド　フンケ　フランメ\nポラースシェテルン　プレヤーデン\nシュテルンツェルト\nカールハインツシュナイダー",
+        "startRomaji": "",
+        "startKana": "",
+        "readingKanaRomaji": "Tiigaa! Foieru! Kuunsuto!\nFiibaa! Tautsaa!\nShubingungu! Hyeemiifaazaa!\nFiriigen! Bazaitigan!\nZeeyungufaa! Gettin!\nVainahaten! Ren! Eneru!\nAsshenputteru! Raumu!\nVundaarando! Funke! Furanme!\nPoraasusheterun! Pureyaaden!\nShuteruntsueruto!\nKaaru Haintsu Shunaidaa!",
+        "startKanaRomaji": ""
+      },
+      {
+        "id": "bddc32f5-ff41-4360-82e2-04659763e2a6",
+        "title": "Swiss German 1ren",
+        "titleKana": "スイスドイツ1連",
+        "startRomaji": "Gond mir!",
+        "startKana": "ゴーンドミアー",
+        "readingRomaji": "Tiger! Füür! Mensch! Fasere!\nMeerful! Schütterlich! Künstlichgi!\nFlüüge! Karl-Heinz Schneider!",
+        "readingKana": "ティガー　フューア　メンシュ　ファザレ\nメアフル　シュッテリヒ　キュンストリヒギ\nフリューゲ　キャール・へンツ・シュナイダー",
+        "readingKanaRomaji": "Tigaa! Fyuua! Menshu! Fazare!\nMeafuru! Shutterihi! Kyunsutorihigi!\nFuryuuge! Kyaaru Hentsu Shunaidaa!",
+        "startKanaRomaji": "Goun Domiaa!"
+      },
+      {
+        "id": "63a8e8fb-bbac-481b-aa54-f68b86191a2d",
+        "title": "Swiss German 2ren",
+        "titleKana": "スイスドイツ2連",
+        "startRomaji": "Gond mir!",
+        "startKana": "ゴーンドミアー",
+        "readingRomaji": "Tiger! Füür! Mensch! Fasere!\nMeerful! Schütterlich! Künstlichgi!\nFlüüge! Wegmache!\nMeerjungfrau! Göttin!\nWiehnacht! Rentier!\nHermann Kaltz!\nKarl-Heinz Schneider!",
+        "readingKana": "ティガー　フューア　メンシュ　ファザレ\nメアフル　シュッテリヒ　キュンストリヒギ\nフリューゲ　ヴェッグマッヘ\nメーユングフラウ　ゲッティン\nヴィーナハート　レンティーア\nヘールマンカルツ\nキャール・へンツ・シュナイダー",
+        "readingKanaRomaji": "Tigaa! Fyuua! Menshu! Fazare!\nMeafuru! Shutterihi! Kyunsutorihigi!\nFuryuuge! Veggu Mahe!\nMeeyungufurau! Gettin!\nViinaahato! Rentiia!\nHeeruman Karutsu!\nKyaaru Hentsu Shunaidaa!",
+        "startKanaRomaji": "Goun Domiaa!"
+      },
+      {
+        "id": "7296b943-f662-4d6d-a5a2-034ad11b6d98",
+        "title": "Swiss German 3ren",
+        "titleKana": "スイスドイツ3連",
+        "startRomaji": "Gond mir!",
+        "startKana": "ゴーンドミアー",
+        "readingRomaji": "Tiger! Füür! Mensch! Fasere!\nMeerful! Schütterlich! Künstlichgi!\nFlüüge! Wegmache!\nMeerjungfrau! Göttin!\nWiehnacht! Rentier!\nEngel! Aschenbrödel!\nRuum! Wunderland! Funke!\nFlamme! Nordstern! Plejaden!\nSternenhimmel!\nKarl-Heinz Schneider!",
+        "readingKana": "ティガー　フューア　メンシュ　ファザレ\nメアフル　シュッテリヒ　キュンストリヒギ\nフリューゲ　ヴェッグマッヘ\nメーユングフラウ　ゲッティン\nヴィーナハート　レンティーア\nエンゲル　アッシェンブレーデル\nルーム　ヴンダーランド　フュンケ\nフラメ　ノルトシュテルン　プレヤーデ\nシュテルネンヒンメル\nキャール・へンツ・シュナイダー",
+        "readingKanaRomaji": "Tigaa! Fyuua! Menshu! Fazare!\nMeafuru! Shutterihi! Kyunsutorihigi!\nFuryuuge! Veggu Mahe!\nMeeyungufurau! Gettin!\nViinaahato! Rentiia!\nEneru! Asshenbureederu!\nRuumu! Vundaarando! Fyunke!\nFurame! Norutoshuterun! Pureyaade!\nShuterunenhimmeru!\nKyaaru Hentsu Shunaidaa!",
+        "startKanaRomaji": "Goun Domiaa!"
+      }
+    ],
+    "barCounts": [
+      5,
+      8,
+      12,
+      16,
+      18
+    ],
+    "tags": [
+      "gengo"
+    ],
+    "createdAt": "2026-10-08T13:09:01Z",
+    "updatedAt": "2026-10-08T13:23:15Z",
+    "startKanaRomaji": "Geeen Viaa!",
+    "readingKanaRomaji": "Tiigaa! Foieru! Kuunsuto!\nFiibaa! Tautsaa! Shubingungu!\nHyeemiifaazaa! Firiigen!\nKaaru Haintsu Shunaidaa!"
   }
 ]
