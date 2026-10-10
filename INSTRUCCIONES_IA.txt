@@ -5,7 +5,7 @@ IMPORTANTE: sigue todas estas instrucciones antes de añadir o modificar datos. 
 Fuente de datos y esquema
 - Toda la información se lee y se guarda en data/mixes.json. Antes de trabajar, revisa el JSON completo, Add.txt y este archivo.
 - Añade solo mixes o variantes que aún falten. Agrupa las versiones de un mismo idioma bajo un mix principal; no dupliques títulos ni borres datos existentes.
-- En listas con encabezados principales numerados (por ejemplo, «8.» o «9.»), cada encabezado numerado crea un mix y sus variantes se agrupan dentro de ese mix. Los encabezados de secuencia «1連», «2連», etc. son versiones del mismo mix.
+- En listas con encabezados principales numerados (por ejemplo, «8.» o «9.»), cada encabezado numerado crea un mix y sus variantes se agrupan dentro de ese mix. Los encabezados de secuencia «1連», «2連», etc. son versiones del mismo mix. En tandas no lingüísticas, cada encabezado crea un mix independiente salvo que Add.txt agrupe explícitamente secuencias como variantes; un «2» en el nombre no basta para agrupar.
 - Una lista también puede presentar varios encabezados de idioma sin numerar que terminan en «語mix»; cada uno crea su propio mix y las secuencias que siguen son sus variantes. Un encabezado genérico de sección, como «祖語mix», solo agrupa y no crea un mix.
 - Un encabezado de idioma con prefijo editorial (por ejemplo, «S1.印欧祖語mix») también crea su propio mix: usa el nombre posterior al prefijo y omite tanto el prefijo «S1.»–«S4.» como los emojis. El encabezado genérico «祖語mix» por sí solo solo agrupa y no crea un mix.
 - Cada mix usa nameRomaji, nameKana, sortOrder (opcional), startRomaji, startKana, startKanaRomaji, mainTitle, mainTitleKana, readingRomaji, readingKana, readingKanaRomaji, variants, barCounts, tags, createdAt y updatedAt.
@@ -17,16 +17,17 @@ Nombres y lecturas
 - readingRomaji contiene la forma natural de la lengua cuando se conoce. readingKana conserva la transcripción japonesa del documento. readingKanaRomaji es una transcripción legible del kana japonés al alfabeto latino; no es una segunda traducción.
 - Añade la tercera lectura si la ortografía natural de la lengua se pronuncia de forma claramente distinta a la lectura japonesa escrita en kana. Déjala vacía cuando ambas lecturas sean suficientemente parecidas; no la rellenes automáticamente en todos los mixes. El español existente, por ejemplo, no necesita esa columna. El alemán sí la necesita.
 - La tercera columna aparece a la derecha del kana y debe conservar los mismos saltos de línea y el mismo orden que readingKana. Aplica la misma regla al inicio: rellena startKanaRomaji cuando la pronunciación de startRomaji difiera claramente de startKana.
-- En los tres campos, conserva los saltos de línea y el orden de las llamadas del documento fuente. Escribe las llamadas con exclamaciones, siguiendo los mixes existentes.
+- Usa los espacios del texto fuente para delimitar grupos de llamadas. Dentro de un grupo que aparece junto en kana, escribe las llamadas en romaji separadas por espacios normales y pon una sola exclamación al final del grupo, no tras cada llamada. Conserva el orden y los saltos de línea. Ejemplo: «チャペアぺ虎火　ミョーホントゥスケ / 人造ファイヤファイボワイパー» → «Chapeape Tora Hi! Myouhontusuke! / Jinzou Faiya Faibo Waipa!».
+- Si los kanji incluyen lecturas entre paréntesis, conserva los kanji en readingKana, omite esas anotaciones y usa sus lecturas para readingRomaji; conserva los paréntesis si expresan alternativas reales del call.
 - Transcribe las palabras extranjeras con una ortografía natural y fácil de leer para quien usa alfabeto latino, cuando se pueda identificar con confianza. Para lecturas dudosas, conserva una transliteración sencilla y no inventes traducciones.
 - ジャージャー se escribe siempre exactamente “Jya Jya!” en romaji.
-- 飛 se lee siempre “Tobi”.
+- 飛 se lee siempre exactamente “Tobi”, incluso cuando aparece unido a otros kanji o dentro de un grupo sin separaciones.
 - No uses macrones ni barras sobre vocales largas. Escribe, por ejemplo, “kyou” con ou.
-- No añadas emojis. No añadas nombres alternativos ni aclaraciones entre paréntesis que el documento fuente incluya como notas, salvo que el usuario lo pida.
+- No añadas emojis nuevos. Conserva los emojis del contenido fuente cuando el usuario pida mantenerlos; omite las notas parentéticas del nombre. No añadas nombres alternativos ni aclaraciones parentéticas del documento fuente.
 
 Inicio
 - Si el documento marca explícitamente el inicio con (始動), ponlo en startRomaji y startKana, sin repetirlo en las lecturas del contenido.
-- Si no indica inicio, usa “Ja~ Ikuzo!” y “しゃーいくぞ”.
+- En los mixes de idiomas, si no se indica inicio, usa “Ja~ Ikuzo!” y “しゃーいくぞ”. En los mixes no lingüísticos, deja vacíos startRomaji y startKana salvo que Add.txt indique un inicio explícito con (始動).
 - Si una variante tiene un inicio distinto, rellena sus propios campos startRomaji y startKana; deja vacíos los campos propios si comparte el inicio del mix. Usa startKanaRomaji si la diferencia de pronunciación lo justifica.
 
 Tiempo de transcripción
@@ -37,7 +38,7 @@ Orden de la colección
 - El campo de orden solo se muestra en el formulario de alta o edición, no en la biblioteca.
 
 Etiquetas y 小節
-- Los mixes de idioma llevan la etiqueta “gengo”.
-- barCounts contiene todas las duraciones disponibles para las versiones del mix, sin duplicados y en orden numérico.
+- Los mixes de idioma llevan la etiqueta “gengo”. En mixes no lingüísticos, deja `tags: []` salvo instrucción expresa; la duración se guarda en barCounts y no es una etiqueta especial. Si el usuario indica cuatro compases para toda una tanda, usa barCounts [4] en cada mix.
+- barCounts contiene todas las duraciones disponibles para las versiones del mix, sin duplicados y en orden numérico. Un número aislado entre paréntesis después de un bloque, como «(3)» o «(7)», indica sortOrder y se excluye de las lecturas.
 - Estima la duración contando normalmente cada dos palabras como un tiempo. Una llamada final muy larga puede contar como un tiempo por sí sola. Si el documento especifica una duración, respétala.
 - Comprueba que cada mix y variante de Add.txt no exista ya antes de incorporarlo; si los títulos ya están, compara los contenidos y actualiza solo si hay una diferencia real.

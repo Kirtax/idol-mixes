@@ -10052,5 +10052,759 @@
     ],
     "createdAt": "2026-10-08T23:25:49Z",
     "updatedAt": "2026-10-08T23:25:49Z"
+  },
+  {
+    "id": "3b751f73-7450-457b-bf33-452650c3bff2",
+    "sortOrder": 3,
+    "nameRomaji": "Myouhontusuke Hiroba",
+    "nameKana": "ミョーホントゥスケ広場",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Myouhontusuke! Kasen Tobi Jokyo!\nJya Jya! Faibo! Waipa!",
+    "readingKana": "ミョーホントゥスケ　化繊飛除去\nジャージャー　ファイボ　ワイパー",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      4
+    ],
+    "tags": [],
+    "createdAt": "2026-10-10T21:16:24Z",
+    "updatedAt": "2026-10-10T21:47:42.312Z"
+  },
+  {
+    "id": "3a38f1e5-8452-495d-92e0-2db68aee2256",
+    "sortOrder": 7,
+    "nameRomaji": "Myouhondoraibaa Hiroba",
+    "nameKana": "ミョーホンドライバー広場",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Variation 1",
+    "mainTitleKana": "",
+    "readingRomaji": "Myouhondoraibaa! Kasen Tobi Raigaa!\nJya Jya! Jya Jya! Baribariboo! \nSutosutosutosutosutoraipa!",
+    "readingKana": "ミョーホンドライバー　化繊飛ライガー\nジャージャー　ジャージャー　バリバリボー\nストストストストストライパー",
+    "readingKanaRomaji": "",
+    "variants": [
+      {
+        "id": "5594affe-18dc-4666-a038-117f5b0932e2",
+        "title": "Variation 2",
+        "titleKana": "",
+        "startRomaji": "",
+        "startKana": "",
+        "startKanaRomaji": "",
+        "readingRomaji": "Myouhondoraibaa! Kasen Tobi Raigaa!\nJya Jya! Bariboo! Sutoraipaa!",
+        "readingKana": "ミョーホンドライバー　化繊飛ライガー\nジャージャー　バリボー　ストライパー",
+        "readingKanaRomaji": ""
+      }
+    ],
+    "barCounts": [
+      4,
+      6
+    ],
+    "tags": [],
+    "createdAt": "2026-10-10T21:16:24Z",
+    "updatedAt": "2026-10-10T21:41:01.934Z"
+  },
+  {
+    "id": "691ba3fc-91dc-4453-89a6-794e48a6ec75",
+    "sortOrder": 7,
+    "nameRomaji": "Donguri Takeshi",
+    "nameKana": "どんぐりたけし",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "C3PO! R2D2! DTKC! Donguri Takeshi!",
+    "readingKana": "C3PO　R2D2　DTKC　どんぐりたけし",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      4
+    ],
+    "tags": [],
+    "createdAt": "2026-10-10T21:16:24Z",
+    "updatedAt": "2026-10-10T21:59:18.228Z"
+  },
+  {
+    "id": "e2ad7ef2-a6a3-4862-81ca-972ad1427e9f",
+    "sortOrder": 7,
+    "nameRomaji": "Funky na Chichi Shibori",
+    "nameKana": "ファンキーな乳搾り",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Bunbun bubuun! Bunbubuun!\nFunky na chichi shibori!",
+    "readingKana": "ぶんぶんぶぶーん　ぶんぶぶーん\nファンキーな乳絞り",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      4
+    ],
+    "tags": [],
+    "createdAt": "2026-10-10T21:16:24Z",
+    "updatedAt": "2026-10-10T21:32:42.688Z"
+  },
+  {
+    "id": "d5b36a90-88f0-4c70-98c3-91ea7fc50dbd",
+    "sortOrder": 7,
+    "nameRomaji": "Ichiban Wakeru no Dare desu ka",
+    "nameKana": "1番沸けるの誰ですか",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Ichiban wakeru no dare desu ka!\nOre! Ore! Ore! Ore! Ole! Ole!",
+    "readingKana": "1番沸けるの誰ですか！\n俺！俺！俺！俺！ole！ole！",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      4
+    ],
+    "tags": [],
+    "createdAt": "2026-10-10T21:16:24Z",
+    "updatedAt": "2026-10-10T21:27:50.270Z"
+  },
+  {
+    "id": "1c21f470-de1a-4d51-92ef-31d361d4e106",
+    "nameRomaji": "Thomas",
+    "nameKana": "トーマス",
+    "startRomaji": "Aa! Shuppatsu shinkou!",
+    "startKana": "あー！出発進行",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Thomas! Gordon! Henry! Percy!\nToby! Edward! Poppoo!",
+    "readingKana": "トーマス！ゴードン！ヘンリー！パーシー！\nトビー！エドワード！ぽっぽー！",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      4
+    ],
+    "tags": [],
+    "createdAt": "2026-10-10T21:16:24Z",
+    "updatedAt": "2026-10-10T21:16:24Z"
+  },
+  {
+    "id": "9e070b41-cdeb-46b2-9aeb-d247dfc49dd1",
+    "nameRomaji": "Thomas 2",
+    "nameKana": "トーマス2",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "James! Percy! Nia! Gordon!\nRebecca! Emily! Thomas icchiban!",
+    "readingKana": "ジェームス！パーシー！ニア！ゴードン！\nレベッカ！エミリー！トーマスいっちばん！",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      4
+    ],
+    "tags": [],
+    "createdAt": "2026-10-10T21:16:24Z",
+    "updatedAt": "2026-10-10T21:27:50.270Z"
+  },
+  {
+    "id": "fb930749-0540-4034-bed1-749a88287c35",
+    "nameRomaji": "Chapeape Kahen",
+    "nameKana": "チャぺアペ可変",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Chapeape Tora Hi! Myouhontusuke!\nJinzou Faiya Faibo Waipa!",
+    "readingKana": "チャペアぺ虎火　ミョーホントゥスケ\n人造ファイヤファイボワイパー",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      4
+    ],
+    "tags": [],
+    "createdAt": "2026-10-10T21:16:24Z",
+    "updatedAt": "2026-10-10T21:48:13.428Z"
+  },
+  {
+    "id": "89b6b8b2-1bda-4154-b286-dee254992993",
+    "sortOrder": 3,
+    "nameRomaji": "Moe Moe Kyun Start",
+    "nameKana": "萌え萌えキュン始動",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Moe Moe Kyun! Moe Moe Kyun!\nMoe Moe Kyun! Ja~ Ikuzo!",
+    "readingKana": "萌え萌えキュン　萌え萌えキュン\n萌え萌えキュン　しゃー行くぞ",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      4
+    ],
+    "tags": [],
+    "createdAt": "2026-10-10T21:16:24Z",
+    "updatedAt": "2026-10-10T21:25:09.853Z"
+  },
+  {
+    "id": "943c3604-5c69-4f40-a6d5-c09d4ec91e0a",
+    "nameRomaji": "Yunbo MIX",
+    "nameKana": "ゆんぼmix",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Doushiyou! Kao ga ii!\n○○ ga icchan! 👏 Kawaii!",
+    "readingKana": "どうしよう　顔がいい\n○○がいっちゃん　👏　かわいい！",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      4
+    ],
+    "tags": [],
+    "createdAt": "2026-10-10T21:16:24Z",
+    "updatedAt": "2026-10-10T21:27:50.270Z"
+  },
+  {
+    "id": "9a625678-59ef-454c-b8b7-211fe3fd222e",
+    "nameRomaji": "Marumaru no Professional",
+    "nameKana": "◯◯のプロフェッショナル",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "○○ no! Professional!\n○○○○ (ga or chan)! 👏 Kawaii!",
+    "readingKana": "○○の　プロフェッショナル\n○○○○(がorちゃん)　👏　かわいい！",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      4
+    ],
+    "tags": [],
+    "createdAt": "2026-10-10T21:16:24Z",
+    "updatedAt": "2026-10-10T21:27:50.270Z"
+  },
+  {
+    "id": "abcdf8bd-a580-403b-a29e-a106532768b2",
+    "sortOrder": 7,
+    "nameRomaji": "Tanbo no Yousu ga Okashii MIX",
+    "nameKana": "田んぼの様子がおかしいmix",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Yousuiro! Konbain!\nTanbo no yousu ga! 👏 Okashii!",
+    "readingKana": "用水路　コンバイン\n田んぼの様子が　👏　おかしい！",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      4
+    ],
+    "tags": [],
+    "createdAt": "2026-10-10T21:16:24Z",
+    "updatedAt": "2026-10-10T21:27:50.270Z"
+  },
+  {
+    "id": "3b0ece68-75cf-4f89-8c35-eebf81a94cb4",
+    "nameRomaji": "Sakana no Yousu ga Okashii MIX",
+    "nameKana": "魚の様子がおかしいmix",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Norin gyou! Suisan gyou!\nSakana no yousu ga! 👏 Okashii!",
+    "readingKana": "農林業　水産業\n魚の様子が　👏　おかしい！",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      4
+    ],
+    "tags": [],
+    "createdAt": "2026-10-10T21:16:24Z",
+    "updatedAt": "2026-10-10T21:27:50.270Z"
+  },
+  {
+    "id": "6b63c7f3-0941-4651-822b-cbd9120dc30f",
+    "nameRomaji": "Ocha MIX",
+    "nameKana": "お茶mix",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Mizudashi! Oyudashi! Koime dashi!\nUmai ryokucha no! Tiibaggu!",
+    "readingKana": "水だし　お湯だし　濃いめだし\n美味い緑茶の　ティーバッグ",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      4
+    ],
+    "tags": [],
+    "createdAt": "2026-10-10T21:16:24Z",
+    "updatedAt": "2026-10-10T21:27:50.270Z"
+  },
+  {
+    "id": "c2bddc39-25f1-46d2-9da1-76c35efa0dbb",
+    "nameRomaji": "Sakura MIX",
+    "nameKana": "桜mix",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Yae! Shidare! Ooyama! Chouji!\nSomei Yoshino! Edozakura!",
+    "readingKana": "八重　枝垂　大山　丁子\n染井吉野　江戸桜",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      4
+    ],
+    "tags": [],
+    "createdAt": "2026-10-10T21:16:24Z",
+    "updatedAt": "2026-10-10T21:27:50.270Z"
+  },
+  {
+    "id": "3c903d4e-5246-4cf9-b72c-bf9840792f79",
+    "nameRomaji": "Akibana MIX",
+    "nameKana": "秋花mix",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Kaede! Momiji! Rindou! Sazanka!\nKikyou! Akizakura! Higanbana!",
+    "readingKana": "楓　紅葉　竜胆　山茶花\n桔梗　秋桜　彼岸花",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      4
+    ],
+    "tags": [],
+    "createdAt": "2026-10-10T21:16:24Z",
+    "updatedAt": "2026-10-10T21:27:50.270Z"
+  },
+  {
+    "id": "44eb92ae-0fe5-4b70-ba0b-68f3bd1fa07b",
+    "nameRomaji": "Fuyugeshiki",
+    "nameKana": "冬景色",
+    "startRomaji": "Fuyuzakura!",
+    "startKana": "冬桜",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Kogarashi! Yuuten! Juhyou! Gentou!\nKazahana! Rikka! Sasameyuki!",
+    "readingKana": "凩　幽天　樹氷　玄冬\n風花　六花　細雪",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      4
+    ],
+    "tags": [],
+    "createdAt": "2026-10-10T21:16:24Z",
+    "updatedAt": "2026-10-10T21:50:21.576Z"
+  },
+  {
+    "id": "a5e5dcb9-c40f-479a-9be9-4022cec7dd85",
+    "nameRomaji": "Hana Arashi MIX",
+    "nameKana": "華嵐mix",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Sakura! Tsubaki! Ayame! Kuroyuri!\nKaede! Suiren! Kakitsubata!",
+    "readingKana": "桜　椿　菖蒲　黒百合\n楓　睡蓮　杜若",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      4
+    ],
+    "tags": [],
+    "createdAt": "2026-10-10T21:16:24Z",
+    "updatedAt": "2026-10-10T21:49:58.686Z"
+  },
+  {
+    "id": "166bbe64-2163-4c86-84ae-6493ae353ce0",
+    "nameRomaji": "Kuji MIX",
+    "nameKana": "九字mix",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Rin! Pyou! Tou! Sha! Kai! Jin! Retsu! Zai! Zen!",
+    "readingKana": "臨　兵　闘　者　皆　陣　列　在　前",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      4
+    ],
+    "tags": [],
+    "createdAt": "2026-10-10T21:16:24Z",
+    "updatedAt": "2026-10-10T21:54:29.928Z"
+  },
+  {
+    "id": "8efa7390-0407-4f10-ac47-815ca1752e31",
+    "nameRomaji": "Kuji MIX 2",
+    "nameKana": "九字mix2",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Ten! Gen! Gyou! Tai! Shin! Pen! Jin! Tsuu! Riki!",
+    "readingKana": "天　元　行　躰　神　変　神　通　力",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      4
+    ],
+    "tags": [],
+    "createdAt": "2026-10-10T21:16:24Z",
+    "updatedAt": "2026-10-10T21:55:51.965Z"
+  },
+  {
+    "id": "81b83a14-0649-40b0-86a9-c7713d4b5122",
+    "nameRomaji": "Baisoku Japa Omote Ura",
+    "nameKana": "倍速ジャパ表裏",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Tora! Hi! Jinzou! Seni! Ama! Shindou! Kasen! Tobi! Jokyo! Tobi! Kasen! Shindou! Ama! Seni! Jinzou! Hi!",
+    "readingKana": "虎火人造繊維海女振動化繊飛除去飛化繊振動海女繊維人造火",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      4
+    ],
+    "tags": [],
+    "createdAt": "2026-10-10T21:16:24Z",
+    "updatedAt": "2026-10-10T21:27:50.270Z"
+  },
+  {
+    "id": "9cd837dc-0864-4baf-8f82-db2a885a7fdb",
+    "nameRomaji": "Sunny Day Kahen",
+    "nameKana": "サニーデイ可変",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Tora! Hi! Jinzou! Ama! Seni! Kasen! Tobi! Jokyo!",
+    "readingKana": "虎火人造　海女繊維　化繊飛　除去",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      4
+    ],
+    "tags": [],
+    "createdAt": "2026-10-10T21:16:24Z",
+    "updatedAt": "2026-10-10T21:27:50.270Z"
+  },
+  {
+    "id": "5af33d9d-ceca-4ed7-94dc-b2b332265825",
+    "nameRomaji": "Danson",
+    "nameKana": "ダンソン",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Danson! Fiizakii! Tuuzatiisaazakonsa!",
+    "readingKana": "ダンソン！フィーザキー！トゥーザティーサーザコンサ！",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      4
+    ],
+    "tags": [],
+    "createdAt": "2026-10-10T21:16:24Z",
+    "updatedAt": "2026-10-10T21:27:50.270Z"
+  },
+  {
+    "id": "3fed988d-96c1-4dfc-b7e1-e4880b96937e",
+    "nameRomaji": "Manin Densha",
+    "nameKana": "満員電車",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Manin densha! Kakekomi jousha!\nDoa ga! Shimarimasu! Hassha shimasu!",
+    "readingKana": "満員電車！駆け込み乗車！\nドアが！閉まります！発車します！",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      4
+    ],
+    "tags": [],
+    "createdAt": "2026-10-10T21:16:24Z",
+    "updatedAt": "2026-10-10T21:27:50.270Z"
+  },
+  {
+    "id": "962a8924-4c13-4a0b-8cc6-17ac3fbcd8dc",
+    "nameRomaji": "Furby",
+    "nameKana": "ファービー",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Faa~bburusukofaa!\nAamei! Duuei! Nuuru! Nooraa!\nTooru! Kookoo! Uiitii!",
+    "readingKana": "ファ～ッブルスコファー！\nアーメイ！ドゥーエイ！ヌールー！ノーラー！\nトールー！コーコー！ウイーティー！",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      4
+    ],
+    "tags": [],
+    "createdAt": "2026-10-10T21:16:24Z",
+    "updatedAt": "2026-10-10T21:27:50.270Z"
+  },
+  {
+    "id": "4bba94a3-fe7d-4766-a3c0-4cf96a6fe291",
+    "nameRomaji": "Puyo Puyo",
+    "nameKana": "ぷよぷよ",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Ei! Faiyaa! Aisusutoomu!\nDaiakyuuto! Bureindamudo! Jugemu! Bayoeen!",
+    "readingKana": "えい！　ファイヤー！　アイスストーム！\nダイアキュート！　ブレインダムド！　じゅげむ！　ばよえ～ん！",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      4
+    ],
+    "tags": [],
+    "createdAt": "2026-10-10T21:16:24Z",
+    "updatedAt": "2026-10-10T21:27:50.270Z"
+  },
+  {
+    "id": "59ae6c66-528e-4b3d-9ef3-bb1950164a55",
+    "sortOrder": 3,
+    "nameRomaji": "Encho MIX",
+    "nameKana": "園長mix",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Faiboo! Waipaa! Faamaa! Jasupaa! Howaipaa! Kuupaa! Iesukureipaa!",
+    "readingKana": "ファイボー！ワイパー！ファーマー！ジャスパー！　ホワイパー！クーパー！イエスクレイパー！",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      4
+    ],
+    "tags": [],
+    "createdAt": "2026-10-10T21:16:24Z",
+    "updatedAt": "2026-10-10T21:58:30.169Z"
+  },
+  {
+    "id": "68ca6455-48d9-4b50-820c-350d3aa0d794",
+    "sortOrder": 6,
+    "nameRomaji": "Wakage no Itari",
+    "nameKana": "若気の至り",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Wakage no itari to~ iwan bakari no genkiyosa! Aa-i!",
+    "readingKana": "若気の至りと～　言わんばかりの元気よさ　あーい！",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      4
+    ],
+    "tags": [],
+    "createdAt": "2026-10-10T21:16:24Z",
+    "updatedAt": "2026-10-10T22:58:23.704Z"
+  },
+  {
+    "id": "5a503f0c-5b6f-4660-a165-5f8848abca18",
+    "nameRomaji": "Wakage no Italian",
+    "nameKana": "若気のイタリア語",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Variant 1",
+    "mainTitleKana": "Variant 1",
+    "readingRomaji": "Wakage no~~ Itaria~~!\nMilan bakari no Andiamo!\nTigre! Fuoco! Replicante! Fibra!\nBaronbaro! Vibramento! Tecnobolare!\nAstirattsioone!",
+    "readingKana": "若気の～～イタリア〜〜\nミランばかりのアンディアモ！\nティーグレ　フォーコ　レプリカンテ　フィーブラ\nバロンバーロ　ヴィヴラメント　テクノボラーレ\nアスティラッツィオーネ",
+    "readingKanaRomaji": "",
+    "variants": [
+      {
+        "id": "a4994369-fd4e-4adc-bc46-3a59c285213e",
+        "title": "Variant 2",
+        "titleKana": "Variant 2",
+        "startRomaji": "",
+        "startKana": "",
+        "startKanaRomaji": "",
+        "readingRomaji": "Wakage no Italia~! Iwan bakari no Andiamo! Aa-i!",
+        "readingKana": "若気のイタリア～　言わんばかりのアンディアモ　あーい！",
+        "readingKanaRomaji": ""
+      }
+    ],
+    "barCounts": [
+      4
+    ],
+    "tags": [],
+    "createdAt": "2026-10-10T21:16:24Z",
+    "updatedAt": "2026-10-10T22:00:47.987Z"
+  },
+  {
+    "id": "bbd9c29e-6093-4732-bac1-e8776a8eb007",
+    "nameRomaji": "Wakage no Latvia",
+    "nameKana": "若気のラトビア",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Wakage no Latvia~! Iwan bakari no Aiziet! Aa-i!",
+    "readingKana": "若気のラトビア～　言わんばかりのアイズィエト　あーい！",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      4
+    ],
+    "tags": [],
+    "createdAt": "2026-10-10T21:16:24Z",
+    "updatedAt": "2026-10-10T21:27:50.270Z"
+  },
+  {
+    "id": "b4318697-3cde-42d1-b460-be791468feeb",
+    "nameRomaji": "Wakage no Sicilia",
+    "nameKana": "若気のシチリア",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Wakage no Sicilia~! Iwan bakari no Anduumu! Aa-i!",
+    "readingKana": "若気のシチリア～　言わんばかりのアンドゥーム　あーい！",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      4
+    ],
+    "tags": [],
+    "createdAt": "2026-10-10T21:16:24Z",
+    "updatedAt": "2026-10-10T21:27:50.270Z"
+  },
+  {
+    "id": "1b76017d-b76d-442b-be6c-42c8e333bef6",
+    "nameRomaji": "Encho Hiroba",
+    "nameKana": "園長広場",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Myouhon Faamaa! Kasen Tobi Jasupaa!\nJya Jya! Faiboo! Howaipaa Kuupaa!\nIesukureipaa!",
+    "readingKana": "ミョーホンファーマー 化繊飛ジャスパー\nジャージャーファイボー　ホワイパークーパー\nイエスクレイパー",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      5
+    ],
+    "tags": [],
+    "createdAt": "2026-10-10T22:03:31.146Z",
+    "updatedAt": "2026-10-10T22:08:10.281Z"
+  },
+  {
+    "id": "75f5d739-af6b-4704-b3a4-2ffebed693a7",
+    "nameRomaji": "Banzai 4 Baisoku Kahen",
+    "nameKana": "バンザイ4倍速可変",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Ama Shindou Ama Shindou Ama Tobi Kasen Tobi!\nJokyo Seni Jinzou Kara Kina Waipa!",
+    "readingKana": "海女振海女振海女飛化繊飛\n除去繊維人造カラキナワイパー",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      2
+    ],
+    "tags": [],
+    "createdAt": "2026-10-10T22:15:47.237Z",
+    "updatedAt": "2026-10-10T22:15:47.237Z"
+  },
+  {
+    "id": "148d2f13-4350-4fb2-ad43-978178347c52",
+    "nameRomaji": "Shaku no Yousu ga Okashii",
+    "nameKana": "尺の様子がおかしい",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Iya iya iya iya mate mate mate mate!\nMIX ga! Hairanai! Shaku no yousu ga! 👏 Okashii!",
+    "readingKana": "いやいやいやいやまてまてまてまて\nmixが！入らない！尺の様子が👏おかしい！",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      6
+    ],
+    "tags": [],
+    "createdAt": "2026-10-10T22:25:56.833Z",
+    "updatedAt": "2026-10-10T22:25:56.833Z"
+  },
+  {
+    "id": "5e4c66bc-0333-4cfa-b795-bc5472731f70",
+    "nameRomaji": "Takami Koujou",
+    "nameKana": "高見口上",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Chiisaki saya ni! Osameshi daitou!\nIkudo mo furui! Hirakishi wa!\nWarera no mada minu sono takami!",
+    "readingKana": "小さき鞘に 収めし大刀\n幾度も振るい 拓きしは\n我らのまだ見ぬその高み",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      6
+    ],
+    "tags": [],
+    "createdAt": "2026-10-10T22:25:56.833Z",
+    "updatedAt": "2026-10-10T22:25:56.833Z"
+  },
+  {
+    "id": "58e5671e-5c9d-4d69-b65e-5c032549dd89",
+    "nameRomaji": "Hanabi MIX",
+    "nameKana": "花火mix",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "5! 4! 3 2 1!\nKiku! Botan! Taki! Hachi!\nSenrin! Youraku Kamurogiku!",
+    "readingKana": "5！4！3 2 1！\n菊牡丹滝蜂\n千輪葉落冠菊",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      6
+    ],
+    "tags": [],
+    "createdAt": "2026-10-10T22:25:56.833Z",
+    "updatedAt": "2026-10-10T22:29:10.825Z"
   }
 ]
