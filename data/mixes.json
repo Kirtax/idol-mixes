@@ -10920,7 +10920,7 @@
     "startKanaRomaji": "",
     "mainTitle": "Versión principal",
     "mainTitleKana": "",
-    "readingRomaji": "Tiger! Fire! (Slow)\n\"Cyber Fiber Diver Viber!\nJya Jya Faiboo Waipa!\" (Fast)\nJumper! Pinger! Dance! Farmer!\nSaburi! Finger! Seibu! Visor!",
+    "readingRomaji": "\"Taiga! Faiya!\" (Slow)\n\"Saiba Faiba Daiba Baiba!\nJya Jya Faibo Waipa!\" (Fast)\nJanpa! Pinga! Dansu! Faama!\nSaburi! Finga! Seibu! Baiza!",
     "readingKana": "タイガー ファイヤー（低速）\n\"サイバーファイバーダイバーバイバー\nジャージャーファイボーワイパー\"（倍速）\nジャンパー ピンガー ダンス ファーマー\nサブリ フィンガー セイブ バイザー",
     "readingKanaRomaji": "",
     "variants": [],
@@ -10929,7 +10929,7 @@
     ],
     "tags": [],
     "createdAt": "2026-10-10T23:55:55.578Z",
-    "updatedAt": "2026-10-11T12:29:36.624Z"
+    "updatedAt": "2026-10-11T13:36:39.713Z"
   },
   {
     "id": "3a8968b8-7395-42b2-bcd6-b043a0a640f0",
@@ -11350,7 +11350,7 @@
     "startKanaRomaji": "",
     "mainTitle": "Versión principal",
     "mainTitleKana": "",
-    "readingRomaji": "Chape Tora Tiger! Ape Hi Fire!\nKara Jinzou Cyber! Kina Seni Fiber!\nRara Ama Diver! Tusuke Shindou Viber!\nYett! Wispe! Kasen Jya Jya!",
+    "readingRomaji": "Chape Tora Taiga! Ape Hi Faiya!\nKara Jinzou Saiba! Kina Seni Faiba!\nRara Ama Daiba! Tusuke Shindou Baiba!\nYett! Wispe! Kasen Jya Jya!",
     "readingKana": "チャペ虎タイガー アペ火ファイヤー\nカラ人造サイバー キナ繊維ファイバー\nララ海女ダイバー トゥスケ振動バイバー\nイェッ　ウィスペ 化繊ジャージャー",
     "readingKanaRomaji": "",
     "variants": [],
@@ -11359,7 +11359,7 @@
     ],
     "tags": [],
     "createdAt": "2026-10-10T23:59:42.987Z",
-    "updatedAt": "2026-10-10T23:59:42.987Z"
+    "updatedAt": "2026-10-11T13:36:39.713Z"
   },
   {
     "id": "c883b9a9-7e10-4283-9942-47d670bcbe9b",
@@ -11755,6 +11755,7 @@
     ],
     "barCounts": [
       8,
+      9,
       10,
       12,
       16,
@@ -11764,7 +11765,7 @@
       "konton"
     ],
     "createdAt": "2026-10-11T00:02:46.025Z",
-    "updatedAt": "2026-10-11T12:45:32.050Z"
+    "updatedAt": "2026-10-11T13:42:13.037Z"
   },
   {
     "id": "de911d71-0c84-4050-907d-f00fe66cd7ff",
@@ -11845,7 +11846,7 @@
     "startKanaRomaji": "",
     "mainTitle": "Variant 1",
     "mainTitleKana": "Variant 1",
-    "readingRomaji": "Ga! x6 Gundam Epyon!\nEpyon! x6 Heavy Aamazu!",
+    "readingRomaji": "Ga! x6 Gandamu Epyon!\nEpyon! x6 Heavy Aamazu!",
     "readingKana": "ガ x6　ガンダムエピオン\nエピオン x6　ヘビーアームズ",
     "readingKanaRomaji": "",
     "variants": [
@@ -11856,7 +11857,7 @@
         "startRomaji": "",
         "startKana": "",
         "startKanaRomaji": "",
-        "readingRomaji": "Ga! x6 Gundam Epyon!\nGundam Epyon! Gundam Epyon!\nGundam Epyon! Gundam Epyon!",
+        "readingRomaji": "Ga! x6 Gandamu Epyon!\nGandamu Epyon! Gandamu Epyon!\nGandamu Epyon! Gandamu Epyon!",
         "readingKana": "ガ x6　ガンダムエピオン\nガンダムエピオン　ガンダムエピオン\nガンダムエピオン　ガンダムエピオン",
         "readingKanaRomaji": ""
       }
@@ -11868,7 +11869,7 @@
       "konton"
     ],
     "createdAt": "2026-10-11T00:02:46.025Z",
-    "updatedAt": "2026-10-11T12:50:33.759Z"
+    "updatedAt": "2026-10-11T13:45:35.762Z"
   },
   {
     "id": "5ad1b22e-aaf3-468f-a69b-f6968a2ca08a",
@@ -11889,7 +11890,7 @@
     ],
     "tags": [],
     "createdAt": "2026-10-11T00:02:46.025Z",
-    "updatedAt": "2026-10-11T13:30:53.917Z"
+    "updatedAt": "2026-10-11T13:39:30.289Z"
   },
   {
     "id": "599978bb-842c-460e-a519-8a9028df4f79",

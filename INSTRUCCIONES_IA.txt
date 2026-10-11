@@ -20,6 +20,7 @@ Nombres y lecturas
 - Usa los espacios del texto fuente para delimitar grupos de llamadas. Dentro de un grupo que aparece junto en kana, escribe las llamadas en romaji separadas por espacios normales y pon una sola exclamación al final del grupo, no tras cada llamada. Conserva el orden y los saltos de línea. Ejemplo: «チャペアぺ虎火　ミョーホントゥスケ / 人造ファイヤファイボワイパー» → «Chapeape Tora Hi! Myouhontusuke! / Jinzou Faiya Faibo Waipa!».
 - Si los kanji incluyen lecturas entre paréntesis, conserva los kanji en readingKana, omite esas anotaciones y usa sus lecturas para readingRomaji; conserva los paréntesis si expresan alternativas reales del call.
 - Transcribe las palabras extranjeras con una ortografía natural y fácil de leer para quien usa alfabeto latino, cuando se pueda identificar con confianza. Para lecturas dudosas, conserva una transliteración sencilla y no inventes traducciones.
+- En mixes no lingüísticos con llamadas escritas en kana, conserva el sonido japonés y transcríbelo al romaji en vez de traducir préstamos reconocibles al inglés (por ejemplo, タイガー → “Taiga”, no “Tiger”).
 - ジャージャー se escribe siempre exactamente “Jya Jya!” en romaji.
 - 飛 se lee siempre exactamente “Tobi”, incluso cuando aparece unido a otros kanji o dentro de un grupo sin separaciones.
 - No uses macrones ni barras sobre vocales largas. Escribe, por ejemplo, “kyou” con ou.
@@ -32,6 +33,7 @@ Inicio
 
 Tiempo de transcripción
 - Tómate el tiempo necesario para estudiar cada fuente y revisar la transcripción completa; prioriza la fidelidad sobre la rapidez. Comprueba la correspondencia entre kana y romaji, los inicios, el orden, los saltos de línea y las duraciones. Si una palabra o lectura sigue siendo dudosa, contrástala con una fuente fiable y conserva una transliteración sencilla en vez de inventar una traducción.
+- Cuando un tramo tenga una marca de velocidad como 低速 o 倍速, conserva esa marca junto al tramo en readingKana. En readingRomaji, encierra el tramo afectado entre comillas dobles y añade (Slow) o (Fast) después de la comilla de cierre. Ejemplo: タイガー　ファイヤー　サイバー　ファイバー（低速） → "Taiga! Faiya! Saiba! Faiba!" (Slow).
 
 Orden de la colección
 - sortOrder es opcional: los números menores aparecen antes; si dos mixes comparten número, se ordenan alfabéticamente según el idioma de nombres elegido. Sin número, el mix queda al final.
@@ -39,6 +41,7 @@ Orden de la colección
 
 Etiquetas y 小節
 - Los mixes de idioma llevan la etiqueta “gengo”. En mixes no lingüísticos, deja `tags: []` salvo instrucción expresa; la duración se guarda en barCounts y no es una etiqueta especial. Si el usuario indica cuatro compases para toda una tanda, usa barCounts [4] en cada mix.
+- Si Add.txt identifica expresamente un mix como Konton, añade la etiqueta “konton”, aunque sea una versión localizada o no lingüística. No infieras “gengo” solo porque el nombre mencione un idioma; usa esa etiqueta cuando el usuario clasifique el mix como lingüístico.
 - barCounts contiene todas las duraciones disponibles para las versiones del mix, sin duplicados y en orden numérico. Un número aislado entre paréntesis después de un bloque, como «(3)» o «(7)», indica sortOrder y se excluye de las lecturas.
 - Si el usuario fija una duración general para una tanda, aplícala a todos sus mixes salvo indicación particular. «También N compases» añade esa duración a la general; «N compases solo» la sustituye.
 - Estima la duración contando normalmente cada dos palabras como un tiempo. Una llamada final muy larga puede contar como un tiempo por sí sola. Si el documento especifica una duración, respétala.
