@@ -40,5 +40,6 @@ Orden de la colección
 Etiquetas y 小節
 - Los mixes de idioma llevan la etiqueta “gengo”. En mixes no lingüísticos, deja `tags: []` salvo instrucción expresa; la duración se guarda en barCounts y no es una etiqueta especial. Si el usuario indica cuatro compases para toda una tanda, usa barCounts [4] en cada mix.
 - barCounts contiene todas las duraciones disponibles para las versiones del mix, sin duplicados y en orden numérico. Un número aislado entre paréntesis después de un bloque, como «(3)» o «(7)», indica sortOrder y se excluye de las lecturas.
+- Si el usuario fija una duración general para una tanda, aplícala a todos sus mixes salvo indicación particular. «También N compases» añade esa duración a la general; «N compases solo» la sustituye.
 - Estima la duración contando normalmente cada dos palabras como un tiempo. Una llamada final muy larga puede contar como un tiempo por sí sola. Si el documento especifica una duración, respétala.
 - Comprueba que cada mix y variante de Add.txt no exista ya antes de incorporarlo; si los títulos ya están, compara los contenidos y actualiza solo si hay una diferencia real.

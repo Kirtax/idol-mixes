@@ -10806,5 +10806,1202 @@
     "tags": [],
     "createdAt": "2026-10-10T22:25:56.833Z",
     "updatedAt": "2026-10-10T22:29:10.825Z"
+  },
+  {
+    "id": "9e710c85-d83c-4d19-bb5e-8cf14f571548",
+    "sortOrder": 4,
+    "nameRomaji": "Ainu Nichi Kahen",
+    "nameKana": "アイヌ日可変",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Wispe Kesui! Chape Chape Chape!\nChape Ape Kara Kina Kara Ape Chape!\nJokyo Tobi Jokyo! Tora Tora Tora!\n\"Tora Hi Jinzou Seni Ama Shindou Kasen!\" (Fast)",
+    "readingKana": "ウィスペケスィ　チャペチャペチャペ\nチャペアペカラキナカラアペチャペ\n除去　飛　除去　虎　虎　虎\n\"虎火人造繊維海女振動化繊\" (倍速）",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      8
+    ],
+    "tags": [],
+    "createdAt": "2026-10-10T23:55:55.578Z",
+    "updatedAt": "2026-10-11T12:27:47.422Z"
+  },
+  {
+    "id": "eb906c80-1bf7-4102-9f88-76e906a5573b",
+    "nameRomaji": "Chuugokugo Ainu Nichi Kahen",
+    "nameKana": "中国語アイヌ日可変",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Wispe Kesui! Chape Chape Chape!\nChape Ape Kara Kina Kara Ape Chape!\nChuchii! Fei! Chuchii!\nRaofuu! Raofuu! Raofuu!\n\"Raofuu Fuorenzou Shenwei\nHainii Jendong Hoa Shenwei!\" (Fast)\n(Fei! Chuchii!)",
+    "readingKana": "ウィスペケスィ チャペチャペチャペ\nチャペアペカラキナカラアペチャペ\nチュチィ フェイ チュチィ\nラオフー ラオフー ラオフー\n\"ラオフーフオレンザオシェンウェイ\nハイニージェンドンホアシェンウェイ\" (倍速)\n(フェイ チュチィ)",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      8,
+      10
+    ],
+    "tags": [],
+    "createdAt": "2026-10-10T23:55:55.578Z",
+    "updatedAt": "2026-10-11T12:28:38.275Z"
+  },
+  {
+    "id": "adae5eaf-4df0-4fb0-a5d6-cdeddabe3516",
+    "nameRomaji": "Hage Kahen",
+    "nameKana": "ハゲ可変",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Touhatsu Usui! Hage Hage Hage!\nHage Hage Kara Kina Kara Ape Hage!\nJokyo Kami Jokyo! Hage Hage Hage!\nHage Hi Jinzou Seni Arushindo Kasen!",
+    "readingKana": "頭髪　ウスィ　ハゲハゲハゲ\nハゲハゲカラキナカラアペハゲ\n除去　髪　除去　禿　禿　禿\n禿火人造繊維アルシンド化繊",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      8
+    ],
+    "tags": [],
+    "createdAt": "2026-10-10T23:55:55.578Z",
+    "updatedAt": "2026-10-11T11:53:01.854Z"
+  },
+  {
+    "id": "e9b5aa74-f2d6-4f23-a83d-99d7e74aab61",
+    "sortOrder": 6,
+    "nameRomaji": "Chispa Kahen",
+    "nameKana": "チスパ可変",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Chispa! Jaama! Mai Nojou!\nChape Tora Taiga! Sutoraipa!\nJokyo Tobi Jokyo! Tora Tora Tora!\nShinsen Jokyo Tobi Ama Tora Hi!\n(Myouhon Taiga! Kasen Tobi Jasupaa!\nYett! Tanbo! Etaanaru!)",
+    "readingKana": "チスパ ジャーマ 舞農場\nチャペ虎タイガー ストライパー\n除去飛除去 虎虎虎\n振繊除去飛　海女虎火\n（ミョーホンタイガー　化繊飛ジャスパー\nイェッ！　田んぼ　エターナル）",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      8,
+      12
+    ],
+    "tags": [],
+    "createdAt": "2026-10-10T23:55:55.578Z",
+    "updatedAt": "2026-10-11T11:54:25.629Z"
+  },
+  {
+    "id": "06f391f1-d1df-4173-92ab-d1527e9a338d",
+    "nameRomaji": "Sutajapa Kahen",
+    "nameKana": "スタジャパ可変",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "\"Tiger! Fire! Cyber! Fiber!\" (Slow)\nKasen! Shindou! Ama! Seni!\n\"Kasen Shindou Ama Seni Jinzou Hi Tora!\" (Fast)",
+    "readingKana": "タイガー　ファイヤー　サイバー　ファイバー（低速）\n化繊　振動　海女　繊維\n化繊振動海女繊維人造火虎（倍速）",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      8
+    ],
+    "tags": [],
+    "createdAt": "2026-10-10T23:55:55.578Z",
+    "updatedAt": "2026-10-11T12:29:59.611Z"
+  },
+  {
+    "id": "d4aa9dac-9101-4cea-9af9-08514d1232e4",
+    "nameRomaji": "Kurofuku 17 Dan Kahen",
+    "nameKana": "黒服17段可変",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Tiger! Fire! (Slow)\n\"Cyber Fiber Diver Viber!\nJya Jya Faiboo Waipa!\" (Fast)\nJumper! Pinger! Dance! Farmer!\nSaburi! Finger! Seibu! Visor!",
+    "readingKana": "タイガー ファイヤー（低速）\n\"サイバーファイバーダイバーバイバー\nジャージャーファイボーワイパー\"（倍速）\nジャンパー ピンガー ダンス ファーマー\nサブリ フィンガー セイブ バイザー",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      8
+    ],
+    "tags": [],
+    "createdAt": "2026-10-10T23:55:55.578Z",
+    "updatedAt": "2026-10-11T12:29:36.624Z"
+  },
+  {
+    "id": "3a8968b8-7395-42b2-bcd6-b043a0a640f0",
+    "nameRomaji": "Miyamoto Kahen",
+    "nameKana": "宮本可変",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Toraa Hi Toraa Hi Tora Tora Toraa Hi!\nJinzou Seni Ama Shindou Kasen Tobi Jokyo!\nChou! Umiu! Mai Nojou! Nou Sei Shoku Taru Miyamoto Musashi!",
+    "readingKana": "とらーひとらーひとらとらとらーひ\n人造繊維海女振動化繊飛除去\n跳海鵜舞農場　農正拭樽宮本武蔵",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      8
+    ],
+    "tags": [],
+    "createdAt": "2026-10-10T23:55:55.578Z",
+    "updatedAt": "2026-10-11T12:02:39.335Z"
+  },
+  {
+    "id": "47e579c8-0f18-4d89-a204-261c1edf912e",
+    "nameRomaji": "Japa 3 Baisoku Kahen",
+    "nameKana": "ジャパ3倍速可変",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Ama Tora Jinzou! Ama Tora Kasen!\nJokyo Tora Jinzou! Ama Seni Tora!\nAma Seni Jokyo Tobi! Shindou Seni Kasen Tobi!\nJokyo Tora Shindou! Ama Tora Hi!",
+    "readingKana": "海女虎人造　海女虎化繊\n除去虎人造　海女繊維虎\n海女繊維除去飛　振動繊維化繊飛\n除去虎振動　海女虎火",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      8
+    ],
+    "tags": [],
+    "createdAt": "2026-10-10T23:55:55.578Z",
+    "updatedAt": "2026-10-10T23:55:55.578Z"
+  },
+  {
+    "id": "4e15d07c-817d-4632-b141-3ab5862600cf",
+    "nameRomaji": "Suteran Kahen",
+    "nameKana": "ステラン可変",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Toraa Hii Toraa Hii Tora Tora Tora Hi!\nAma Seni! Ama Seni! Jinzou Hi Tora!\nTora! Hi! Tora! Hi!\nKasen Shindou Ama Seni Jinzou Hi Tora!",
+    "readingKana": "とらひーとらひー虎虎虎火\n海女繊　海女繊　人造火虎\n虎 火 虎 火\n化繊振動海女繊維人造火虎",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      8
+    ],
+    "tags": [],
+    "createdAt": "2026-10-10T23:55:55.578Z",
+    "updatedAt": "2026-10-10T23:55:55.578Z"
+  },
+  {
+    "id": "8ae9258f-759a-4b61-911c-d6e5503deced",
+    "sortOrder": 6,
+    "nameRomaji": "Oremoo Kahen",
+    "nameKana": "オレモー可変",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "👏 Oremoo x2! Iya iya iya iya 👏 Oremoo!\n👏 Oremoo x2! Jinzou Seni Yet! Oremoo!",
+    "readingKana": "👏オレモー×2　いやいやいやいや👏オレモー\n👏オレモー×2　人造繊維　イェッオレモー",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      8
+    ],
+    "tags": [],
+    "createdAt": "2026-10-10T23:55:55.578Z",
+    "updatedAt": "2026-10-11T12:06:19.133Z"
+  },
+  {
+    "id": "24239e34-9b66-4a3a-8def-9ccad0477ce0",
+    "nameRomaji": "Japa 4 Bai Kahen",
+    "nameKana": "ジャパ4倍可変",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Jokyo Tobi Shindou Ama Shindou! Ama Shindou Ama Shindou Ama Shindou!\nRara Tusuke Ama Shindou! Tora Hi Jinzou Seni Ama Shindou!\nKasen! Tobi! Jokyo! Chou! Umiu! Mai! Nojou!",
+    "readingKana": "除去飛振動海女振動　海女振海女振海女振動\nララトゥスケ海女振動　虎火人造繊維海女振動\n化繊 飛 除去 跳 海鵜 舞 農場",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      8
+    ],
+    "tags": [],
+    "createdAt": "2026-10-10T23:55:55.578Z",
+    "updatedAt": "2026-10-10T23:55:55.578Z"
+  },
+  {
+    "id": "2f02cb17-b80c-409e-9af7-76fab0723f0a",
+    "sortOrder": 4,
+    "nameRomaji": "Chikipa MIX",
+    "nameKana": "チキパmix",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Raion! Tora! Cheetah! Ratarata! Ratoraataa!\nSai! Gorilla! Zou! Sagoozoo! Sagoozoo!",
+    "readingKana": "ライオン トラ チーター　ラタラタ ラトラーター\nサイ ゴリラ ゾウ　サゴーゾー サゴーゾー",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      8
+    ],
+    "tags": [],
+    "createdAt": "2026-10-10T23:55:55.578Z",
+    "updatedAt": "2026-10-11T12:08:31.865Z"
+  },
+  {
+    "id": "1942c728-3a88-4b94-8239-8f02b468c600",
+    "nameRomaji": "Sanrio MIX",
+    "nameKana": "サンリオmix",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Kiki Lala! Kuromi! Cinnamoroll Batsumaru Hello Kitty!\nKeroppi! My Melody! Donjara hoi tte shitteru~?\n(Minna daisuki! Pomupomu Purin!)",
+    "readingKana": "キキララ クロミ　シナモンばつ丸ハローキティ\nケロッピー マイメロディ　どんじゃらほいって知ってる〜？\n（みんな大好き　ポムポムプリン）",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      8,
+      10
+    ],
+    "tags": [],
+    "createdAt": "2026-10-10T23:55:55.578Z",
+    "updatedAt": "2026-10-11T12:10:55.992Z"
+  },
+  {
+    "id": "b5124561-3420-4610-b475-1bbbc69063d4",
+    "nameRomaji": "Neru Neru Neru Ne MIX",
+    "nameKana": "ねるねるねるねmix",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Neru Neru Neru Neru Neru Neru Neru Neru! Neru Neru Neru Neerune~!\nNereba neru hodo iro ga kawatte! 👏 Umai! Teerettere!",
+    "readingKana": "ねるねるねるねるねるねるねるねる ねるねるねるねーるーねー\n練れば練るほど色が変わって 👏うまい テーレッテレー",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      8
+    ],
+    "tags": [],
+    "createdAt": "2026-10-10T23:55:55.578Z",
+    "updatedAt": "2026-10-11T12:12:16.837Z"
+  },
+  {
+    "id": "9763959a-050a-439d-ab7c-34b4f549e2d9",
+    "nameRomaji": "Sankaku Kansuu MIX",
+    "nameKana": "三角関数mix",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Ore to omae no akai ito! Oore no ore no 👏 ○○!\nIya iya iya iya! Iya iya iya iya! O~ re~ no ○○!",
+    "readingKana": "俺とお前の赤い糸　おーれのおれの👏　○○\nいやいやいやいや　いやいやいやいや　おーれーの○○",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      8
+    ],
+    "tags": [],
+    "createdAt": "2026-10-10T23:55:55.578Z",
+    "updatedAt": "2026-10-11T12:13:12.570Z"
+  },
+  {
+    "id": "55a321e3-67ee-495a-b438-787e6f82ebf8",
+    "sortOrder": 5,
+    "nameRomaji": "Pan MIX",
+    "nameKana": "パンmix",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Pan pan pan pan Pokemon pan!\nFuresshu Bureddo Itou Pan!\nMatsutakako! (ore no) Matsutakako (ore no)!\nYamazaki Haru no Pan Matsuri!",
+    "readingKana": "パンパンパンパンポケモンパン\nフレッシュブレッド伊藤パン\n松たか子 (俺の)松たか子(俺の)\n山崎春のパン祭り",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      8
+    ],
+    "tags": [],
+    "createdAt": "2026-10-10T23:55:55.578Z",
+    "updatedAt": "2026-10-11T12:14:20.046Z"
+  },
+  {
+    "id": "ac854706-495f-4d41-9d6c-3c86d993153e",
+    "nameRomaji": "Pan MIX 2",
+    "nameKana": "パンmix2",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Pan pan pan pan Pokemon pan!\nFuresshu Bureddo Itou Pan!\nAnpan! Shokupan! Kareepan!\nYamazaki Haru no Pan Matsuri!",
+    "readingKana": "パンパンパンパンポケモンパン\nフレッシュブレッド伊藤パン\nアンパン 食パン カレーパン\n山崎春のパン祭り",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      8
+    ],
+    "tags": [],
+    "createdAt": "2026-10-10T23:55:55.578Z",
+    "updatedAt": "2026-10-11T12:14:54.953Z"
+  },
+  {
+    "id": "f76b69d8-f545-43d8-93b9-ea824dbe4385",
+    "nameRomaji": "Kanou Ryou MIX",
+    "nameKana": "カノウリョウmix",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Pan pan pan pan hara pan pan!\nAgatta otaku no hara pan pan!\nKanou Ryou! Kanou Ryou!\nMinou! Tainou! Kanou Ryou!",
+    "readingKana": "パンパンパンパン腹パンパン\n上がったオタクの腹パンパン\nカノウリョウ　カノウリョウ\n未納 滞納 カノウリョウ",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      8
+    ],
+    "tags": [],
+    "createdAt": "2026-10-10T23:55:55.578Z",
+    "updatedAt": "2026-10-10T23:55:55.578Z"
+  },
+  {
+    "id": "22637a97-a476-4370-9a29-0facd90215d3",
+    "nameRomaji": "Kome MIX",
+    "nameKana": "米mix",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Mai mai mai mai! Nihonmai!\nHakumai Genmai Kinmemai!\nKoshihikari~! Koshihikari~!\n◯◯◯◯ ni hitomebore!",
+    "readingKana": "まいまいまいまい 日本米\n白米玄米金芽米\nコシヒカリ〜！コシヒカリ〜！\n◯◯◯◯にひとめぼれ！",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      8
+    ],
+    "tags": [],
+    "createdAt": "2026-10-10T23:55:55.578Z",
+    "updatedAt": "2026-10-10T23:55:55.578Z"
+  },
+  {
+    "id": "22fe6fdc-168e-4aa2-ab83-f794e6d41d39",
+    "nameRomaji": "Keiba MIX",
+    "nameKana": "競馬mix",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Tan Tan Tan Tan Sanrentan!\nNige Sashi Senkou Oikomi Uma!\nTake! Yutaka! Take! Yutaka!\nG1! Haru no! Tennou Shou!\n(Ippatsu gyakuten manbaiken!)",
+    "readingKana": "単単単単三連単\n逃げ差し先行追い込み馬\n武 豊 武 豊\nG1 春の 天皇賞\n(一発逆転万馬券)",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      8,
+      10
+    ],
+    "tags": [],
+    "createdAt": "2026-10-10T23:55:55.578Z",
+    "updatedAt": "2026-10-11T12:15:53.045Z"
+  },
+  {
+    "id": "c27e8e81-96ed-458f-b266-b6418ba6d51a",
+    "nameRomaji": "Takarakuji MIX",
+    "nameKana": "宝くじmix",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Doriimu Janbo 3 oku en!\nKoin de kezutte Sukuratchi!\nMine Ryuta! Mine Ryuta!\nIgai to ataru ze Nambaazu!",
+    "readingKana": "ドリームジャンボ3億円\nコインで削ってスクラッチ\n峰竜太 峰竜太\n意外と当たるぜナンバーズ",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      8
+    ],
+    "tags": [],
+    "createdAt": "2026-10-10T23:59:42.987Z",
+    "updatedAt": "2026-10-11T12:16:25.577Z"
+  },
+  {
+    "id": "9481d5ff-469c-46ac-9534-5fa72cc75913",
+    "nameRomaji": "Osake MIX",
+    "nameKana": "お酒mix",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Tan Tan Tan Tan Tantakatan!\nIichiko! Kurokiri! Hakkaisan!\nOnikoroshi~! Onikoroshi~!\nJouzen Mizuno Go! To! Shi~!",
+    "readingKana": "たんたんたんたん鍛高譚！\nいいちこ　黒霧　八海山！\n鬼ころしー　鬼ころしー\nじょうぜんみずのーごーとーしー！",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      8
+    ],
+    "tags": [],
+    "createdAt": "2026-10-10T23:59:42.987Z",
+    "updatedAt": "2026-10-11T12:17:18.562Z"
+  },
+  {
+    "id": "4cd7697b-3002-42d7-93a8-a0ec2c2f0ff6",
+    "nameRomaji": "Chuuka Ryouri MIX",
+    "nameKana": "中華料理mix",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Ebi Chili! Mabo! Hoikourou!\nChahan! Raamen! Tenshinhan!\nShouronpou! Banbanji!\nGyouza! Harumaki! Gomadango!",
+    "readingKana": "エビチリ　麻婆　回鍋肉\n炒飯　ラーメン　天津飯\n小籠包　棒棒鶏\n餃子　春巻き　ゴマ団子",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      8
+    ],
+    "tags": [],
+    "createdAt": "2026-10-10T23:59:42.987Z",
+    "updatedAt": "2026-10-10T23:59:42.987Z"
+  },
+  {
+    "id": "d5bb535e-94f5-4cfc-bbf2-e4c7687661f0",
+    "sortOrder": 6,
+    "nameRomaji": "Chape Tora Taiga",
+    "nameKana": "チャぺ虎タイガー",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Sekai de ichiban! Aishite yamanai! ○○ ni sasageru Chape Tora Taigaa!\nChape x8! I LOVE YOU!",
+    "readingKana": "世界で一番 愛して止まない　〇〇に捧げるチャペ虎タイガー\nチャペ×8　I LOVE YOU！",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      8,
+      9,
+      10
+    ],
+    "tags": [],
+    "createdAt": "2026-10-10T23:59:42.987Z",
+    "updatedAt": "2026-10-11T12:19:10.832Z"
+  },
+  {
+    "id": "e818c127-82a7-4ee3-be0f-73eec7e9ca78",
+    "sortOrder": 7,
+    "nameRomaji": "Tsunagari Tiger",
+    "nameKana": "繋がりタイガー",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Tsunagaritai! Tsunagaritai! Yappari ○○ to tsunagaritai!\nTsunagaritai! Tsunagaritai! Tsunagaritai kara Tsunagari Tiger!",
+    "readingKana": "繋がりたい　繋がりたい　やっぱり〇〇と繋がりたい\n繋がりたい　繋がりたい　繋がりたいから繋がりタイガー",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      8
+    ],
+    "tags": [],
+    "createdAt": "2026-10-10T23:59:42.987Z",
+    "updatedAt": "2026-10-10T23:59:42.987Z"
+  },
+  {
+    "id": "d820071a-2261-405d-878e-12c5dc8e8b60",
+    "sortOrder": 7,
+    "nameRomaji": "Deaichuu Bokumetsu Undou",
+    "nameKana": "出会い厨撲滅運動",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "\"Wispe Tusuke Rarakina Kara Ape Chape Ape \nKara Kina Rara Tusuke \nWispe Kesui Suwisupaa!\" (Fast)\nTsu-iya! Buran! Kunsuti! Fiiba!\n\"Fuofen Tsao Shenwei \nHainii Jendong Hua Shen \nFei Chuu Chii!\"  (Fast)\n(Chao Haichii Uu Nonchan)",
+    "readingKana": "\"ウィスペ トゥスケ ララ キナ カラ アペ\nチャペ アペ カラ キナ ララ トゥスケ\nウィスペ ケスィ スィスィパー\"（倍速）\nツィーヤ  ブラン  クンスティ  フィーバ（等速）\n\"フー フオ レンツァオ シェンウェイ\nハイニー ジェンドン フアシェン\nフェイ チューチー\"（倍速）\n（チャオ　ハイチー　ウー　ノンチャン）",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      8
+    ],
+    "tags": [],
+    "createdAt": "2026-10-10T23:59:42.987Z",
+    "updatedAt": "2026-10-11T12:27:32.741Z"
+  },
+  {
+    "id": "58d62bf7-d6e6-4811-b55c-283a50494d49",
+    "nameRomaji": "Sutajapa Ainu Kongou",
+    "nameKana": "スタジャパアイヌ混合",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Chape Tora Tiger! Ape Hi Fire!\nKara Jinzou Cyber! Kina Seni Fiber!\nRara Ama Diver! Tusuke Shindou Viber!\nYett! Wispe! Kasen Jya Jya!",
+    "readingKana": "チャペ虎タイガー アペ火ファイヤー\nカラ人造サイバー キナ繊維ファイバー\nララ海女ダイバー トゥスケ振動バイバー\nイェッ　ウィスペ 化繊ジャージャー",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      8
+    ],
+    "tags": [],
+    "createdAt": "2026-10-10T23:59:42.987Z",
+    "updatedAt": "2026-10-10T23:59:42.987Z"
+  },
+  {
+    "id": "c883b9a9-7e10-4283-9942-47d670bcbe9b",
+    "nameRomaji": "Chape Time",
+    "nameKana": "チャーペータイム",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Chape! Ape!\nKara! Kina! Rara! Tusuke! Wispe!\nKesi! Suwisupaa!\nChape! Ape! Kara! Kina!\nRara! Tusuke Myouhontusuke!",
+    "readingKana": "チャーペー　アーペー\nカラ キナ ララ トゥスケ ウィスペ\nケスィ スィスィパー\nチャぺ　アペ　カラ　キナ\nララ　トゥスケ　ミョーホントゥスケ",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      8
+    ],
+    "tags": [],
+    "createdAt": "2026-10-10T23:59:42.987Z",
+    "updatedAt": "2026-10-11T12:32:15.415Z"
+  },
+  {
+    "id": "908e39ac-bf28-4039-8cf8-8868101bfa4f",
+    "nameRomaji": "Oborozuki",
+    "nameKana": "朧月",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Ariake Izayoi! Oborozuki!\nSakugatsu Sankou! Hyourin Gekka!\nKin'u Gyokuto! Jitsugetsu Seishin!\nGengetsu Mugetsu! Amamitsutsuki!",
+    "readingKana": "有明 十六夜 朧月\n朔月 三光 氷輪 月下\n金烏玉兎 日月星辰\n幻月 無月 天満月",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      8
+    ],
+    "tags": [],
+    "createdAt": "2026-10-10T23:59:42.987Z",
+    "updatedAt": "2026-10-11T12:34:09.582Z"
+  },
+  {
+    "id": "ba2e286c-4440-4595-83ef-160500c89940",
+    "nameRomaji": "Rinne",
+    "nameKana": "輪廻",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Ten! Jin! Chiku! Shou!\nZenin Rakuka Akuin Kuka!\nAshura Rikudou!\nShouji Ruten!\nEigouki! Rinne Tensei!",
+    "readingKana": "天！人！畜！生！\n善因楽果 悪因苦果\n阿修羅 六道\n生死流転\n永回帰 輪廻転生",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      8
+    ],
+    "tags": [],
+    "createdAt": "2026-10-10T23:59:42.987Z",
+    "updatedAt": "2026-10-11T12:34:36.383Z"
+  },
+  {
+    "id": "135d4b8f-9428-496e-aae3-f4c00142a02c",
+    "nameRomaji": "Sangoku Kurofuku",
+    "nameKana": "三国黒服",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Raofuu! Fuo! Renzou! Shenwei!\nHainii Jendong Hoa Shenwei Fei Chuchii!\nChao Haiqi Wunongchang!\nFerumu! Dance! Korumoran! Soo!\nJokyo Tobi Tora Hi! Chou Umiu Mai Nojou!",
+    "readingKana": "ラオフー フオ レンザオ シェンウェイ\nハイニージェンドンホアシェンウェイフェイチュチィ\nチャオハイチーウーノンチャン\nフェル厶 ダンス コルモラン ソー\n除去飛虎火 跳海鵜舞農場",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      8
+    ],
+    "tags": [],
+    "createdAt": "2026-10-10T23:59:42.987Z",
+    "updatedAt": "2026-10-10T23:59:42.987Z"
+  },
+  {
+    "id": "1d8fab04-b1a7-422e-a09b-83d011794773",
+    "nameRomaji": "Nittaidai",
+    "nameKana": "日体大",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Let’s go! Nittaidai!\nNittaidai! Nittaidai! Nittaidai U!\nNittaidai! Nittaidai! Nittaidai U!\nNittaidai! Nittaidai! Nittaidai U!\nLet’s go! Nittaidai!",
+    "readingKana": "レッツゴー　日体大\n日体大　日体大　日体大ｳｯ\n日体大　日体大　日体大ｳｯ\n日体大　日体大　日体大ｳｯ\nレッツゴー　日体大",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      8
+    ],
+    "tags": [],
+    "createdAt": "2026-10-10T23:59:42.987Z",
+    "updatedAt": "2026-10-10T23:59:42.987Z"
+  },
+  {
+    "id": "72540e06-70c3-4fee-8726-db01dfb2aade",
+    "nameRomaji": "Pikachu",
+    "nameKana": "ピカチュウ",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Kaminari nakigoe borutekkaa! Denkousekka Pippi Kachuu!\nIya iya iya iya Juu man boruto! 9 byou 58 Usain Bolt!",
+    "readingKana": "カミナリ鳴き声ボルテッカー電光石火ピッピカチュウ！\nいやいやいやいや10万ボルト！ 9秒58ウサインボルト！",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      8
+    ],
+    "tags": [],
+    "createdAt": "2026-10-10T23:59:42.987Z",
+    "updatedAt": "2026-10-11T12:37:02.846Z"
+  },
+  {
+    "id": "c68abf34-4511-4405-afeb-b2506db6d48b",
+    "nameRomaji": "Kanjo Bugyo",
+    "nameKana": "勘定奉行",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Guuchoki paa de! Guuchoki paa de!\nNani tsukurou! Nani tsukurou!\nMigite wa paa de! Hidarite mo paa de!\nKanjo Bugyo ni omakase arei!",
+    "readingKana": "ぐーちょきぱーで　ぐーちょきぱーで\n何作ろう　何作ろう\n右手はパーで　左手もパーで\n勘定奉行にお任せあれぃ",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      8
+    ],
+    "tags": [],
+    "createdAt": "2026-10-10T23:59:42.987Z",
+    "updatedAt": "2026-10-10T23:59:42.987Z"
+  },
+  {
+    "id": "ed200b3b-bb96-4434-a098-e71ddbe5cd16",
+    "nameRomaji": "Kanjo Bugyo Hasei",
+    "nameKana": "勘定奉行派生",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Guuchoki paa de! Guuchoki paa de!\nNani tsukurou! Nani tsukurou!\nMigite wa paa de! Hidarite mo paa de!\nMyouhontusuke 👏 Waipa!",
+    "readingKana": "ぐーちょきぱーで　ぐーちょきぱーで\n何作ろう　何作ろう\n右手はパーで　左手もパーで\nミョーホントゥスケ👏ワイパー",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      8
+    ],
+    "tags": [],
+    "createdAt": "2026-10-10T23:59:42.987Z",
+    "updatedAt": "2026-10-10T23:59:42.987Z"
+  },
+  {
+    "id": "b6254a64-0e94-474c-8955-53d46f8278ea",
+    "sortOrder": 4,
+    "nameRomaji": "Konton MIX",
+    "nameKana": "混沌mix",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Wa! x6! Waarudo Kaosu!\nShogyou! Kogure!\nShigure Kagura!\nKongousan Shoushuusha!\n(Kokuun Mujou\nSekai Konton!)",
+    "readingKana": "ワ！×6 ワールドカオス！\n諸行　小暮\n時雨 神楽\n金剛山翔襲叉\n（黒雲無常\n世界混沌）",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      8,
+      10
+    ],
+    "tags": [
+      "konton"
+    ],
+    "createdAt": "2026-10-11T00:02:46.025Z",
+    "updatedAt": "2026-10-11T12:38:55.669Z"
+  },
+  {
+    "id": "25953908-14b0-4ee8-9078-3a2f03193b93",
+    "nameRomaji": "Chuugokugo Konton MIX",
+    "nameKana": "中国語混沌mix",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Wa! x6! Waarudo Kaosu!\nJuushin! Muumuu! Shiyuu! Shenra!\nJingangshan! Shangshicha!\n(Heiyun! Wuchang! Shijie Hundun!)",
+    "readingKana": "ワ！×6 ワールドカオス！\nジューシン　ムームー　シーユー　シェンラ\nジンガンシャン　シャンシーチャ\n(ヘイユン　ウーチャン　シージェフンドゥン)",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      8,
+      10
+    ],
+    "tags": [
+      "konton"
+    ],
+    "createdAt": "2026-10-11T00:02:46.025Z",
+    "updatedAt": "2026-10-11T13:29:17.447Z"
+  },
+  {
+    "id": "2217e5bb-d999-4f76-a5a9-bd405736c0c2",
+    "nameRomaji": "Kankokugo Konton MIX",
+    "nameKana": "韓国語混沌mix",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Wa! x6! Waarudo Kaosu!\nChehan! Mongmo! Siu! Shinra!\nKungongsan! Sansheopcha!\n(Hegun! Musang! Segye Hundun!)",
+    "readingKana": "ワ！×6 ワールドカオス！\nチェハン モンモー シウ シンラ\nクンゴンサン サンセプチャ\n(ヘグン ムサン セゲフンドゥン)",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      8,
+      10
+    ],
+    "tags": [
+      "konton"
+    ],
+    "createdAt": "2026-10-11T00:02:46.025Z",
+    "updatedAt": "2026-10-11T13:29:50.823Z"
+  },
+  {
+    "id": "f7040d64-68ad-4e93-b777-8f2b34dfb17a",
+    "nameRomaji": "Betonamugo Konton MIX",
+    "nameKana": "ベトナム語混沌mix",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Wa! x6! Waarudo Kaosu!\nHain! Moku Mo! Muahun! Tannyak!\nNui Kimkuon! Shoutankon!\n(Maiden! Voton! The Gioi Honloan!)",
+    "readingKana": "ワ！×６ ワールドカオス\nハイン モクモ ムアフン タンニャク\nヌイキムクォン ショータンコン\n(マイデン ヴォートン テージョイホンロアン)",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      8,
+      10
+    ],
+    "tags": [
+      "konton"
+    ],
+    "createdAt": "2026-10-11T00:02:46.025Z",
+    "updatedAt": "2026-10-11T13:29:05.301Z"
+  },
+  {
+    "id": "c4162659-8a91-4944-8e1b-5ed133652c13",
+    "nameRomaji": "Sekai Heiwa MIX",
+    "nameKana": "世界平和mix",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Wa! x6! Waarudo Piisu!\nInori! Hotoke! Hikakuka! Doutoku!\nJizen Katsudou! Dalai Lama!\nIi kuni tsukurou Kamakura Bakufu!!",
+    "readingKana": "ワ！×6 ワールドピース！\n祈り！仏！非核化！道徳！\n慈善活動　ダライラマ！\n良い国作ろう鎌倉幕府！！",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      8,
+      10
+    ],
+    "tags": [
+      "konton"
+    ],
+    "createdAt": "2026-10-11T00:02:46.025Z",
+    "updatedAt": "2026-10-11T13:30:06.707Z"
+  },
+  {
+    "id": "6211e092-88e1-4ab4-b9d2-8487f7f5c431",
+    "nameRomaji": "Chuugokugo Sekai Heiwa MIX",
+    "nameKana": "中国語世界平和mix",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Wa! x6! Waarudo Piisu!\nDaogao! Hu! Wufufa! Daoda!\nCishan Fodong! Dalai Lama!\n(Meihao Guojia! Lian Cangmufu!)",
+    "readingKana": "ワ！×6 ワールドピース\nダオガオ　フー　ウーフーファー　ダオダ\nツーシャンフォードン　ダライ・ラマ\n(メイハオグオジア　リェンツァンムーフー)",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      8,
+      10
+    ],
+    "tags": [
+      "konton"
+    ],
+    "createdAt": "2026-10-11T00:02:46.025Z",
+    "updatedAt": "2026-10-11T13:29:29.121Z"
+  },
+  {
+    "id": "598c7b68-4472-4a9b-b02e-51af3b690e61",
+    "nameRomaji": "Chiikawa",
+    "nameKana": "ちいかわ",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Waa x6! Waarudo Nagano!\nChiikawa! Hachiware! Usagi! Momonga!\nKurimanjuu! Yoroi-san!\n(Rakko! Shisa! Distopia!)",
+    "readingKana": "わぁ×6 ワールドナガノ\nちいかわ ハチワレ うさぎ モモンガ\nくりまんじゅう ヨロイさん\n(ラッコ シーサー ディストピィア)",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      8,
+      10
+    ],
+    "tags": [
+      "konton"
+    ],
+    "createdAt": "2026-10-11T00:02:46.025Z",
+    "updatedAt": "2026-10-11T12:42:43.176Z"
+  },
+  {
+    "id": "5638c0db-3f99-4127-b4b3-6857e9dc57dc",
+    "nameRomaji": "Gyakuuchi Konton MIX",
+    "nameKana": "逆打ち混沌MIX",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Sho x6! Shoushuusha!\nKongousan!\nKagura! Shigure!\nKogure! Shogyou!\nWaarudo Kaosu!\n(Kokuun! Mujou! Sekai Konton!)",
+    "readingKana": "しょ×6 翔襲叉\n金剛山\n神楽　時雨\n小暮　諸行\nワールドカオス\n(黒雲　無常　世界混沌)",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      8,
+      10
+    ],
+    "tags": [
+      "konton"
+    ],
+    "createdAt": "2026-10-11T00:02:46.025Z",
+    "updatedAt": "2026-10-11T12:43:38.337Z"
+  },
+  {
+    "id": "ab7c5f04-5ed5-4a40-b184-fc59aad27f69",
+    "nameRomaji": "Tenchou MIX",
+    "nameKana": "転調mix",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Variant 1",
+    "mainTitleKana": "Variant 1",
+    "readingRomaji": "Te x6! Tenchou suru zo! \nTenchou x6! Tenchou suru zo!",
+    "readingKana": "て×6 転調するぞ　\n転調×6 転調するぞ",
+    "readingKanaRomaji": "",
+    "variants": [
+      {
+        "id": "62eb4181-a7b5-4647-bc68-2e6613ec8043",
+        "title": "Variant 2",
+        "titleKana": "Variant 2",
+        "startRomaji": "",
+        "startKana": "",
+        "startKanaRomaji": "",
+        "readingRomaji": "Te x6! Tenchou suru zo! \nTenchou x6! Tenchou suru zo! \nRassabi Tenchou!",
+        "readingKana": "て×6 転調するぞ　\n転調×6 転調するぞ \nラスサビ転調",
+        "readingKanaRomaji": ""
+      },
+      {
+        "id": "9c5752f4-4aa9-420e-8a12-dc26631ea264",
+        "title": "Variant 3",
+        "titleKana": "Variant 3",
+        "startRomaji": "",
+        "startKana": "",
+        "startKanaRomaji": "",
+        "readingRomaji": "Te x6! Tenchou suru zo! \nTenchou x6! Tenchou suru zo!\nRa x2! Rassabi Tenchou!",
+        "readingKana": "て×6 転調するぞ　\n転調×6 転調するぞ\nラ×2 ラスサビ転調",
+        "readingKanaRomaji": ""
+      },
+      {
+        "id": "85af9461-e0f4-4da4-b2c5-17725c8698e8",
+        "title": "Variant 4",
+        "titleKana": "Variant 4",
+        "startRomaji": "",
+        "startKana": "",
+        "startKanaRomaji": "",
+        "readingRomaji": "Te x6! Tenchou suru zo! \nTenchou x6! Tenchou suru zo!\nRa x6! Rassabi Tenchou!\nTenchou x6! Tenchou suru zo!\nRassabi Tenchou!",
+        "readingKana": "て×6 転調するぞ　\n転調×6 転調するぞ\nラ×6 ラスサビ転調　\n転調×6 転調するぞ\nラスサビ転調",
+        "readingKanaRomaji": ""
+      }
+    ],
+    "barCounts": [
+      8,
+      10,
+      12,
+      16,
+      17
+    ],
+    "tags": [
+      "konton"
+    ],
+    "createdAt": "2026-10-11T00:02:46.025Z",
+    "updatedAt": "2026-10-11T12:45:32.050Z"
+  },
+  {
+    "id": "de911d71-0c84-4050-907d-f00fe66cd7ff",
+    "nameRomaji": "Kagiake MIX",
+    "nameKana": "鍵開けmix",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Ka x6! Kagiake suru zo!\nKagiake x4! Kagiake suru zo! \nCheki retsu sentou!",
+    "readingKana": "か×6 鍵開けするぞ！\n鍵開け×4 鍵開けするぞ！\nチェキ列 先頭！",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      8,
+      10
+    ],
+    "tags": [
+      "konton"
+    ],
+    "createdAt": "2026-10-11T00:02:46.025Z",
+    "updatedAt": "2026-10-11T12:46:37.650Z"
+  },
+  {
+    "id": "afb0b121-e6c9-4ce2-84cd-fdaebc9ff335",
+    "nameRomaji": "Kekkon MIX",
+    "nameKana": "結婚mix",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Ke x6 Kekkon suru zo!\nKekkon (or Oshi's name) x4!\nKekkon suru zo! Zettai kekkon!",
+    "readingKana": "け×6結婚するぞ！\n結婚(or推しの名前)×4\n結婚するぞ！絶対結婚！",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      8,
+      9
+    ],
+    "tags": [
+      "konton"
+    ],
+    "createdAt": "2026-10-11T00:02:46.025Z",
+    "updatedAt": "2026-10-11T12:47:36.909Z"
+  },
+  {
+    "id": "d934deb1-4733-4257-b60c-380aec0273f2",
+    "nameRomaji": "Tobipo MIX",
+    "nameKana": "跳びポmix",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "To x6! Tobipo ga kuru zo!\nTobe x4! Tobipo ga kuru zo! \nRassabi tobipo!\nUh ooi!",
+    "readingKana": "と×6 跳ぴポが来るぞ\n跳べ×4 跳ぴポが来るぞ \nラスサビ跳びポ\nｳｯオーイ",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      8,
+      9,
+      10
+    ],
+    "tags": [
+      "konton"
+    ],
+    "createdAt": "2026-10-11T00:02:46.025Z",
+    "updatedAt": "2026-10-11T12:48:59.972Z"
+  },
+  {
+    "id": "9fc90052-ca4c-41ee-ab97-bf728e04bf59",
+    "nameRomaji": "Gundam Epyon Konton",
+    "nameKana": "ガンダムエピオン混沌",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Variant 1",
+    "mainTitleKana": "Variant 1",
+    "readingRomaji": "Ga! x6 Gundam Epyon!\nEpyon! x6 Heavy Aamazu!",
+    "readingKana": "ガ x6　ガンダムエピオン\nエピオン x6　ヘビーアームズ",
+    "readingKanaRomaji": "",
+    "variants": [
+      {
+        "id": "55307465-8bd1-4f57-83db-ca6be9ea8197",
+        "title": "Variant 2",
+        "titleKana": "Variant 2",
+        "startRomaji": "",
+        "startKana": "",
+        "startKanaRomaji": "",
+        "readingRomaji": "Ga! x6 Gundam Epyon!\nGundam Epyon! Gundam Epyon!\nGundam Epyon! Gundam Epyon!",
+        "readingKana": "ガ x6　ガンダムエピオン\nガンダムエピオン　ガンダムエピオン\nガンダムエピオン　ガンダムエピオン",
+        "readingKanaRomaji": ""
+      }
+    ],
+    "barCounts": [
+      8
+    ],
+    "tags": [
+      "konton"
+    ],
+    "createdAt": "2026-10-11T00:02:46.025Z",
+    "updatedAt": "2026-10-11T12:50:33.759Z"
+  },
+  {
+    "id": "5ad1b22e-aaf3-468f-a69b-f6968a2ca08a",
+    "nameRomaji": "World Shunryuu",
+    "nameKana": "ワールド俊龍",
+    "startRomaji": "Waarudo Shunryuu!",
+    "startKana": "ワールドしゅんりゅう",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Kokutai! Yuushou! Denrei! Taikou!\nHoukoku-zan! Shunryuuji!\nChoushuu! Yamaguchi! Shunryuuji bashi!",
+    "readingKana": "国泰　祐松　殿霊　太閤\n豊国山　俊龍寺\n長州　山口　俊龍寺橋",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      4,
+      5
+    ],
+    "tags": [],
+    "createdAt": "2026-10-11T00:02:46.025Z",
+    "updatedAt": "2026-10-11T13:30:53.917Z"
+  },
+  {
+    "id": "599978bb-842c-460e-a519-8a9028df4f79",
+    "nameRomaji": "Seigyaku Sekai Heiwa MIX",
+    "nameKana": "正逆世界平和mix",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Wa x6! Waarudo Piisu!\nInori! Hotoke! Hikakuka! Doutoku!\nJizen Katsudou! Dalai Lama!\nDa x6! Dalai Lama!\nJizen Katsudou! Doutoku! Hikakuka!\nHotoke! Inori! Waarudo Piisu!",
+    "readingKana": "ワ×6　ワールドピース\n祈り　仏　非核化　道徳\n慈善活動　ダライラマ\nダ×6　ダライラマ\n慈善活動　道徳　非核化\n仏　祈り　ワールドピース",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      16
+    ],
+    "tags": [
+      "konton"
+    ],
+    "createdAt": "2026-10-11T00:02:46.025Z",
+    "updatedAt": "2026-10-11T12:56:28.067Z"
+  },
+  {
+    "id": "831d624f-eb1c-40dc-8665-4454e41d71f4",
+    "nameRomaji": "Seigyaku Sekai Heiwa MIX (Houten Shouun ver.)",
+    "nameKana": "正逆世界平和mix（奉天承运ver.）",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Wa x6! Waarudo Piisu!\nInori! Hotoke! Hikakuka! Doutoku!\nJizen Katsudou! Houten Shouun!\nHo x6! Houten Shouun!\nJizen Katsudou! Doutoku! Hikakuka!\nHotoke! Inori! Waarudo Piisu!",
+    "readingKana": "ワ×6　ワールドピース\n祈り　仏　非核化　道徳\n慈善活動　奉天承運\nホ×6　奉天承運\n慈善活動　道徳　非核化\n仏　祈り　ワールドピース",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      16
+    ],
+    "tags": [
+      "konton"
+    ],
+    "createdAt": "2026-10-11T00:02:46.025Z",
+    "updatedAt": "2026-10-11T13:28:54.254Z"
+  },
+  {
+    "id": "e08ca77b-2e96-4250-8704-89efdc12da58",
+    "nameRomaji": "Sekai Heiwa MIX (Zuijia Paidang ver.)",
+    "nameKana": "世界平和mix（最佳拍档ver.）",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Wa x6! Waarudo Piisu!\nInori! Hotoke! Hikakuka! Doutoku!\nJizen Katsudou! ○○○○!\nIi kappuru tsukurou Best Partner!",
+    "readingKana": "ワ×6　ワールドピース\n祈り　仏　非核化　道徳\nマイキ活動　〇〇〇〇\nいいカップル作ろうベストパートナー",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      8,
+      10
+    ],
+    "tags": [
+      "konton"
+    ],
+    "createdAt": "2026-10-11T00:02:46.025Z",
+    "updatedAt": "2026-10-11T13:25:44.092Z"
+  },
+  {
+    "id": "d6ef2b2d-2ded-4860-bbea-ec0fb81e7b67",
+    "nameRomaji": "Konton MIX (Kuronuri no Koukyuusha ver.)",
+    "nameKana": "混沌mix（黒塗りの高級車ver.）",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Sa x6! Sakka-buin!\nShiai! Ieji! Tsukare! Tsuitotsu!\nKuronuri no Koukyuusha!\nKouhai! Miura! Jidan no jouken!",
+    "readingKana": "サ×6 サッカー部員\n試合　家路　疲れ　追突\n黒塗りの高級車\n後輩　三浦　示談の条件",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      8,
+      10
+    ],
+    "tags": [
+      "konton"
+    ],
+    "createdAt": "2026-10-11T00:02:46.025Z",
+    "updatedAt": "2026-10-11T13:26:07.982Z"
+  },
+  {
+    "id": "84edd8ca-2cb0-4de0-bde9-74538bb25d8d",
+    "nameRomaji": "Blue Lock Konton",
+    "nameKana": "BlueLock混沌",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Wa x6! Waarudo Isagi!\nBachira! Nagi! Barou! Rin!\nMichael Kaiser! Noel Noa!\n(Aoi Kangoku! Blue Lock!)",
+    "readingKana": "ワ×6　ワールド潔\n蜂楽　凪　馬狼　凛\nミヒャエル·カイザー　ノエル·ノア\n（青い監獄　ブルーロック）",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      8,
+      10
+    ],
+    "tags": [
+      "konton"
+    ],
+    "createdAt": "2026-10-11T00:02:46.025Z",
+    "updatedAt": "2026-10-11T13:26:47.863Z"
   }
 ]
