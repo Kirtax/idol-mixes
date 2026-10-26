@@ -10877,19 +10877,31 @@
     "startRomaji": "",
     "startKana": "",
     "startKanaRomaji": "",
-    "mainTitle": "Versión principal",
-    "mainTitleKana": "",
-    "readingRomaji": "Chispa! Jaama! Mai Nojou!\nChape Tora Taiga! Sutoraipa!\nJokyo Tobi Jokyo! Tora Tora Tora!\nShinsen Jokyo Tobi Ama Tora Hi!\n(Myouhon Taiga! Kasen Tobi Jasupaa!\nYett! Tanbo! Etaanaru!)",
-    "readingKana": "チスパ ジャーマ 舞農場\nチャペ虎タイガー ストライパー\n除去飛除去 虎虎虎\n振繊除去飛　海女虎火\n（ミョーホンタイガー　化繊飛ジャスパー\nイェッ！　田んぼ　エターナル）",
+    "mainTitle": "8 bars",
+    "mainTitleKana": "8小節",
+    "readingRomaji": "Chispa! Jaama! Mai Noujou!\nChape Tora Taiga! Sutoraipa!\nJokyo Tobi Jokyo! Tora Tora Tora!\nShinsen Jokyo Tobi! Ama Tora Hi!",
+    "readingKana": "チスパ ジャーマ 舞農場\nチャペ虎タイガー ストライパー\n除去飛除去 虎虎虎\n振繊除去飛　海女虎火",
     "readingKanaRomaji": "",
-    "variants": [],
+    "variants": [
+      {
+        "id": "7752fcbe-f2c4-42d8-9274-7e1a41fa1e73",
+        "title": "12 bars",
+        "titleKana": "12小節",
+        "startRomaji": "",
+        "startKana": "",
+        "startKanaRomaji": "",
+        "readingRomaji": "Chispa! Jaama! Mai Noujou!\nChape Tora Taiga! Sutoraipa!\nJokyo Tobi Jokyo! Tora Tora Tora!\nShinsen Jokyo Tobi! Ama Tora Hi!\nMyouhon Taiga!\nKasen Tobi Jasupaa!\nYett! Tanbo! Etaanaru!",
+        "readingKana": "チスパ ジャーマ 舞農場\nチャペ虎タイガー ストライパー\n除去飛除去 虎虎虎\n振繊除去飛\n海女虎火\nミョーホンタイガー\n化繊飛ジャスパー\nイエッ 田んぼ エターナル",
+        "readingKanaRomaji": ""
+      }
+    ],
     "barCounts": [
       8,
       12
     ],
     "tags": [],
     "createdAt": "2026-10-10T23:55:55.578Z",
-    "updatedAt": "2026-10-11T11:54:25.629Z"
+    "updatedAt": "2026-10-26T12:54:06.584Z"
   },
   {
     "id": "06f391f1-d1df-4173-92ab-d1527e9a338d",
@@ -11040,18 +11052,43 @@
     "startRomaji": "",
     "startKana": "",
     "startKanaRomaji": "",
-    "mainTitle": "Versión principal",
-    "mainTitleKana": "",
-    "readingRomaji": "Raion! Tora! Cheetah! Ratarata! Ratoraataa!\nSai! Gorilla! Zou! Sagoozoo! Sagoozoo!",
+    "mainTitle": "8 bars",
+    "mainTitleKana": "8小節",
+    "readingRomaji": "Raion! Tora! Chiitaa! Ratarata! Ratoraataa!\nSai! Gorira! Zou! Sagouzou! Sagouzou!",
     "readingKana": "ライオン トラ チーター　ラタラタ ラトラーター\nサイ ゴリラ ゾウ　サゴーゾー サゴーゾー",
     "readingKanaRomaji": "",
-    "variants": [],
+    "variants": [
+      {
+        "id": "ce1bddd7-1c7a-454c-957d-557f02f97547",
+        "title": "12 bars",
+        "titleKana": "12小節",
+        "startRomaji": "",
+        "startKana": "",
+        "startKanaRomaji": "",
+        "readingRomaji": "Raion! Tora! Chiitaa! Ratarata! Ratoraataa!\nSai! Gorira! Zou! Sagouzo! Sagouzou!\nEiyou! Eiyou! Eiyou! Eiyou! Kapusaishin tte Shitteruu~?",
+        "readingKana": "ライオン トラ チーター　ラタラタ ラトラーター\nサイ ゴリラ ゾウ　サゴーゾ サゴーゾー\n栄養 栄養 栄養 栄養 カプサイシンって知ってる～？",
+        "readingKanaRomaji": ""
+      },
+      {
+        "id": "53b4daa8-1e83-4e7c-90f0-7ab62dfcee0e",
+        "title": "14 bars",
+        "titleKana": "14小節",
+        "startRomaji": "",
+        "startKana": "",
+        "startKanaRomaji": "",
+        "readingRomaji": "Raion! Tora! Chiitaa! Ratarata! Ratoraataa!\nSai! Gorira! Zou! Sagouzo! Sagouzou!\nEiyou! Eiyou! Eiyou! Eiyou! Kapusaishin tte Shitteruu~?\nEiyou Kata de Shiboukan~",
+        "readingKana": "ライオン トラ チーター　ラタラタ ラトラーター\nサイ ゴリラ ゾウ　サゴーゾ サゴーゾー\n栄養 栄養 栄養 栄養 カプサイシンって知ってる～？\n栄養過多で脂肪肝～",
+        "readingKanaRomaji": ""
+      }
+    ],
     "barCounts": [
-      8
+      8,
+      12,
+      14
     ],
     "tags": [],
     "createdAt": "2026-10-10T23:55:55.578Z",
-    "updatedAt": "2026-10-11T12:08:31.865Z"
+    "updatedAt": "2026-10-26T12:58:42Z"
   },
   {
     "id": "1942c728-3a88-4b94-8239-8f02b468c600",
@@ -11101,18 +11138,31 @@
     "startRomaji": "",
     "startKana": "",
     "startKanaRomaji": "",
-    "mainTitle": "Versión principal",
-    "mainTitleKana": "",
+    "mainTitle": "8 bars",
+    "mainTitleKana": "8小節",
     "readingRomaji": "Ore to omae no akai ito! Oore no ore no 👏 ○○!\nIya iya iya iya! Iya iya iya iya! O~ re~ no ○○!",
     "readingKana": "俺とお前の赤い糸　おーれのおれの👏　○○\nいやいやいやいや　いやいやいやいや　おーれーの○○",
     "readingKanaRomaji": "",
-    "variants": [],
+    "variants": [
+      {
+        "id": "2af6e630-bf4b-4412-be2f-3afa24f6a2ba",
+        "title": "12 bars",
+        "titleKana": "12小節",
+        "startRomaji": "",
+        "startKana": "",
+        "startKanaRomaji": "",
+        "readingRomaji": "Ore to omae no akai ito! Oure no ore no! ○○!\nIya iya iya iya! Iya iya iya iya! Ouree no ○○!\nSain Kosain Tanjento! Toraianguru Doriimaa!",
+        "readingKana": "俺とお前の赤い糸　おーれのおれの　○○\nいやいやいやいや　いやいやいやいや　おーれーの○○\nサインコサインタンジェント　トライアングルドリーマー",
+        "readingKanaRomaji": ""
+      }
+    ],
     "barCounts": [
-      8
+      8,
+      12
     ],
     "tags": [],
     "createdAt": "2026-10-10T23:55:55.578Z",
-    "updatedAt": "2026-10-11T12:13:12.570Z"
+    "updatedAt": "2026-10-26T12:43:23Z"
   },
   {
     "id": "55a321e3-67ee-495a-b438-787e6f82ebf8",
@@ -12004,5 +12054,1201 @@
     ],
     "createdAt": "2026-10-11T00:02:46.025Z",
     "updatedAt": "2026-10-11T13:26:47.863Z"
+  },
+  {
+    "id": "72e88386-565e-4293-8414-3eb6ea24b91b",
+    "nameRomaji": "Juuni Seiza MIX",
+    "nameKana": "十二星座mix",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Kapuriko! Verusou! Powasson Berie!\nTorou! Jemou! Kanse! Rion!\nVieruju! Baransu!\nSukorupion! Sajitteeru!",
+    "readingKana": "カプリコ　ヴェルソー　ポワッソン　ベリエ\nトロー　ジェモー　カンセ　リオン\nヴィエルジュ　バランス\nスコルピオンサジッテール",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      10
+    ],
+    "tags": [],
+    "createdAt": "2026-10-26T12:21:07Z",
+    "updatedAt": "2026-10-26T12:24:43.108Z"
+  },
+  {
+    "id": "a8c4e69a-5ce5-4efe-a1e5-d1316cf51797",
+    "nameRomaji": "Rikka MIX",
+    "nameKana": "六花mix",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Kai Shin Haku Shuu!\nTenge Tenka Mutsunohana!\nTabira Hadare Shizuri Nehan!\nKamuri Hakuma Shioriyuki!\nSetsugekka Roppeenkou!\nYukinohana!",
+    "readingKana": "回深白秋\n大華大花六花\n太平斑垂り涅槃\n冠白魔撓雪\n雪月花六辺香\n雪の花",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      10
+    ],
+    "tags": [],
+    "createdAt": "2026-10-26T12:21:07Z",
+    "updatedAt": "2026-10-26T12:21:07Z"
+  },
+  {
+    "id": "adae0ec1-537e-42f7-add8-5caf7d85f45d",
+    "nameRomaji": "Yami Unchi MIX",
+    "nameKana": "闇うんちmix",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Raiga Faitaa! Ra Ra Ra Ra Raigaa!\nSaida Faindaa! Sa Sa Sa Sa Saidaa!\nDoraiba Beibee! Do Do Do Do Doraibaa!\nJya Jya! Jya Jya! Bari Bari Bou!\nSuto Suto Suto Suto Sutoraipaa!",
+    "readingKana": "ライガファイターララララライガー\nサイダファインダーサササササイダー\nドライバベイベードドドドドライバー\nジャージャジャージャーバリバリボー\nストストストストストライパー",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      10
+    ],
+    "tags": [],
+    "createdAt": "2026-10-26T12:21:07Z",
+    "updatedAt": "2026-10-26T12:26:09.303Z"
+  },
+  {
+    "id": "04c6f4b6-37c9-4a2e-8a0d-be734d865d73",
+    "nameRomaji": "Dadadadasshu Kahen",
+    "nameKana": "ダダダダッシュ可変",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Noujou! Mai! Umiu! Chou!\nJokyo Tobi Kasen Shindou Ama Seni Jinzou Hi!\nTora! Hi! Jinzou! Seni! Ama! Shindou! Kasen!\nTobi! Jokyo! Chou! Umiu! Mai! Noujou!",
+    "readingKana": "農場！舞！海鵜！跳！\n除去飛化繊振動海女繊維人造火！\n虎！火！人造！繊維！海女！振動！化繊！\n飛！除去！跳！海鵜！舞！農場！",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      11
+    ],
+    "tags": [],
+    "createdAt": "2026-10-26T12:43:23Z",
+    "updatedAt": "2026-10-26T12:43:23Z"
+  },
+  {
+    "id": "e513cdd9-65b3-4b2e-9087-92f0437dad28",
+    "nameRomaji": "Ashura Konton MIX",
+    "nameKana": "阿修羅混沌",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Wa! x6! Waarudo Kaosu!\nShogyou! Kogure! Shigure! Kagura!\nKongousan! Shoushuusha!\nGokuun! Mukyou! Meikai! Kyougou!\nNauda! Mamori Asutaa!",
+    "readingKana": "ワ！×6 ワールドカオス\n諸行　木暮　時雨　神楽\n金剛山　翔襲叉\n極運　夢境　冥界　強剛\nナウダ　マモリアスター",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      12
+    ],
+    "tags": [
+      "konton"
+    ],
+    "createdAt": "2026-10-26T12:43:23Z",
+    "updatedAt": "2026-10-26T12:43:23Z"
+  },
+  {
+    "id": "d1c8435d-33bf-4bac-a0cc-876b295f258a",
+    "nameRomaji": "Ainu Nichi Kahen + Miyamoto Musashi",
+    "nameKana": "アイ日可変+宮本武蔵",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Wispe Kesui! Chape Chape Chape!\nChape Ape Kara Kina Kara Ape Chape!\nJokyo Tobi Jokyo! Tora Tora Tora!\n\"Tora Hi Jinzou Seni Ama Shindou Kasen!\" (Fast)\nTobi Jokyo Nou Sei Shoku Taru Miyamoto Musashi!",
+    "readingKana": "ウィスペケスィ　チャペチャペチャペ\nチャペアペカラキナカラアペチャペ\n除去　飛　除去　虎　虎　虎\n虎火人造繊維海女振動化繊（倍速）\n飛　除去　農　正　拭　樽　宮本武蔵",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      12
+    ],
+    "tags": [],
+    "createdAt": "2026-10-26T12:43:23Z",
+    "updatedAt": "2026-10-26T12:43:23Z"
+  },
+  {
+    "id": "9633b626-4e3c-4340-9c53-790dcb85355c",
+    "nameRomaji": "Bismarck",
+    "nameKana": "ビスマルク",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Takamaru yo! Takamaru yo!\nTakamaru Hikumaru Bisumaruku!\nShijimaaru! Arushindo!\nKazudansu! Niihai Ouhai!\nKan Chuu Hai! Uuron Hai!\nNachuraru Hai! Ai Kyan Furai!",
+    "readingKana": "高まるよ　高まるよ\n高まる低まるビスマルク\nシジマール　アルシンド\nカズダンス　ニーハイオーハイ\n缶チューハイ ウーロンハイ\nナチュラルハイ アイキャンフライ",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      12
+    ],
+    "tags": [],
+    "createdAt": "2026-10-26T12:43:23Z",
+    "updatedAt": "2026-10-26T12:43:23Z"
+  },
+  {
+    "id": "fe56c98f-59a8-4a6d-b3da-7e4fbfb17f8d",
+    "nameRomaji": "Tokiori Mermaid MIX",
+    "nameKana": "時折マーメイドmix",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Jokyo! Tobi! Kasen! Shindou!\nAma! Seni! Shindou Jinzou Hi!\nTora! Hi! Tora! Hi!\nJokyo Jokyo Jokyo Jokyo! Tora Hi Jinzou Seni!\nAma! Shindou! Kasen! Tobi!\nJokyo! Chou! Umi! Mai! Noujou!",
+    "readingKana": "除去！飛！化繊！振動！\n海女！繊維！振動人造火！\n虎！火！虎！火！\n除去除去除去除去！虎火人造繊維！\n海女！振動！化繊！飛！\n除去！跳！海！舞！農場！",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      13
+    ],
+    "tags": [],
+    "createdAt": "2026-10-26T12:58:23Z",
+    "updatedAt": "2026-10-26T12:58:23Z"
+  },
+  {
+    "id": "49822449-8f6d-441a-820d-b762af05acb2",
+    "nameRomaji": "Chuugokugo Tokiori Mermaid MIX",
+    "nameKana": "中国語時折マーメイドmix",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Chuqu! Fei! Huaxian! Zhendong!\nHainü! Xianwei! Zhendong! Renzao! Huo!\nLaohu! Huo! Laohu! Huo!\nChuqu! Chuqu! Chuqu! Chuqu!\nLaohu! Huo! Renzao! Xianwei!\nHainü! Zhendong! Huaxian! Fei!\nChuqu! Tiao! Haiqi! Wu! Nongchang!",
+    "readingKana": "チューチー　フェイ　フアシェン　ジェンドン\nハイニー　シェンウェイ　ジェンドン　レンザオ　フオ\nラオフー　フオ　ラオフー　フオ\nチューチー　チューチー　チューチー　チューチー\nラオフー　フオ　レンザオ　シェンウェイ\nハイニー　ジェンドン　フアシェン　フェイ\nチューチー　チャオ　ハイチー　ウー　ノンチャン",
+    "readingKanaRomaji": "Chuuchii! Fei! Fuashen! Jendong!\nHainii! Shenwei! Jendong! Renzao! Fuo!\nRaofuu! Fuo! Raofuu! Fuo!\nChuuchii! Chuuchii! Chuuchii! Chuuchii!\nRaofuu! Fuo! Renzao! Shenwei!\nHainii! Jendong! Fuashen! Fei!\nChuuchii! Chao! Haichii! Uu! Nonchan!",
+    "variants": [],
+    "barCounts": [
+      13
+    ],
+    "tags": [],
+    "createdAt": "2026-10-26T12:58:23Z",
+    "updatedAt": "2026-10-26T12:58:23Z"
+  },
+  {
+    "id": "fd1d81a6-1736-4e6b-a8ba-a13f4ccbf4d1",
+    "nameRomaji": "Ainu Nichi Kahen + Gokui",
+    "nameKana": "アイヌ日可変+極意",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Wispe Kesui! Chape Chape Chape!\nChape Ape Kara Kina Kara Ape Chape!\nJokyo Tobi Jokyo! Tora Tora Tora!\n\"Tora Hi Jinzou Seni Ama Shindou Kasen!\" (Fast)\nTobi! Jokyo! Chuujitsu! Setsuna! Koku! Kouyou!\nShinzui! Gokui! Tamashii! Denshou!",
+    "readingKana": "ウィスペケスィ　チャペチャペチャペ\nチャペアペカラキナカラアペチャペ\n除去　飛　除去　虎　虎　虎\n虎火人造繊維海女振動化繊（倍速）\n飛　除去　忠実　刹那　刻　高揚\n心髄　極意　魂　伝承",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      14
+    ],
+    "tags": [],
+    "createdAt": "2026-10-26T12:58:23Z",
+    "updatedAt": "2026-10-26T12:58:23Z"
+  },
+  {
+    "id": "8289476c-9802-41f0-8b2c-1873fddfb58e",
+    "nameRomaji": "Sekashin MIX",
+    "nameKana": "せかしんmix",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Chispa! Jaama! Mai! Noujou!\nChape Tora Taiga! Sutoraipa!\nJokyo Tobi Jokyo! Tora Tora Tora!\nShinsen Jokyo Tobi! Ama Tora Hi!\nJinzou! Seni! Ama! Shindou!\nKasen! Tobi! Jokyo!\nAma Shindou! Ama Shindou! Ama Tobi Kasen Tobi!\nJokyo Seni Jinzou Kara Kina Waipa!",
+    "readingKana": "チスパ　ジャーマ　舞　農場\nチャペ虎タイガー　ストライパー\n除去飛除去　虎虎虎\n振繊除去飛　海女虎火\n人造　繊維　海女　振動\n化繊　飛　除去\n海女振 海女振 海女飛化繊飛\n除去繊維人造カラキナワイパー",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      14
+    ],
+    "tags": [],
+    "createdAt": "2026-10-26T12:58:23Z",
+    "updatedAt": "2026-10-26T12:58:23Z"
+  },
+  {
+    "id": "2560dcbe-2730-43be-bfd2-6c0f6c4ac3fa",
+    "nameRomaji": "Kahen Sanren MIX",
+    "nameKana": "可変3連mix",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Jinzou Faiya Faibo Waipa!\nTaiga Taiga Tatatatataiga!\nChape Ape Kara Kina! Chape Ape Kara Kina!\nMyouhontusuke! 👏 Waipa!\nFaiya Faiya Tora Tora Kara Kina!\nChape Ape Faama Ama Ama Jasupaa!\nTora Taiga! Tora Taiga!\nJinzou Seni! Yett Taiga!",
+    "readingKana": "人造ファイヤファイボワイパー\nタイガータイガータタタタタイガー\nチャペアペカラキナ チャペアペカラキナ\nミョーホントゥスケ👏ワイパー\nファイヤーファイヤー虎虎カラキナ\nチャペアペファーマー海女海女ジャスパー\n虎タイガー 虎タイガー\n人造繊維 イェッタイガー",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      16
+    ],
+    "tags": [
+      "kahen-sanren"
+    ],
+    "createdAt": "2026-10-26T13:19:51Z",
+    "updatedAt": "2026-10-26T13:31:31.780Z"
+  },
+  {
+    "id": "3f9565cd-107a-4ec1-8f27-689d118bfccd",
+    "nameRomaji": "Chuugokugo Kahen Sanren MIX",
+    "nameKana": "中国語可変3連mix",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Renzao Faiya Faibo Waipa!\nTaiga Taiga Tatatatataiga!\nChape Ape Kara Kina! Chape Ape Kara Kina!\nMyouhontusuke! Waipa!\nFaiya Faiya Hu Hu Kara Kina!\nChape Ape Farmer Hainü Jasper!\nHu Taiga! Hu Taiga!\nRenzao Xianwei! Yett Taiga!",
+    "readingKana": "レンザオファイヤファイボワイパー\nタイガータイガータタタタタイガー\nチャペアペカラキナ チャペアペカラキナ\nミョーホントゥスケ　ワイパー\nファイヤーファイヤーフーフーカラキナ\nチャペアペファーマー　ハイニュージャスパー\nフータイガー フータイガー\nレンザオシェンウェイ イェッタイガー",
+    "readingKanaRomaji": "Renzao Faiya Faibo Waipa!\nTaiga Taiga Tatatatataiga!\nChape Ape Kara Kina! Chape Ape Kara Kina!\nMyouhontusuke! Waipa!\nFaiya Faiya Fuu Fuu Kara Kina!\nChape Ape Faamaa Hainyuu Jasupaa!\nFuu Taiga! Fuu Taiga!\nRenzao Shenwei! Yett Taiga!",
+    "variants": [],
+    "barCounts": [
+      16
+    ],
+    "tags": [
+      "kahen-sanren"
+    ],
+    "createdAt": "2026-10-26T13:19:51Z",
+    "updatedAt": "2026-10-26T13:19:51Z"
+  },
+  {
+    "id": "28329fa5-9ff4-41b2-92d1-0a45b0e31179",
+    "nameRomaji": "Kahen Sanren MIX 2",
+    "nameKana": "可変3連mix2",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Jinzou Faama Seni Jasupaa!\nDaiba Daiba Dadadadaiba!\nTora Hi Jokyo Tobi! Tora Hi Jokyo Tobi!\nMyouhontusuke! Sutoraipa!\nFaitaa Faitaa Jinzou Chapeape!\nJokyo Tobi Saidaa! Kara Kina Waipa!\nAma Daiba! Ama Daiba!\nWaarudo Kaosu! Yett Daiba!",
+    "readingKana": "人造ファーマ繊維ジャスパー\nダイバーダイバーダダダダダイバー\n虎火除去飛 虎火除去飛\nミョーホントゥスケ ストライパー\nファイターファイター 人造チャペアペ\n除去飛サイダー カラキナワイパー\n海女ダイバー 海女ダイバー\nワールドカオス イエッダイバー",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      16
+    ],
+    "tags": [
+      "kahen-sanren"
+    ],
+    "createdAt": "2026-10-26T13:19:51Z",
+    "updatedAt": "2026-10-26T13:19:51Z"
+  },
+  {
+    "id": "604e5dea-797c-42d0-ae57-579d25e2bcef",
+    "nameRomaji": "Chuugokugo Kahen Sanren MIX 2",
+    "nameKana": "中国語可変3連mix2",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Renzao Farmer Xianwei Jasper!\nDaiba Daiba Dadadadaiba!\nHu Huo Chuqu Fei!\nHu Huo Chuqu Fei!\nMyouhontusuke! Sutoraipa!\nFaitaa Faitaa Renzao Chapeape!\nChuqu Fei Saidaa! Kara Kina Waipa!\nHainü Daiba! Hainü Daiba!\nWaarudo Kaosu! Yett Daiba!",
+    "readingKana": "レンザオファーマシェンウェイジャスパー\nダイバーダイバーダダダダダイバー\nフーフオチュチィフェイ\nフーフオチュチィフェイ\nミョーホントゥスケ ストライパー\nファイターファイター レンザオチャペアペ\nチュチィフェイサイダー カラキナワイパー\nハイニュダイバー ハイニュダイバー\nワールドカオス イエッダイバー",
+    "readingKanaRomaji": "Renzao Faamaa Shenwei Jasupaa!\nDaiba Daiba Dadadadaiba!\nFuu Fuo Chuchii Fei!\nFuu Fuo Chuchii Fei!\nMyouhontusuke! Sutoraipa!\nFaitaa Faitaa Renzao Chapeape!\nChuchii Fei Saidaa! Kara Kina Waipa!\nHainyu Daiba! Hainyu Daiba!\nWaarudo Kaosu! Yett Daiba!",
+    "variants": [],
+    "barCounts": [
+      16
+    ],
+    "tags": [
+      "kahen-sanren"
+    ],
+    "createdAt": "2026-10-26T13:19:51Z",
+    "updatedAt": "2026-10-26T13:19:51Z"
+  },
+  {
+    "id": "bee0129c-7743-44f5-bfe9-2d4720cdd55d",
+    "nameRomaji": "Hokuou Kahen Sanren MIX",
+    "nameKana": "北欧可変三連mix",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Tsiya! Blankun! Sti! Fever!\nDuga! Duga! Keinotekoinen!\nEnkeli! Tuhkimo! Enkeli! Tuhkimo!\nSharvalmar! 👏 Titringul!\nEld! Eld! Konstfiber!\nHaufu! Gudinu! Eskubuska! Liimi!\nReinsdyr! Gnister!\nSchön! Himmel! Abenteuer!",
+    "readingKana": "ツィーヤ ブラン クンスティ フィーバ\nドゥーガ ドゥーガ ケイノテコイネン\nエンケリ トゥフキモ エンケリ トゥフキモ\nシャーヴァルマル 👏 ティトリングル\nエルド　エルド　コンストフィーバー\nハウフー　グーディヌ　エスキュブスカ　リーミ\nレインスディル　グニステル\nシェーン　ヒンメル　エーヴェンテュール",
+    "readingKanaRomaji": "Tsiya! Buran! Kunsuti! Fiiba!\nDuuga! Duuga! Keinotekoinen!\nEnkeri! Tufukimo! Enkeri! Tufukimo!\nShaavarumaru! 👏 Titoringuru!\nErudo! Erudo! Konsutofiibaa!\nHaufuu! Guudinu! Esukyubusuka! Riimi!\nReinsudiru! Gunisuteru!\nSheen! Himmeru! Eeventyuuru!",
+    "variants": [],
+    "barCounts": [
+      16
+    ],
+    "tags": [
+      "kahen-sanren"
+    ],
+    "createdAt": "2026-10-26T13:19:51Z",
+    "updatedAt": "2026-10-26T13:36:58.123Z"
+  },
+  {
+    "id": "febc3686-bc82-4325-9f41-8038cfcb1cab",
+    "nameRomaji": "Japa Kahen Sanren MIX",
+    "nameKana": "ジャパ可変三連mix",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Kasen! Tobi! Jokyo! Chou! Umiu! Mai! Noujou!\nAma Tobi Kasen Tobi Jokyo Tobi Tora Hi! Jinzou! Seni! Jinzou! Seni!\nJinzou Seni Ama Shindou Kasen Tobi Jokyo Tobi Kasen Shindou Ama Seni Jinzou Hi Tora!\nTobi! Jokyo! Nou! Sei! Shoku! Taru! Miyamoto Musashi!",
+    "readingKana": "化繊！飛！除去！跳！海鵜！舞！農場！\n海女飛化繊飛除去飛虎火！人造！繊維！人造！繊維！\n人造繊維海女振動化繊飛除去飛化繊振動海女繊維人造火虎！\n飛！除去！農！正！拭！樽！宮本武蔵！",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      16
+    ],
+    "tags": [
+      "kahen-sanren"
+    ],
+    "createdAt": "2026-10-26T13:19:51Z",
+    "updatedAt": "2026-10-26T13:19:51Z"
+  },
+  {
+    "id": "50c2a91a-76ba-4a26-8452-a065901bfaac",
+    "nameRomaji": "Waipa Cancel",
+    "nameKana": "ワイパーキャンセル",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Jinzou Faiya Faibo Waipa!\nTaiga Taiga Tatatatataiga!\nChape Ape Kara Kina! Chape Ape Kara Kina!\nMyouhontusuke! 👏 Waipa!\n👏Waipa! 👏Waipa!\nIya iya iya iya! 👏Waipa!\n👏Waipa! 👏Waipa!\nJinzou Seni Yett Waipa!",
+    "readingKana": "人造ファイヤファイボワイパー\nタイガータイガータタタタタイガー\nチャペアペカラキナ チャペアペカラキナ\nミョーホントゥスケ　👏ワイパー\n👏ワイパー　👏ワイパー\nいやいやいやいや　👏ワイパー\n👏ワイパー　👏ワイパー\n人造繊維イェッワイパー",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      16
+    ],
+    "tags": [
+      "kahen-sanren"
+    ],
+    "createdAt": "2026-10-26T13:19:51Z",
+    "updatedAt": "2026-10-26T13:39:40.202Z"
+  },
+  {
+    "id": "7332ba97-2f7f-49cd-a601-ebdc4bcba7f9",
+    "nameRomaji": "Higashino Ainu Kahen",
+    "nameKana": "ヒガシノアイヌ可変",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Jinzou Faiya Faibo Waipa!\nTaiga Taiga Tatatatataiga!\nChape Ape Kara Kina! Chape Ape Kara Kina!\nMyouhontusuke! 👏 Waipa!\nWiisupe Kesui! Chape Chape Chape!\nChape Ape Kara Kina Kara Ape Chape!\nJokyo Tobi Jokyo! Tora Tora Tora!\nKasen Tobi Kasen Tobi Kasen Tobi Waipa!",
+    "readingKana": "人造ファイヤファイボワイパー\nタイガータイガータタタタタイガー\nチャペアペカラキナチャペアペカラキナ\nミョーホントゥスケ👏ワイパー\nウィースペ ケスィ チャペチャペチャペ\nチャペアペカラキナカラアペチャペ\n除去飛除去 虎虎虎\n化繊飛化繊飛化繊飛ワイパー",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      16
+    ],
+    "tags": [
+      "kahen-sanren"
+    ],
+    "createdAt": "2026-10-26T13:19:51Z",
+    "updatedAt": "2026-10-26T13:40:15.339Z"
+  },
+  {
+    "id": "2177f765-4a02-42db-97fa-87c4218cccda",
+    "nameRomaji": "Ainu Nichi Kahen Sanren",
+    "nameKana": "アイ日可変3連",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Wispe Kesui! Chape Chape Chape!\nChape Ape Kara Kina Kara Ape Chape!\nJokyo Tobi Jokyo! Tora Tora Tora!\nTora Hi Jinzou Seni Ama Shindou Kasen Tobi!\n\"Jokyo Tobi Kasen Shindou Ama Seni Jinzou Hi!\" (Fast)\n\"Jinzou Hi Ama Seni Kasen Tobi Jokyo!\" (Fast)\nJokyo Tobi Jokyo Tobi!\n\"Kasen Shindou Ama Seni Jinzou Hi Tora!\" (Fast)",
+    "readingKana": "ウィスぺケスィ　チャペチャペチャペ\nチャペアぺカラキナカラアぺチャペ\n除去　飛　除去　虎　虎　虎\n虎火人造繊維海女振動化繊飛\n除去飛化繊振動海女繊維人造火（倍速）\n人造火海女繊維化繊飛除去（倍速）\n除去　飛　除去　飛\n化繊振動海女繊維人造火虎（倍速）",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      16
+    ],
+    "tags": [
+      "kahen-sanren"
+    ],
+    "createdAt": "2026-10-26T13:19:51Z",
+    "updatedAt": "2026-10-26T13:19:51Z"
+  },
+  {
+    "id": "bbf42a48-a4aa-4435-9595-44c99d4e3071",
+    "nameRomaji": "Captain Tsubasa MIX",
+    "nameKana": "キャプ翼mix",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Kita Kita! Kita Kita Waite Kita!\nTaiga! Taiga Taiga Shot!\nTora Tai! Tora Tai Tora Taiga!\nJinzou Seni! Yett Taiga!\nJya Jya! Jya Jya! Bari Bari Boo!\nSuto Suto Suto Suto Sutoraika!\nKarl-Heinz Schneider!\nSky Love Hurricane!",
+    "readingKana": "キタキタ キタキタワイテキタ\nタイガー タイガータイガーショット\n虎タイ 虎タイ虎タイガー\n人造繊維イエッタイガー\nジャッジャー ジャッジャーバリバリボー\nストストストストストライカー\nカール ハインツシュナイダー\nスカイ ラブハリケーン",
+    "readingKanaRomaji": "Kita Kita! Kita Kita Waite Kita!\nTaiga! Taiga Taiga Shotto!\nTora Tai! Tora Tai Tora Taiga!\nJinzou Seni! Yett Taiga!\nJya Jya! Jya Jya! Bari Bari Boo!\nSuto Suto Suto Suto Sutoraika!\nKaaru Haintsu Shunaidaa!\nSukai Rabu Hariken!",
+    "variants": [],
+    "barCounts": [
+      16
+    ],
+    "tags": [
+      "kahen-sanren"
+    ],
+    "createdAt": "2026-10-26T13:19:51Z",
+    "updatedAt": "2026-10-26T13:19:51Z"
+  },
+  {
+    "id": "1a9baacf-f196-4b3e-a190-93364cf7fc50",
+    "nameRomaji": "Inazuma Eleven MIX",
+    "nameKana": "イナイレmix",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Kita Kita Kita Kita Good Kita!\nTaiga Taiga Taiga Doraibu!\nFaiya Faiya Toruneedo!\nIkari no Tettsui! Yett Taiga!\nJya Jya! Jya Jya! Desu Supiaa!\nSuto Suto Suto Suto Sutoraika!\nKiraa Fiiruzu! Goddo Bureiku!\nGurando Faiya Ignishon!",
+    "readingKana": "キタキタキタキタGOODキター\nタイガータイガータイガードライブ\nファイヤーファイヤートルネード\nいかりの鉄槌 イエッタイガー\nジャッジャージャッジャーデススピアー\nストストストストストライカー\nキラーフィールズ ゴッドブレイク\nグランドファイヤーイグニッション！",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      16
+    ],
+    "tags": [
+      "kahen-sanren"
+    ],
+    "createdAt": "2026-10-26T13:19:51Z",
+    "updatedAt": "2026-10-26T13:19:51Z"
+  },
+  {
+    "id": "86385130-412e-4470-91d1-d6c10d1e2ab5",
+    "nameRomaji": "Hiroaka MIX",
+    "nameKana": "ヒロアカmix",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Kita Kita Kita Kita Watashi ga Kita!\nA.P. A.P. A.P. Shot!\nDetroit! Detroit! Detroit Smash!\nKakushaku Nekken! Yett Taiga!\nOne For All! Full Cowl!\nSuma Suma Suma Suma Sumasshaa!\nKuro Muchi! Fuyuu! Kiki Kanchi!\nSarani Mukou e Plus Ultra!",
+    "readingKana": "キタキタキタキタ私が来た\nエーピーエーピー A.Pショット\nデトロイデトロイ デトロイスマッシュ\n赫灼熱拳 イェッタイガー\nワンフォーオール フルカウル\nスマスマスマスマスマッシャー\n黒鞭 浮遊 危機感知\nさらに向こうへプルスウルトラ",
+    "readingKanaRomaji": "Kita Kita Kita Kita! Watashi ga Kita!\nEepii! Eepii! A.P. Shotto!\nDetoroi! Detoroi! Detoroi Sumasshu!\nKakushaku Nekken! Yett Taiga!\nWan Foo Ooru! Furu Kauru!\nSuma Suma Suma Suma Sumasshaa!\nKuro Muchi! Fuyuu! Kiki Kanchi!\nSarani Mukou e Purusu Urutora!",
+    "variants": [],
+    "barCounts": [
+      16
+    ],
+    "tags": [
+      "kahen-sanren"
+    ],
+    "createdAt": "2026-10-26T13:19:51Z",
+    "updatedAt": "2026-10-26T13:21:36Z"
+  },
+  {
+    "id": "358de372-e828-48fa-89a1-c9391b9b1c98",
+    "nameRomaji": "Makudonarudo MIX",
+    "nameKana": "マクドナルドmix",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Beekon Eggu Makkusando!\nChikichii Chikichii Chikichikichikichii!\nSankaku Chokopai! Makku Furuuri!\nHappii Setto! 👏 Eguchi!\nDabuchii Dabuchii! Supachiki Teritama!\nNagetto Sheiku! Shinamon Merutsu!\nEbi Fireo! Chikin Fireo!\nChikin Kurisupu! Guran Baagaa!",
+    "readingKana": "ベーコンエッグマックサンド\nチキチーチキチーチキチキチキチー\n三角チョコパイ　マックフルーリー\nハッピーセット　👏　エグチ\nダブチーダブチー　スパチキてりたま\nナゲットシェイク　シナモンメルツ\n海老フィレオ　チキンフィレオ\nチキンクリスプ　グランバーガー",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      16
+    ],
+    "tags": [],
+    "createdAt": "2026-10-26T13:52:24.449Z",
+    "updatedAt": "2026-10-26T13:52:24.449Z"
+  },
+  {
+    "id": "a1da0eee-48db-46b8-9ef0-2f3c1a01a0a4",
+    "nameRomaji": "Hogwarts MIX",
+    "nameKana": "ホグワーツ",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Malfoy! Malfoy! Malfoy! Malfoy!\nAa~ 👏👏 Gryffindor!\nAccio! Reducto! Lumos!\nWingardium Leviosa!\nAnata no wa Leviosa!\nExpecto Patronum!\nTom Riddle! Tom Riddle!\nVoldemort tte shitteru?",
+    "readingKana": "マルフォイ　マルフォイ　マルフォイ　マルフォイ\nあ～👏👏グリフィンドール\nアクシオ　レダクト　ルーモス\nウィンガーディアムレヴィオーサー\n貴方のはレヴィオサー\nエクスペクトパトローナム\nトムリドル　トムリドル\nヴォルデモートって知ってる？",
+    "readingKanaRomaji": "Marufoi! Marufoi! Marufoi! Marufoi!\nAa~ 👏👏 Gurifindooru!\nAkushio! Redakuto! Ruumosu!\nWingadiamu Revioosaa!\nAnata no wa Reviosa!\nEkusupekuto Patoroonamu!\nTomu Ridoru! Tomu Ridoru!\nVorudemouto tte shitteru?",
+    "variants": [],
+    "barCounts": [
+      16,
+      18
+    ],
+    "tags": [],
+    "createdAt": "2026-10-26T13:52:24.449Z",
+    "updatedAt": "2026-10-26T14:04:37.413Z"
+  },
+  {
+    "id": "a2c8a8ac-7961-45a9-b0a1-8b190812cd50",
+    "nameRomaji": "Conan MIX",
+    "nameKana": "コナンmix",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Baabon ×4! 👏 👏👏👏 👏 Furuya Rei!\nGenta! Mitsuhiko! Ai! Ayumi!\nNemuri no Kogorou! Yett Taiga!\nShinjitsu wa itsumo hitotsu! Seyakate Kudou! Baaroo Baaroo!\nBerumotto! Berumotto! Apotokishin tte shitteru?",
+    "readingKana": "バーボン×4　👏 👏👏👏 👏 降谷零\n元太　光彦　哀　歩美\n眠りの小五郎　イェッタイガー!\n真実はいつもひとつ　せやかて工藤バーローバーロー\nベルモット　ベルモット　アポトキシンって知ってる？",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      16
+    ],
+    "tags": [],
+    "createdAt": "2026-10-26T13:52:24.449Z",
+    "updatedAt": "2026-10-26T13:52:24.449Z"
+  },
+  {
+    "id": "91e6420e-594b-4ec3-98d7-cc3a116e186d",
+    "nameRomaji": "Matsuoka Shuuzou MIX",
+    "nameKana": "松岡修造mix",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Ganbare Ganbare! Dekiru Dekiru!\nDame Dame Dame Dame! Akiramecha!\n○○ ni Inochi wo Kakeru!\nSou, Ore ni Tsuite Koi!\nSeken wa saa, Tsumetee yo!\nDemo Wakatte kureru Hito wa iru!\nDon't worry be happy!\nKyou kara Omae wa Fujisan da!",
+    "readingKana": "がんばれがんばれできるできる！\nダメダメダメダメ諦めちゃ\n○○○○に命を懸ける\nそう、俺についてこい！\n世間はさぁ、冷てぇよ\nでも分かってくれる人はいる\nDon't worry be happy\n今日からお前は富士山だ！",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      16
+    ],
+    "tags": [
+      "koujou"
+    ],
+    "createdAt": "2026-10-26T13:52:24.449Z",
+    "updatedAt": "2026-10-26T13:52:24.449Z"
+  },
+  {
+    "id": "d930a339-fcc3-4b4f-b3f3-2805d06ba72a",
+    "nameRomaji": "Koike Yuriko MIX",
+    "nameKana": "小池百合子mix",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Inochi wo Mamoru! Stay Home!\nMitsu desu! Mitsu desu! Mi Mi Mi Mi Mitsu desu!\nKyugyou Yousei! Gaishutsu Jishuku!\nKaimono Mikka ni 👏 Ikkai!\nZettai Sakeyou! Overshoot!\nMinna de Mamorou! Social Distance!\nWatashi to Issho ni Ouchi de Odorou!\nToukyou Tochiji! Yett Yuriko!",
+    "readingKana": "命を守るstay home\n密です密ですみみみみ密です\n休業要請 外出自粛\n買い物3日に👏一回\n絶対避けようオーバーシュート\nみんなで守ろうソーシャルディスタンス\n私と一緒におうちで踊ろう\n東京都知事 イェッ百合子",
+    "readingKanaRomaji": "Inochi wo Mamoru! Sutei Hoomu!\nMitsu desu! Mitsu desu! Mi Mi Mi Mi Mitsu desu!\nKyugyou Yousei! Gaishutsu Jishuku!\nKaimono Mikka ni 👏 Ikkai!\nZettai Sakeyou! Oobaa Shuutto!\nMinna de Mamorou! Sooshiru Disutansu!\nWatashi to Issho ni Ouchi de Odorou!\nToukyou Tochiji! Yett Yuriko!",
+    "variants": [],
+    "barCounts": [
+      16
+    ],
+    "tags": [],
+    "createdAt": "2026-10-26T13:52:24.449Z",
+    "updatedAt": "2026-10-26T13:52:24.449Z"
+  },
+  {
+    "id": "470fd2fb-5109-44d6-a643-4749178724e7",
+    "nameRomaji": "Street Fighter MIX",
+    "nameKana": "ストファイmix",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Umehara Umehara Gamen Hashi!\nTaiga Taiga Taiga Kurasshu!\nFaiya Faiya Yoga Faiya!\nSukuryuu Pairu Doraibaa!\nFureimu Fureimu Yoga Yoga Fureimu!\nSonikku Buumu! Bakkusurasshu!\nHadouken! Shouryuken!\nTatsumaki Senpuu! Shungokusatsu!",
+    "readingKana": "ウメハラウメハラ画面端ぃ！\nタイガータイガータイガークラッシュ\nファイヤーファイヤーヨガファイヤー\nスクリューパイルドライバー\nフレイムフレイムヨガヨガフレイム\nソニックブーム バックスラッシュ\n波動拳　昇龍拳\n竜巻旋風　瞬獄殺",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      16
+    ],
+    "tags": [],
+    "createdAt": "2026-10-26T13:52:24.449Z",
+    "updatedAt": "2026-10-26T13:52:24.449Z"
+  },
+  {
+    "id": "5cbaf2b0-c172-49d1-ae54-b6b20b8eb7f2",
+    "nameRomaji": "Douyou MIX",
+    "nameKana": "童謡mix",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Guu Choki Paa! Guu Choki Paa!\nNani Tsukurou! Nani Tsukurou!\nMigi te wa Paa de! Hidari te mo Paa de!\nMyouhontusuke! 👏 Waipa!\nOokina Kuri no Ki no Shita de!\nAnata to World Chaos!\nShogyou! Kogure! Shigure! Kagura!\nKongouzan! Shoushusha!",
+    "readingKana": "ぐーちょきぱーぐーちょきぱー\n何作ろう　何作ろう\n右手はパーで　左手もパーで\nミョーホントゥスケ👏ワイパー\n大きな栗の木の下で\nあなたとワールドカオス\n諸行　小暮　時雨　神楽\n金剛山 翔襲叉",
+    "readingKanaRomaji": "Guu Choki Paa! Guu Choki Paa!\nNani Tsukurou! Nani Tsukurou!\nMigi te wa Paa de! Hidari te mo Paa de!\nMyouhontusuke! 👏 Waipa!\nOokina Kuri no Ki no Shita de!\nAnata to Waarudo Kaosu!\nShogyou! Kogure! Shigure! Kagura!\nKongouzan! Shoushusha!",
+    "variants": [],
+    "barCounts": [
+      16
+    ],
+    "tags": [],
+    "createdAt": "2026-10-26T13:52:24.449Z",
+    "updatedAt": "2026-10-26T13:52:24.449Z"
+  },
+  {
+    "id": "ad8a2aaf-29fb-48f6-91ef-f4bcc2d8ef99",
+    "nameRomaji": "Douyou MIX 2",
+    "nameKana": "童謡mix2",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Guu Choki Paa de! Guu Choki Paa de!\nNani Tsukurou! Nani Tsukurou!\nMigi te wa Guu de! Hidari te mo Guu de!\nNandemo Kobushi de Kaiketsu da!\nOokina Kuri no Ki no Shita de Anata to!\nWorld Peace!\nInori! Hotoke! Hikakuka!\nDoutoku! Jizenkatsudou! Darai Rama!",
+    "readingKana": "ぐーちょきぱーでぐーちょきぱーで\n何作ろう　何作ろう\n右手はグーで　左手もグーで\n何でも拳で解決だ！\n大きな栗の木の下であなたと\nワールドピース\n祈り！仏！非核化！\n道徳！慈善活動！ダライ・ラマ！",
+    "readingKanaRomaji": "Guu Choki Paa de! Guu Choki Paa de!\nNani Tsukurou! Nani Tsukurou!\nMigi te wa Guu de! Hidari te mo Guu de!\nNandemo Kobushi de Kaiketsu da!\nOokina Kuri no Ki no Shita de Anata to!\nWaarudo Piisu!\nInori! Hotoke! Hikakuka!\nDoutoku! Jizenkatsudou! Darai Rama!",
+    "variants": [],
+    "barCounts": [
+      16
+    ],
+    "tags": [],
+    "createdAt": "2026-10-26T13:52:24.449Z",
+    "updatedAt": "2026-10-26T13:52:24.449Z"
+  },
+  {
+    "id": "317b93c8-1b0c-4209-8b51-58e57bae6a41",
+    "nameRomaji": "Evangelion MIX",
+    "nameKana": "エヴァンゲリオンmix",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Iitai koto wa Anta Baka!\nShinji, Omae ga Eva ni Nore!\nSonna no Muri da yo, Tousan!\nAT Field! 👏 Zenkai!\nKaworu to Shinji de Kyatoruman!\nFutari de Ugokasu Juusan Gouki!\nLonginus, Cassius no Yari!\nSekai wo Sukutte, Shinji-kun!",
+    "readingKana": "言いたいことはアンタバカァ\nシンジお前がエヴァに乗れ\nそんなの無理だよ 父さん\nATフィールド👏全開\nカヲルとシンジでキャトルマン\n2人で動かす13号機\nロンギヌス、カシウスの槍\n世界を救ってシンジくん",
+    "readingKanaRomaji": "Iitai koto wa Anta Baka!\nShinji, Omae ga Eva ni Nore!\nSonna no Muri da yo, Tousan!\nEetii Fiirudo! 👏 Zenkai!\nKaworu to Shinji de Kyatoruman!\nFutari de Ugokasu Juusan Gouki!\nRonginusu! Kashiusu no Yari!\nSekai wo Sukutte, Shinji-kun!",
+    "variants": [],
+    "barCounts": [
+      16
+    ],
+    "tags": [],
+    "createdAt": "2026-10-26T13:52:24.449Z",
+    "updatedAt": "2026-10-26T13:52:24.449Z"
+  },
+  {
+    "id": "7db94253-4549-47f0-bf36-1e6451533428",
+    "nameRomaji": "Hanabi Sanren MIX",
+    "nameKana": "花火参連mix",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Uchiagero! Uchiagero! Go! Yon! San Ni Ichi!\nKiku! Botan! Taki! Hachi!\nSenrin! Youraku! Kamurogiku!\nKatamono! Gunchou! Mangekyou!\nTobiyuusei! Kasumisou!\nSazanami! Zanrin! Benikouro!\nYanagi! Hanarai! Sutaa Main!",
+    "readingKana": "打ち上げろ！打ち上げろ！5！4！321！\n菊　牡丹　滝　蜂\n千輪　葉落　冠菊\n型物　群蝶　万華鏡\n飛遊星　かすみ草\n細波　残輪　紅光露\n柳　花雷　スターマイン",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      16
+    ],
+    "tags": [],
+    "createdAt": "2026-10-26T13:52:24.449Z",
+    "updatedAt": "2026-10-26T13:52:24.449Z"
+  },
+  {
+    "id": "d9ef2b45-4c99-4a6c-94a6-6c8246f472e9",
+    "nameRomaji": "Jaian Kahen",
+    "nameKana": "ジャイアン可変",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Jaian Jaiko! Jaiko Jaian!\nJaian Jaian!\nJajajaja Jaian!\nJaian Jaiko! Jaian Jaiko!\nJaian Jaiko! 👏 Jaian!\nJaian Jaiko! Jaian Jaiko!\nJaian Jaiko!\nJajajaja Jaian!\nOre Jaian! Ore Jaian!\nOmae no Mono wa Ore no Mono!",
+    "readingKana": "ジャイアンジャイ子ジャイ子ジャイアン\nジャイアンジャイアン\nジャジャジャジャジャイアン\nジャイアンジャイ子ジャイアンジャイ子\nジャイアンジャイ子👏ジャイアン\nジャイアンジャイ子ジャイアンジャイ子\nジャイアンジャイ子\nジャジャジャジャジャイアン\nおれジャイアンおれジャイアン\nお前の物はオレのもの",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      16
+    ],
+    "tags": [
+      "kahen-sanren"
+    ],
+    "createdAt": "2026-10-26T13:52:24.449Z",
+    "updatedAt": "2026-10-26T13:52:24.449Z"
+  },
+  {
+    "id": "28a50d12-7f6a-4cbb-8b0f-6589543ed8b0",
+    "nameRomaji": "Mori Mitsuko",
+    "nameKana": "森光子",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Iitai koto wa... nai!!\nMori Mitsuko! Mori Mitsuko!\nMinna de Issho ni Everybody Passion!\nNn! Nn! Nn! Nn!\nSora kara mitete ne, Mitsuko-san!\nAnata no Namae wo Sakebimasu!\nMori Mitsuko! Mori Mitsuko!\nBachikawa Tenshi no Mori Mitsuko!\nMo! Ri! Mi! Tsu! Koo!",
+    "readingKana": "言いたいことは、、、ない！！\n森光子！森光子！\nみんなで一緒にえぶりばでぃぱっしょん\nんーんーんーんー\n空からみててね光子さん\nあなたの名前を叫びます\n森光子！森光子！\nばちかわ天使の森光子\nも・り・み・つ・こー！",
+    "readingKanaRomaji": "Iitai koto wa... nai!!\nMori Mitsuko! Mori Mitsuko!\nMinna de Issho ni Eburibadii Passhon!\nNn! Nn! Nn! Nn!\nSora kara mitete ne, Mitsuko-san!\nAnata no Namae wo Sakebimasu!\nMori Mitsuko! Mori Mitsuko!\nBachikawa Tenshi no Mori Mitsuko!\nMo! Ri! Mi! Tsu! Koo!",
+    "variants": [],
+    "barCounts": [
+      16,
+      18
+    ],
+    "tags": [
+      "koujou"
+    ],
+    "createdAt": "2026-10-26T13:52:24.449Z",
+    "updatedAt": "2026-10-26T14:08:40.419Z"
+  },
+  {
+    "id": "1b9912f1-d267-4a03-8e26-b904470d7a8c",
+    "nameRomaji": "Ultimate",
+    "nameKana": "アルティメット",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Iitai koto ga Faibo Marufoi!\nYappari ○○ Griffin Taiga!\nAkushio Chapeape Yappa Suki!\nWingardium Tusuke Ohimesama!\nFaiya! Ore to Reviosa! Karakina!\nSore wa Faamaa Patoroonamu!\nOre to Taiga Tomu Ridoro!\nVoldemort tte Yett Taiga!",
+    "readingKana": "言いたいことがファイボマルフォイ\nやっぱり〇〇グリフィンタイガー\nアクシオチャペアペやっぱ好き\nウィンガートゥスケお姫様\nファイヤー俺とレヴィオサカラキナ\nそれはファーマーパトローナム\n俺とタイガートムリドル\nヴォルデモートってイエッタイガー",
+    "readingKanaRomaji": "",
+    "variants": [
+      {
+        "id": "ebd515fb-3ed7-4f5f-9b9a-650f0bca4376",
+        "title": "Ultimate MIX · 18 bars",
+        "titleKana": "アルティメットmix · 18小節",
+        "startRomaji": "",
+        "startKana": "",
+        "startKanaRomaji": "",
+        "readingRomaji": "Iitai Faiya Faibo Marufoi!\nYappari ○○ Griffin Taiga!\nAkushio Chapeape Yappa Suki!\nWingardium Tusuke Ohimesama!\nFaiya! Ore to Reviosa! Karakina!\nSore wa Faamaa Patoroonamu!\nOre to Taiga Tomu Ridoro!\nSekai de ichiban Granger!\nVoldemort tte Yett Taiga!",
+        "readingKana": "言いたいファイヤファイボマルフォイ\nやっぱり〇〇グリフィンタイガー\nアクシオチャペアペやっぱ好き\nウィンガートゥスケお姫様\nファイヤー俺とレヴィオサカラキナ\nそれはファーマーパトローナム\n俺とタイガートムリドル\n世界で一番グレンジャー\nヴォルデモートってイエッタイガー",
+        "readingKanaRomaji": ""
+      },
+      {
+        "id": "b338f2c2-3970-4aba-a5c3-c175d5786c4a",
+        "title": "Ultimate MIX PFO",
+        "titleKana": "アルティメットmixPFO",
+        "startRomaji": "",
+        "startKana": "",
+        "startKanaRomaji": "",
+        "readingRomaji": "Iitai Faiya Faibo Marufoi!\nYappari ○○ Griffin Taiga!\nAkushio Chapeape Yappa Suki!\nWingardium Tusuke Ohimesama!\nFaiya! Ore to Reviosa! Karakina!\nSore wa Faamaa Patoroonamu!\nOre to Taiga Tomu Ridoro!\nVoldemort tte Yett Taiga!\nHermione Granger!\nDraco Malfoy! Ron Weasley!",
+        "readingKana": "言いたいファイヤファイボマルフォイ\nやっぱり〇〇グリフィンタイガー\nアクシオチャペアペやっぱ好き\nウィンガートゥスケお姫様\nファイヤー俺とレヴィオサカラキナ\nそれはファーマーパトローナム\n俺とタイガートムリドル\nヴォルデモートってイエッタイガー\nハーマイオニーグレンジャー\nドラゴマルフォイ・ロンウィーズリー",
+        "readingKanaRomaji": ""
+      }
+    ],
+    "barCounts": [
+      16,
+      18,
+      20
+    ],
+    "tags": [
+      "kahen-sanren",
+      "koujou"
+    ],
+    "createdAt": "2026-10-26T13:52:24.449Z",
+    "updatedAt": "2026-10-26T14:18:02.897Z"
+  },
+  {
+    "id": "960c82df-c7d5-48d8-9e82-22bf9c5bcd73",
+    "nameRomaji": "Toushindai Shidou Seiza Sanren",
+    "nameKana": "等身大始動星座3連",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Toushindai no Kirameki wo! Bakadekai Sora e!\nSky! Ciel! Himmel! Cielo!\nHemel! Neeba! Danggun!\nAries! Cancer! Pisces! Gemini!\nCapricorn! Taurus! Aquarius!\nVega! Leo! Libra! Virgo!\nAdara! Scorpio! Sagittarius!",
+    "readingKana": "等身大の煌めきを　バカでかい宇宙へ\nスカイ　シエル　ヒンメル　シエロ\nヘームル　ニエーバ　ダングン\nアリエス　キャンサー　ピスケス　ジェミニ\nカプリコン　タウラス　アクエリアス\nベガ　レオ　リベラ　バルゴ\nアダーラ　スコーピオン　サジタリウス",
+    "readingKanaRomaji": "Toushindai no Kirameki wo! Bakadekai Uchuu e!\nSukai! Shieru! Himmeru! Shiero!\nHeemuru! Nieeba! Danggun!\nAriesu! Kyanseru! Pisukesu! Jemini!\nKapurikorn! Taurasu! Akueriasu!\nBega! Reo! Ribera! Barugo!\nAdara! Sukoopion! Sajitariasu!",
+    "variants": [],
+    "barCounts": [
+      16
+    ],
+    "tags": [],
+    "createdAt": "2026-10-26T13:52:24.449Z",
+    "updatedAt": "2026-10-26T14:10:02.453Z"
+  },
+  {
+    "id": "80731915-b58f-4a54-b785-1d91905b9b1d",
+    "nameRomaji": "Rascal",
+    "nameKana": "ラスカル",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Raskaru! Raskaru! Raskaru! Raskaru!\nAa~ 👏👏 Marunouchi!\nKiyokawa Mirepi ni Yuuho!\nGachikoi Kasoku ga Tomaranai!\nKekkon wa Gomen nasai!\nSansei Otaku Rascaruzu!\nTakeutein! Takeutein!\nTakeuchi Masaya tte shitteru~?",
+    "readingKana": "ラスカル ラスカル ラスカル ラスカル\nあ～👏👏丸の内!\n清川みれぴにゆーほ!\nガチ恋加速が止まらない!\n結婚は ごめんなさい!\n三生オタクラスカルズ!\nたけうていん!たけうていん!\nたけうちまさやって知ってる～!",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      16
+    ],
+    "tags": [],
+    "createdAt": "2026-10-26T13:52:24.449Z",
+    "updatedAt": "2026-10-26T14:11:07.294Z"
+  },
+  {
+    "id": "6ebf0282-9a77-45d3-84e7-63ec8c2fa7a3",
+    "nameRomaji": "Bismarck Kahen",
+    "nameKana": "ビスマルク可変",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Kan! Zen! Sei! Iki!\nZettai Ryouiki! Nii Hai Ouhai!\nKan Chuu Hai! Uuron Hai!\nNachuraru Hai! Appuru Pai!\nSankaku Chokopai! Enzeru Pai!\nTao Pai Pai! Faaru Furai!\nPicchaa Furai! Kyacchaa Furai!\nSentaa Furai! Ai Kyan Furai!",
+    "readingKana": "完！全！聖！域！\n絶対領域 ニーハイオーハイ\n缶チューハイ ウーロンハイ\nナチュラルハイ アップルパイ\n三角チョコパイ エンゼルパイ\nタオパイパイ ファールフライ\nピッチャーフライ キャッチャーフライ\nセンターフライ アイキャンフライ",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      16
+    ],
+    "tags": [
+      "koujou"
+    ],
+    "createdAt": "2026-10-26T13:52:24.449Z",
+    "updatedAt": "2026-10-26T13:52:24.449Z"
+  },
+  {
+    "id": "04fd556b-da41-4190-bdae-7cc32c05eccb",
+    "nameRomaji": "Nani Nogare Nani Mi",
+    "nameKana": "なにノガレなに美",
+    "startRomaji": "Watashi!",
+    "startKana": "私",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Nani Nogare Nani Mi?\nWatashi Nani Nogare Nani Mi~?\nEi! Ei! Eieiei!\nOosotogari Nogare Ukemi?\nEi! Ei! Eieiei!\nKatakori Itami Nogare Temomi?\nHamaguri Asari Nogare Shijimi?\nNe Ushi Nogare Tatsu Mi?\nHa... Ha... Hakushon! Kusha Mi?",
+    "readingKana": "なにノガレなに美？\n私なにノガレなに美～？\nえい！えい！えいえいえい！\n大外刈ノガレ受け美？\nえい！えい！えいえいえい！\n肩凝り痛みノガレ手モ美？\nハマグリアサリンガレしじ美？\n子丑ノガレ辰美？\nハ...ハ...ハクション！くしゃ美？",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      16
+    ],
+    "tags": [],
+    "createdAt": "2026-10-26T13:52:24.449Z",
+    "updatedAt": "2026-10-26T13:52:24.449Z"
+  },
+  {
+    "id": "ecb2ee93-1b34-4c40-ae90-0b3a3ca40d16",
+    "nameRomaji": "Shunkashuutou",
+    "nameKana": "春夏秋冬",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Yae! Shidare! Ooyama! Chouji!\nSomei Yoshino! Edo Zakura!\nKiku! Botan! Taki! Hachi!\nSenrin! Youraku! Kamurogiku!\nKaede! Momiji! Rindou! Sazanka!\nKikyou! Akizakura! Higanbana!\nKogarashi! Yuuten! Juhyou! Gentou!\nKazahana! Rikka! Sasameyuki!",
+    "readingKana": "八重　枝垂　大山　丁子\n染井吉野　江戸桜\n菊　牡丹　滝　蜂\n千輪　葉落　冠菊\n楓　紅葉　竜胆　山茶花\n桔梗　秋桜　彼岸花\n凩　幽天　樹氷　玄冬\n風花　六花　細雪",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      16
+    ],
+    "tags": [],
+    "createdAt": "2026-10-26T13:52:24.449Z",
+    "updatedAt": "2026-10-26T13:52:24.449Z"
+  },
+  {
+    "id": "350efc85-4b2a-4450-b342-91b295019ac5",
+    "nameRomaji": "DMF Kahen",
+    "nameKana": "DMF可変",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Dare ni mo Makenai Kono Kimochi!\n○○○○ ni Mukatte Saiteru!\nSekai de Ichiban Daisuki na!\n○○ ni Motto Koi Shitai!\nKasen! Tobi! Jokyo! Chou! Umiu! Mai! Noujou!\nAma! Tobi! Kasen! Tobi! Jokyo! Tobi! Tora! Hi!\nJinzou! Faamaa! Seni! Jasupaa!",
+    "readingKana": "誰にも負けないこの気持ち\n○○に向かって咲いている\n世界で一番大好きな\n○○にもっと恋したい\n化繊 飛 除去 跳 海鵜 舞 農場\n海女飛化繊飛除去飛虎火\n人造ファーマ繊維ジャスパー",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      16
+    ],
+    "tags": [],
+    "createdAt": "2026-10-26T13:52:24.449Z",
+    "updatedAt": "2026-10-26T13:52:24.449Z"
+  },
+  {
+    "id": "02375edb-c39b-4beb-8389-c40e6ef11025",
+    "nameRomaji": "Densha MIX",
+    "nameKana": "デンシャmix",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Marui! Midori no! Yamanote-sen!\nMannaka Tooru wa! Chuuou-sen!\nTonari no! Kiiroi! Soubu-sen!\nMizuiro! Keihin! Touhoku-sen!\nFukushima! Tokyo! Jouban-sen!\nSaitama! Tokyo! Saikyoo-sen!\nKawasaki! Tachikawa! Nanbu-sen!\nMinna! Issho ni! Norikonde!\nShuppatsu Shinkou! Rettsu Goo!",
+    "readingKana": "丸い 緑の 山手線\n真ん中通るは 中央線\n隣の 黄色い 総武線\n水色 京浜 東北線\n福島 東京 常磐線\n埼玉 東京 埼京線\n川崎 立川 南武線\nみんな 一緒に 乗り込んで\n出発進行 レッツゴー！",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      18
+    ],
+    "tags": [],
+    "createdAt": "2026-10-26T14:18:02.897Z",
+    "updatedAt": "2026-10-26T14:18:02.897Z"
+  },
+  {
+    "id": "75a11fa5-8fee-4018-95e2-ad5ea73937cc",
+    "nameRomaji": "Gengo Ginga MIX",
+    "nameKana": "言語銀河",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Ginga ni todoroku Aiziet!\nChikyuu ni hanasaku Algodao!\nOmae ga suki da to Sufiriia Siiru!\nIku ze zenryoku Andiamo!\nHikari no gotoku Koropokkuru!\nSuki ja nee!\nUnderlandet! Utrymme!\nAskungen! Ängel! Ren! Jul!\nGudinna! Skön jungfru! Vibration!\nHavsdykare! Fiber! Konstgjord!\nEld! Tiger! Vi går!",
+    "readingKana": "銀河に轟くアイズィエト\n地球に花咲くアルゴダオ\nお前が好きだとスフィリーアスィール\n行くぜ全力アンディアモ\n光のごとくコロポックル\n好きじゃねぇ\nウンデランデ ウートリューメ\nアスクンゲン エンエル レン ユール\nグディンナ シェーユングフル ヴィヴラション\nハフスディカレ フーベル コンストヨード\nエルド ツーゲル ヴィゴール",
+    "readingKanaRomaji": "Ginga ni todoroku Aizieto!\nChikyuu ni hanasaku Arugodao!\nOmae ga suki da to Sufiriia Siiru!\nIku ze zenryoku Andiamo!\nHikari no gotoku Koropokkuru!\nSuki ja nee!\nUnderande! Uutoryuume!\nAsukungen! Eneru! Ren! Yuuru!\nGudinna! Sheeyungufuru! Vivurashyon!\nHafusudikare! Fuuberu! Konsutoyoodo!\nErudo! Tsuugeru! Vigooru!",
+    "variants": [],
+    "barCounts": [
+      20
+    ],
+    "tags": [
+      "koujou",
+      "gengo"
+    ],
+    "createdAt": "2026-10-26T14:18:02.897Z",
+    "updatedAt": "2026-10-26T14:24:33.700Z"
+  },
+  {
+    "id": "92916cc2-ac09-40a8-85e2-ace7dc7ff194",
+    "nameRomaji": "Hog World MIX",
+    "nameKana": "ホグワールド",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Vamos! Vamos! Vamos! Vamos!\nAa~ 👏👏 Maravillas!\nTigris! Ignis! Jaama!\nNatale! Angelo! Sakkyarumu!\nJuntoisei! Vibração!\nSpazio! Fibra! Fliegen!\nAlgodão! Algodão!\nViburaru! Renzao! Suinaaii!\nÄventyr! Plongeur!\nEru Taboritash! Ron! Tiguri!",
+    "readingKana": "バーモスバーモスバーモスバーモス\nあー👏👏マラビージャス\nティグリス イグニス ジャーマ\nナターレ アンジェロ サッキャルム\nジュントイセー ヴィブラサオ\nスパツィオ フィブラ フィリーゲン\nアルゴダオ アルゴダオ\nビブラル レンザオ スィナーイー\nエーヴェンテュール プロンジャー\nエルタボリタシュ ロン ティグリ",
+    "readingKanaRomaji": "Baamosu! Baamosu! Baamosu! Baamosu!\nAa~ 👏👏 Marabiijyasu!\nTigurisu! Igunisu! Jaama!\nNataare! Anjero! Sakkyarumu!\nJuntoisei! Viburasao!\nSupatsio! Fibura! Firiigen!\nArugodao! Arugodao!\nBiburaru! Renzao! Suinaaii!\nEeventyueru! Pronjaa!\nEru Taboritash! Ron! Tiguri!",
+    "variants": [],
+    "barCounts": [
+      20
+    ],
+    "tags": [
+      "koujou"
+    ],
+    "createdAt": "2026-10-26T14:18:02.897Z",
+    "updatedAt": "2026-10-26T14:18:02.897Z"
+  },
+  {
+    "id": "657ccc2f-305f-4c3f-8e4a-2e150bf3584e",
+    "nameRomaji": "Gachi Koi Koujou",
+    "nameKana": "ガチ恋口上",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Iitai koto ga arunda yo!\nYappari ◯◯ wa kawaii yo!\nSuki suki daisuki yappa suki!\nYatto mitsuketa ohimesama!\nOre ga umarete kita riyuu!\nSore wa ◯◯ ni deau tame!\nOre to issho ni jinsei ayumou!\nSekai de ichiban aishiteru!\nA-i-shi-te-ru!\n(Zettai kekkon shiyou na!)",
+    "readingKana": "言いたいことがあるんだよ\nやっぱり◯◯はかわいいよ\nすきすき大好きやっぱ好き\nやっと見つけたお姫様\n俺が生まれてきた理由\nそれは◯◯に出会うため\n俺と一緒に人生歩もう\n世界で一番愛してる\nあーいーしーてーるー\n(絶対結婚しような！)",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      16,
+      18,
+      20
+    ],
+    "tags": [
+      "koujou"
+    ],
+    "createdAt": "2026-10-26T14:35:59.726Z",
+    "updatedAt": "2026-10-26T14:40:38.423Z"
+  },
+  {
+    "id": "5fc70692-f80c-49ef-99e2-437d2bbe022f",
+    "nameRomaji": "Gachi Koi Koujou Short",
+    "nameKana": "ガチ恋口上ショート",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Iitai koto ga arunda yo!\nYappari 〇〇 kawaii yo!\nSuki suki daisuki yappa suki!\nSekai de ichiban aishiteru!\nA-i-shi-te-ru!",
+    "readingKana": "言いたいことがあるんだよ\nやっぱり〇〇可愛いよ\n好き好き大好きやっぱ好き\n世界で1番愛してる\nあ・い・し・て・る",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      8,
+      10
+    ],
+    "tags": [
+      "koujou"
+    ],
+    "createdAt": "2026-10-26T14:35:59.726Z",
+    "updatedAt": "2026-10-26T14:35:59.726Z"
+  },
+  {
+    "id": "e3e1d849-4cb3-4698-ae27-557f43d21ac5",
+    "nameRomaji": "Gachi Koi Koujou for Women",
+    "nameKana": "女性向けのコンテンツでのガチ恋口上",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Iitai koto ga arunda yo!\nYappari ◯◯ kakkoii!\nSuki suki daisuki yappa suki!\nYatto deaeta oujisama!\nWatashi ga umareta sono riyuu!\nSore wa ◯◯ ni deau tame!\nWatashi to issho ni jinsei ayumou!\nSekai de ichiban aishiteru!\nA-i-shi-te-ru!\n(Zettai kekkon shiyou na!)",
+    "readingKana": "言いたいことがあるんだよ\nやっぱり◯◯カッコイイ\n好き好き大好きやっぱ好き\nやっと出会えた王子様\n私が生まれたその理由\nそれは◯◯に出会うため\n私と一緒に人生歩もう\n世界で一番愛してる\nあーいーしーてーるー\n(絶対結婚しような！)",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      16,
+      18,
+      20
+    ],
+    "tags": [
+      "koujou"
+    ],
+    "createdAt": "2026-10-26T14:35:59.726Z",
+    "updatedAt": "2026-10-26T14:41:52.929Z"
+  },
+  {
+    "id": "485cd7d5-7072-4709-afad-e59fcc58841c",
+    "nameRomaji": "Gachi Koi Koujou Shin",
+    "nameKana": "ガチ恋口上・真",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Iitai koto ga aru keredo!\nUmaku kotoba ni dekinakute!\nSuki suki me o mite ieta nara!\nKonnani kurushikunai no kana?\nBoku ga kore kara ikiru riyuu!\nKimi no egao ga mitai kara!\nBoku dake no kimi ja nai keredo!\nKimi dake no boku de itai kara!\nItainda...",
+    "readingKana": "言いたいことがあるけれど\nうまく言葉にできなくて\n好き好き目を見て言えたなら\nこんなに苦しくないのかな\n僕がこれから生きる理由\n君の笑顔が見たいから\n僕だけの君じゃないけれど\n君だけの僕で居たいから\n居たいんだ…",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      16,
+      18
+    ],
+    "tags": [
+      "koujou"
+    ],
+    "createdAt": "2026-10-26T14:35:59.726Z",
+    "updatedAt": "2026-10-26T14:35:59.726Z"
+  },
+  {
+    "id": "4105dc5c-f19c-4215-b942-86625bf894eb",
+    "nameRomaji": "Gachi Koi Daigorou",
+    "nameKana": "ガチ恋大五郎",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Iitai koto ga ◯◯◯◯◯!\nYappari ◯◯ wa ◯◯◯◯◯!\nSuki suki daisuki ◯◯◯◯◯!\nYatto mitsuketa ◯◯◯◯◯!\nOre ga umarete ◯◯◯◯◯!\nSore wa ◯◯ ni ◯◯◯◯◯!\nOre to issho ni ◯◯◯◯◯!\nSekai de ichiban ◯◯◯◯◯!\n◯◯◯◯◯!",
+    "readingKana": "言いたいことが◯◯◯◯◯\nやっぱり◯◯は◯◯◯◯◯\nすきすき大好き◯◯◯◯◯\nやっと見つけた◯◯◯◯◯\n俺が生まれて◯◯◯◯◯\nそれは◯◯に◯◯◯◯◯\n俺と一緒に◯◯◯◯◯\n世界で一番◯◯◯◯◯\n◯◯◯◯◯",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      16,
+      18
+    ],
+    "tags": [],
+    "createdAt": "2026-10-26T14:35:59.726Z",
+    "updatedAt": "2026-10-26T14:35:59.726Z"
+  },
+  {
+    "id": "f891533c-94a5-460b-b4b2-b1b6e7dcb7df",
+    "nameRomaji": "Gachi Koi Cancel",
+    "nameKana": "ガチ恋キャンセル",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Iitai koto ga arunda yo!\nYappari ◯◯ wa kawaii yo!\nSuki suki daisuki yappa suki!\nYatto mitsuketa ohimesama!\nOre ga umarete kita riyuu!\nSonna no shiranee, shaa ikuzo!\n(MIX!)",
+    "readingKana": "言いたいことがあるんだよ\nやっぱり◯◯はかわいいよ\nすきすき大好きやっぱ好き\nやっと見つけたお姫様\n俺が生まれてきた理由\nそんなの知らねえしゃーいくぞ\n各種mix",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      12,
+      16,
+      18,
+      20
+    ],
+    "tags": [
+      "koujou"
+    ],
+    "createdAt": "2026-10-26T14:35:59.726Z",
+    "updatedAt": "2026-10-26T14:43:17.805Z"
+  },
+  {
+    "id": "4e52b4aa-f565-4bee-bae6-cb9e8209d149",
+    "nameRomaji": "Accele Shuumaku Japa Kahen",
+    "nameKana": "アッチェレ終幕ジャパ可変",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Noujou! Mai! Umiu! Chou!\n\"Jokyo Tobi Kasen Shindou Ama Sen'i Jinzou Hi Tora!\" (Fast)\nTora! Hi! Tora! Hi!\n\"Tora Tora Tora Tora!\" (Fast) \"Tora Hi Jinzou Sen'i Ama Shindou!\" (4x speed)\n\"Amashin Amashin Amashindou! Amasen Amasen Jinzou Hi!\" (4x speed)\n<Tora Hi Jinzou Sen'i!> (Fast or normal speed, depending on the song) Ama! Shindou!\nKasen! Tobi! Jokyo! Chou!\nUmiu! Mai! Noujou!",
+    "readingKana": "農場 舞 海鵜 跳\n除去飛化繊振動海女繊維人造火虎【倍速】\n虎 火 虎 火\n虎虎虎虎【倍速】 虎火人造繊維海女振動【4倍速】\n海女振海女振海女振動 海女繊海女繊人造火【4倍速】\n〈虎　火　人造　繊維〉【曲によって倍速または等速】 海女 振動\n化繊 飛 除去 跳\n海鵜 舞 農場",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      16
+    ],
+    "tags": [],
+    "createdAt": "2026-10-26T14:55:22.531Z",
+    "updatedAt": "2026-10-26T14:55:22.531Z"
+  },
+  {
+    "id": "21aa3dba-10eb-4a23-90b7-fe920fb6abcf",
+    "nameRomaji": "Chinese Accele Shuumaku Japa Kahen",
+    "nameKana": "中国版アッチェレ終幕ジャパ可変",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Nongchang! Wu! Haiqi! Qiao!\n\"Chuqu! Fei! Huaxian! Zhendong! Haini! Xianwei! Renzao! Huo!\" (Fast)\nLaohu! Huo! Laohu! Huo!\n\"Laohu! Laohu! Laohu! Laohu!\" (Fast) \"Laohuo Renwei Haizhendong!\" (4x speed)\n\"Haizhen! Haizhen! Haizhendong! Haishen! Haishen! Haishen Renzhao Huo!\" (4x speed)\n<Laohu Huo Renzao Shenwei!> (Fast or normal speed, depending on the song) Haini! Zhendong!\nHuaxian! Fei! Chuqu! Qiao!\nHaiqi! Wu! Nongchang!",
+    "readingKana": "ノンチャン ウー ハイチー チャオ\nチューチー フェイ フアシェン ジェンドン ハイニー シェンウェイ レンザオ フオ【倍速】\nラオフー フオ ラオフー フオ\nラオフー ラオフー ラオフー ラオフー【倍速】 ラオフオレンウェイハイジェンドン【4倍速】\nハイジェンハイジェンハイジェンドン ハイシェンハイシェンハイシェンレンザオフオ【4倍速】\n〈ラオフー フオ レンザオ シェンウェイ〉【曲によって倍速または等速】 ハイニー ジェンドン\nフアシェン フェイ チューチー チャオ\nハイチー ウー ノンチャン",
+    "readingKanaRomaji": "Nonchan! Uu! Haichi! Chao!\nChyuuchii! Fei! Fuashen! Jendong! Hainii! Shenwei! Renzhao! Fuo!\nRaofuu! Fuo! Raofuu! Fuo!\nRaofuu! Raofuu! Raofuu! Raofuu! Raofuo Renwei Haijendong!\nHaijen! Haijen! Haijendong! Haishen! Haishen! Haishen Renzhao Fuo!\nRaofuu! Fuo! Renzhao! Shenwei! Hainii! Jendong!\nFuashen! Fei! Chyuuchii! Chao!\nHaichi! Uu! Nonchan!",
+    "variants": [],
+    "barCounts": [
+      16
+    ],
+    "tags": [
+      "gengo"
+    ],
+    "createdAt": "2026-10-26T14:55:22.531Z",
+    "updatedAt": "2026-10-26T14:55:22.531Z"
+  },
+  {
+    "id": "99238313-dc60-4bcb-a49a-9aea352ff14d",
+    "nameRomaji": "Ginga Koujou",
+    "nameKana": "銀河口上",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Ginga ni todoroku uta-goe to!\nChikyuu ni hanasaku sono egao!\nOmae ga suki da to kagayaki sakebu!\nIku ze zenryoku doko made mo!\nHikari no gotoku kakemeguru!\nSuki ja nee! Aishiteru!",
+    "readingKana": "銀河に轟く歌声と\n地球に花咲くその笑顔\nお前が好きだと輝き叫ぶ\n行くぜ全力どこまでも\n光のごとく駆け巡る\n好きじゃねぇ 愛してる",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      12
+    ],
+    "tags": [
+      "koujou"
+    ],
+    "createdAt": "2026-10-26T14:55:22.531Z",
+    "updatedAt": "2026-10-26T14:55:22.531Z"
+  },
+  {
+    "id": "ad668ba6-4a69-41d6-9b71-ad5466b0b268",
+    "nameRomaji": "Ginga Koujou Cancel Italian",
+    "nameKana": "銀河口上キャンセルイタリア",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Ginga ni todoroku uta-goe to!\nChikyuu ni hanasaku sono egao!\nOmae ga suki da to kagayaki sakebu!\nIku ze zenryoku doko made mo!\nHikari no gotoku kakemeguru!\nSuki ja nee! Andiamo!\nTigre! Fuoco! Replicante! Fibra!\nBaronbaro! Vibramento! Tecnovolare!\nAstillazione!",
+    "readingKana": "銀河に轟く歌声と\n地球に花咲くその笑顔\nお前が好きだと輝き叫ぶ\n行くぜ全力どこまでも\n光のごとく駆け巡る\n好きじゃねぇ アンディアモ\nティーグレ　フオーコ　レプリカンテ　フィーブラ\nバロンバーロ　ヴィヴラメント　テクノボラーレ\nアスティラッツィオーネ",
+    "readingKanaRomaji": "Ginga ni todoroku uta-goe to!\nChikyuu ni hanasaku sono egao!\nOmae ga suki da to kagayaki sakebu!\nIku ze zenryoku doko made mo!\nHikari no gotoku kakemeguru!\nSuki ja nee! Andiamo!\nTiigure! Fuooko! Repurikante! Fiibura!\nBaronbaaro! Vivuramento! Tekunoboraare!\nAsutirattsione!",
+    "variants": [],
+    "barCounts": [
+      18
+    ],
+    "tags": [
+      "gengo",
+      "koujou"
+    ],
+    "createdAt": "2026-10-26T14:55:22.531Z",
+    "updatedAt": "2026-10-26T14:55:22.531Z"
   }
 ]

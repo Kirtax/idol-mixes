@@ -24,7 +24,7 @@ Nombres y lecturas
 - ジャージャー se escribe siempre exactamente “Jya Jya!” en romaji.
 - 飛 se lee siempre exactamente “Tobi”, incluso cuando aparece unido a otros kanji o dentro de un grupo sin separaciones.
 - No uses macrones ni barras sobre vocales largas. Escribe, por ejemplo, “kyou” con ou.
-- No añadas emojis nuevos. Conserva los emojis del contenido fuente cuando el usuario pida mantenerlos; omite las notas parentéticas del nombre. No añadas nombres alternativos ni aclaraciones parentéticas del documento fuente.
+- No añadas emojis nuevos. Mantén siempre en readingRomaji, readingKana y, si se rellena, readingKanaRomaji los emojis de palmada «👏» que aparezcan en Add.txt, con la misma cantidad y posición. Otros emojis del contenido fuente solo se conservan si el usuario lo pide. Omite las notas parentéticas del nombre. No añadas nombres alternativos ni aclaraciones parentéticas del documento fuente.
 
 Inicio
 - Si el documento marca explícitamente el inicio con (始動), ponlo en startRomaji y startKana, sin repetirlo en las lecturas del contenido.
@@ -33,7 +33,7 @@ Inicio
 
 Tiempo de transcripción
 - Tómate el tiempo necesario para estudiar cada fuente y revisar la transcripción completa; prioriza la fidelidad sobre la rapidez. Comprueba la correspondencia entre kana y romaji, los inicios, el orden, los saltos de línea y las duraciones. Si una palabra o lectura sigue siendo dudosa, contrástala con una fuente fiable y conserva una transliteración sencilla en vez de inventar una traducción.
-- Cuando un tramo tenga una marca de velocidad como 低速 o 倍速, conserva esa marca junto al tramo en readingKana. En readingRomaji, encierra el tramo afectado entre comillas dobles y añade (Slow) o (Fast) después de la comilla de cierre. Ejemplo: タイガー　ファイヤー　サイバー　ファイバー（低速） → "Taiga! Faiya! Saiba! Faiba!" (Slow).
+- Cuando un tramo tenga una marca de velocidad, indícala junto al texto en readingKana con etiquetas claras: 【低速】, 【倍速】, 【4倍速】 o 【曲によって倍速または等速】, según corresponda. En readingRomaji, encierra entre comillas dobles el tramo afectado y añade en inglés (Slow), (Fast), (4x speed) o (Fast or normal speed, depending on the song). Mantén las aclaraciones en la misma línea del tramo, sin añadir líneas que desplacen la correspondencia entre columnas. Ejemplos: タイガー　ファイヤー（低速） → "Taiga! Faiya!" (Slow); 虎火（倍速） → "Tora Hi!" (Fast); 虎火（4倍速） → "Tora Hi!" (4x speed).
 
 Orden de la colección
 - sortOrder es opcional: los números menores aparecen antes; si dos mixes comparten número, se ordenan alfabéticamente según el idioma de nombres elegido. Sin número, el mix queda al final.
@@ -42,6 +42,8 @@ Orden de la colección
 Etiquetas y 小節
 - Los mixes de idioma llevan la etiqueta “gengo”. En mixes no lingüísticos, deja `tags: []` salvo instrucción expresa; la duración se guarda en barCounts y no es una etiqueta especial. Si el usuario indica cuatro compases para toda una tanda, usa barCounts [4] en cada mix.
 - Si Add.txt identifica expresamente un mix como Konton, añade la etiqueta “konton”, aunque sea una versión localizada o no lingüística. No infieras “gengo” solo porque el nombre mencione un idioma; usa esa etiqueta cuando el usuario clasifique el mix como lingüístico.
+- Los mixes o variantes identificados como parte de 可変三連 (Kahen Sanren), por el título o por una fuente fiable, llevan la etiqueta `kahen-sanren`. No infieras la etiqueta solo por tener 16 compases.
+- Añade la etiqueta `koujou` cuando el título o una fuente fiable identifique el mix como 口上; no la infieras solo por la longitud o el estilo del texto.
 - barCounts contiene todas las duraciones disponibles para las versiones del mix, sin duplicados y en orden numérico. Un número aislado entre paréntesis después de un bloque, como «(3)» o «(7)», indica sortOrder y se excluye de las lecturas.
 - Si el usuario fija una duración general para una tanda, aplícala a todos sus mixes salvo indicación particular. «También N compases» añade esa duración a la general; «N compases solo» la sustituye.
 - Estima la duración contando normalmente cada dos palabras como un tiempo. Una llamada final muy larga puede contar como un tiempo por sí sola. Si el documento especifica una duración, respétala.
