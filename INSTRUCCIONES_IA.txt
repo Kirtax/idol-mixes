@@ -25,6 +25,7 @@ Nombres y lecturas
 - 飛 se lee siempre exactamente “Tobi”, incluso cuando aparece unido a otros kanji o dentro de un grupo sin separaciones.
 - No uses macrones ni barras sobre vocales largas. Escribe, por ejemplo, “kyou” con ou.
 - No añadas emojis nuevos. Mantén siempre en readingRomaji, readingKana y, si se rellena, readingKanaRomaji los emojis de palmada «👏» que aparezcan en Add.txt, con la misma cantidad y posición. Otros emojis del contenido fuente solo se conservan si el usuario lo pide. Omite las notas parentéticas del nombre. No añadas nombres alternativos ni aclaraciones parentéticas del documento fuente.
+- Excepción para encabezados numerados: si un encabezado tiene un nombre seguido de una descripción entre paréntesis y el usuario pide conservarla, incluye el nombre y la descripción completa entre paréntesis en nameKana y translitera ambos a nameRomaji. No incluyas el número de lista ni la anotación parentética final de duración.
 
 Inicio
 - Si el documento marca explícitamente el inicio con (始動), ponlo en startRomaji y startKana, sin repetirlo en las lecturas del contenido.

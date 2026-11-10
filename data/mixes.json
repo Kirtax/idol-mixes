@@ -480,7 +480,7 @@
     "startKanaRomaji": "",
     "mainTitle": "Italian 1ren",
     "mainTitleKana": "イタリア1連",
-    "readingRomaji": "Tigre! Fuoco! Replicante!\nFibra! Baronbaro! Vibramento!\nTecnovolare! Astillazione!",
+    "readingRomaji": "Tigre! Fuoco! Replicante!\nFibra! Baronbaro! Vibramento!\nTecnovoraare! Astirazione!",
     "readingKana": "ティーグレ　フオーコ　レプリカンテ\nフィーブラ　バロンバーロ　ヴィヴラメント\nテクノボラーレ　アスティラッツィオーネ",
     "readingKanaRomaji": "",
     "variants": [
@@ -517,7 +517,7 @@
       "gengo"
     ],
     "createdAt": "2026-10-08T19:24:27.643Z",
-    "updatedAt": "2026-10-08T19:39:44.655Z"
+    "updatedAt": "2026-11-10T01:09:24.602Z"
   },
   {
     "id": "c6aa6155-b4f8-45ea-91a0-5639376043cd",
@@ -13250,5 +13250,308 @@
     ],
     "createdAt": "2026-10-26T14:55:22.531Z",
     "updatedAt": "2026-10-26T14:55:22.531Z"
+  },
+  {
+    "id": "2c20e4c5-0a3c-4447-8e0e-dd88340e607e",
+    "nameRomaji": "Gojasu Koujou",
+    "nameKana": "ゴー☆ジャス口上",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Iitai koto ga Revo☆ryuushon!\nYappari kimi wa Fanta☆sutikku!\nWant you Want you yappa suki!\nYatto mitsuketa Desu☆tinii!\nOre ga umareta Kanbojia!\nSore wa omae to Paraguai!\nOre to issho ni jinsei Arasuka!\nSekai de ichiban Madagasukaru!\nMadagasukaru!",
+    "readingKana": "言いたいことがレボ☆リューション\nやっぱり君はファンタ☆スティック\nWant you Want you やっぱ好き\nやっと見つけたデス☆ティニー\n俺が生まれたカンボジア\nそれはお前とパラグアイ\n俺と一緒に人生アラスカ\n世界で一番マダガスカル\nマダガスカル",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      16,
+      18
+    ],
+    "tags": [
+      "koujou"
+    ],
+    "createdAt": "2026-11-10T00:34:31.863Z",
+    "updatedAt": "2026-11-10T00:34:31.863Z"
+  },
+  {
+    "id": "e953f102-5336-4b92-9b0f-7bd0e7edf1d7",
+    "nameRomaji": "Ura Doitsu Rate🇩🇪☕️(Ura Doitsu Gyakuuchi Doitsu Kyanseru Raten-go)",
+    "nameKana": "裏ドイツラテ🇩🇪☕️(裏ドイツ逆打ちドイツキャンセルラテン語)",
+    "startRomaji": "Karl-Heinz Schneider!",
+    "startKana": "カールハインツシュナイダー",
+    "startKanaRomaji": "Kaaru Haintsu Shunaidaa!",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Hermann Kaltz! Ren! Weihnachten!\nGöttin! Seejungfer! Beseitigen! Fliegen! Chemiefaser!\nSchwingung! Tänzer! Fieber!\nKunst! Feuer! Tiger!\nGehen wir! Tiger! Feuer!\nKunst! Fieber!\n👏👏👏👏👏 Aveemosu!\nTigris! Ignis! Artificialis! Fibra!\nUrinatore! Vibrationis! Saccharum!\nVola! Eliminatione!",
+    "readingKana": "ヘルマンカルツ レン ヴァイナハテン\nゲッティン ゼーユングファー バザィティガン フィリーゲン ヒェーミーファーザー\nシュビングング タゥツァー フィーバー\nクゥンスト フォイエル ティーガァ\nゲーエンヴィアー ティーガァ フォイエル\nクゥンスト フィーバー\n👏👏👏👏👏 アヴェーモス\nティグリス イグニス アーティフィシャル フィブラ\nウーリナトレ ヴィブラティオニス サッキャルム\nヴォラ エリモティオネ",
+    "readingKanaRomaji": "Heruman Karutsu! Ren! Vainahaten!\nGettin! Zeeyungufaa! Bazaigan! Firiigen! Hyeemiifaazaa!\nShubingungu! Tautsaa! Fiibaa!\nKuunsuto! Foieru! Tiigaa!\nGeeen Viaa! Tiigaa! Foieru!\nKuunsuto! Fiibaa!\n👏👏👏👏👏 Aveemosu!\nTigurisu! Igunisu! Aatifishyaru! Fibura!\nUurinatore! Viburationisu! Sakkyarumu!\nVora! Erimotione!",
+    "variants": [],
+    "barCounts": [
+      20
+    ],
+    "tags": [],
+    "createdAt": "2026-11-10T00:34:31.863Z",
+    "updatedAt": "2026-11-10T00:54:11.884Z"
+  },
+  {
+    "id": "b52ac512-b501-44d3-a7ad-3f66dba4e66e",
+    "nameRomaji": "Ura Supeporuto🇪🇸🇵🇹(Ura Supein Gyakuuchi Supein Kyanseru Porutogaru-go Gyakuuchi)",
+    "nameKana": "裏スペポルト🇪🇸🇵🇹(裏スペイン逆打ちスペインキャンセルポルトガル語逆打ち)",
+    "startRomaji": "Maravillas!",
+    "startKana": "マラビージャス",
+    "startKanaRomaji": "Marabiijyasu!",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "País de las! Expansión! Cenicienta!\nÁngel! Reno! Navidad! Diosa!\nSirena! Vibra! Buzo! Fibra!\nCíber! Fuego! Tigre! Vamos!\nTigre! Fuego! Cíber! Fibra!\n👏👏👏👏👏 Excluir!\nVoar! Algodão! Vibração!\nPescadora! Fibra!\nArtificial! Fogo! Tigre!\nVamos! Galera!",
+    "readingKana": "パイースデラス エスパンシオン セニシエンタ\nアンヘル レノ ナヴィダ ディオサ\nシーレナ ビブラル ブゾ フィブラ\nシベル フェゴ ティグレ バーモス\nティグレ フェゴ シベル フィブラ\n👏👏👏👏👏 エクスクルイル\nヴォアル アルゴダオ ヴィブラサオ\nペスカドーラ フィブラ\nアルチフィシャル フォーグ ティグル\nバーモス・ガレーラ",
+    "readingKanaRomaji": "Paiisu Derasu! Espanshion! Senishienta!\nAnheru! Reno! Nabida! Diosa!\nShirena! Biburaru! Buzo! Fibura!\nShiberu! Fuego! Tigre! Baamosu!\nTigre! Fuego! Shiberu! Fibura!\n👏👏👏👏👏 Ekusukuruiru!\nBoaru! Arugodao! Biburasao!\nPesukadoora! Fibura!\nAruchifishyaru! Foogu! Tiguru!\nBaamosu! Gaareera!",
+    "variants": [],
+    "barCounts": [
+      20
+    ],
+    "tags": [],
+    "createdAt": "2026-11-10T00:34:31.863Z",
+    "updatedAt": "2026-11-10T00:54:47.069Z"
+  },
+  {
+    "id": "d296054f-377c-441c-ad12-90a8a19fce91",
+    "nameRomaji": "Ura Porutosupe🇵🇹🇪🇸(Ura Porutogaru Gyakuuchi Porutogaru Kyanseru Supein-go Gyakuuchi)",
+    "nameKana": "裏ポルトスペ🇵🇹🇪🇸(裏ポルトガル逆打ちポルトガルキャンセルスペイン語逆打ち)",
+    "startRomaji": "Maravilhas!",
+    "startKana": "マラヴィーリャス",
+    "startKanaRomaji": "Marabiiriyasu!",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "País das! Espaço! Cinderela!\nAnjo! Rena! Natal! Deusa! Sereia!\nVibração! Pescadora! Fibra!\nArtificial! Fogo! Tigre!\nVamos! Galera! Tigre! Fogo!\nArtificial! Fibra!\n👏👏👏👏👏 Jersey!\nVibra! Buzo! Fibra! Cíber!\nFuego! Tigre! Vamos!",
+    "readingKana": "パイーズダズ イスパーソ スィンデレラ\nアンジョ ヘーナ ナタル デウザ セレイア\nヴィブラサオ ペスカドーラ フィブラ\nアルチフィシャル フォーグ ティグル\nバーモス・ガレーラ ティグル フォーグ\nアルチフィシャル フィブラ\n👏👏👏👏👏 ヘルセイ\nビブラル ブゾ フィブラ シベル\nフェゴ ティグレ バーモス",
+    "readingKanaRomaji": "Paizudasu! Isupaaso! Shinderera!\nAnjyo! Heena! Nataru! Deuza! Sereiya!\nBiburasao! Pesukadoora! Fibura!\nAruchifishyaru! Foogu! Tiguru!\nBaamosu! Gaareera! Tiguru! Foogu!\nAruchifishyaru! Fibura!\n👏👏👏👏👏 Herusei!\nBiburaru! Buzo! Fibura! Shiberu!\nFuego! Tigre! Baamosu!",
+    "variants": [],
+    "barCounts": [
+      20
+    ],
+    "tags": [],
+    "createdAt": "2026-11-10T00:34:31.863Z",
+    "updatedAt": "2026-11-10T00:54:41.450Z"
+  },
+  {
+    "id": "61e8f9e9-78c7-4eb6-aa2d-7998853003e7",
+    "nameRomaji": "Ura Fura Girisha🇫🇷🇬🇷(Ura Furansu Gyakuuchi Furansu Kyanseru Girisha-go)",
+    "nameKana": "裏フラギリシャ🇫🇷🇬🇷(裏フランス逆打ちフランスキャンセルギリシャ語)",
+    "startRomaji": "Merveille!",
+    "startKana": "メルヴェイユ",
+    "startKanaRomaji": "Merubeiyu!",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Pays de! Espace! Cendrillon!\nAnge! Renne! Noël! Déesse!\nSirène! Vibration!\nPlongeur! Fibre!\nCyber! Feu! Tigre!\nC’est parti! Tigre! Feu! Cyber! Fibre!\n👏👏👏👏👏 Pigaíno!\nTigri! Fotia! Techniti! Ina!\nDytis! Donisi! Synthetiki ina!\nPetó! Metakinisi!",
+    "readingKana": "ペイデ エスパス サンドリヨン\nアンジュ レンヌ ノエル デエス\nシレーヌ ビブハッション\nプロンジャー フィーヴァ\nシべー フー ティガ\nセバルティ ティガ フー シべー フィーヴァ\n👏👏👏👏👏 ピゲーノ\nティグリ フォティア テクニトス イーナ\nディーティス ドーニシ シンセティキイーナ\nペトー メタキニシー",
+    "readingKanaRomaji": "Peide! Esupasu! Sandoriyon!\nAnjyu! Renu! Noeru! Deesu!\nShireenu! Biburashyon!\nPuronjyaa! Fiivaa!\nShibee! Fuu! Tiga!\nSebaruti! Tiga! Fuu! Shibee! Fiivaa!\n👏👏👏👏👏 Pigeeno!\nTiguri! Fotia! Tekunitosu! Iina!\nDiitisu! Doonishi! Shinsetikiiina!\nPetoo! Metakinishii!",
+    "variants": [],
+    "barCounts": [
+      20
+    ],
+    "tags": [],
+    "createdAt": "2026-11-10T00:34:31.863Z",
+    "updatedAt": "2026-11-10T00:54:18.483Z"
+  },
+  {
+    "id": "cf1435fb-64f5-44b0-864e-68fb8830e3d8",
+    "nameRomaji": "Ura Ara Tagarogu🇸🇦🇵🇭(Ura Arabia Gyakuuchi Arabia Kyanseru Tagarogu-go)",
+    "nameKana": "裏アラタガログ🇸🇦🇵🇭(裏アラビア逆打ちアラビアキャンセルタガログ語)",
+    "startRomaji": "Al-Ajaaib!",
+    "startKana": "アルアジャーイブ",
+    "startKanaRomaji": "Aruajyaaibu!",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Bilad! Fada! Sindirella!\nMalaak! Lana!\nEid al-Milad! Ilaha!\nKhaytun Sinaai! Hazza! Ghatasa!\nNaseej! Sinaai! Naar! Namir!\nSifri Asir! Namir! Naar!\nSinaai! Naseej!\n👏👏👏👏👏 Tara na!\nTigre! Apoy! Gawa! Hibla!\nManinisid! Pagkaba! Dalisay!\nLipad! Alisin!",
+    "readingKana": "ビラード ファダー シンディレーラ\nマラーク ラーナ\nイードアルミラード イーラハ\nハイトゥンシナーイー ハッザ ガタサ\nナスィージュ スィナーイー ナール ナミル\nスィフリーアスィール ナミル ナール\nスィナーイー ナスィージュ\n👏👏👏👏👏 テレーナ\nチグレ スノ ギナワ ヒブラ\nマニニシ パカバ ディーシー\nリパド アリシン",
+    "readingKanaRomaji": "Biraado! Fadaa! Shindireera!\nMaraaku! Raana!\nIidoarumiraado! Iiraaha!\nHaitunshinaaii! Hazza! Gatasa!\nNasuiijyu! Suinaaii! Naaru! Namiru!\nSuifuriiasuiiru! Namiru! Naaru!\nSuinaaii! Nasuiijyu!\n👏👏👏👏👏 Tereena!\nChigure! Suno! Ginawa! Hibura!\nManinishi! Pakaba! Diishii!\nRipado! Arishin!",
+    "variants": [],
+    "barCounts": [
+      20
+    ],
+    "tags": [],
+    "createdAt": "2026-11-10T00:34:31.863Z",
+    "updatedAt": "2026-11-10T00:53:45.317Z"
+  },
+  {
+    "id": "1b0a402d-1596-4c3f-8a8f-1b953b7d52af",
+    "nameRomaji": "Ura Ita Rate🇮🇹☕️(Ura Itaria Gyakuuchi Itaria Kyanseru Raten-go)",
+    "nameKana": "裏イタラテ🇮🇹☕️(裏イタリア逆打ちイタリアキャンセルラテン語)",
+    "startRomaji": "Meraviglie!",
+    "startKana": "メラヴィーリェ",
+    "startKanaRomaji": "Merabiirye!",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Paese delle! Spazio!\nCenerentola! Angelo!\nRenna! Natale! \nDea! Sirena! \nVibramento! Baronbaro! \nFibra! Replicante! \nFuoco! Tigre! \nAndiamo! \nTigre! Fuoco! Replicante! Fibra!\n👏👏👏👏👏 Aveemosu!\nTigris! Ignis! Artificialis! Fibra!\nUrinatore! Vibrationis! Saccharum! Vola! \nEliminatione!",
+    "readingKana": "パェゼデレ スパツィオ\nチェネレントラ アンジェロ\nレンナ ナターレ \nデーア シレーナ \nヴィヴラメント バロンバーロ \nフィーブラ レプリカンテ \nフオーコ ティーグレ \nアンディアモ \nティーグレ フオーコ レプリカンテ フィーブラ\n👏👏👏👏👏 アヴェーモス\nティグリス イグニス アーティフィシャル フィブラ\nウーリナトレ ヴィブラティオニス サッキャルム ヴォラ \nエリモティオネ",
+    "readingKanaRomaji": "Paezedere! Supatsio!\nChenerentora! Anjero!\nRenna! Nataare! \nDea! Shireena! \nBiburamento! Baronbaaro! \nFiibura! Repurikante! \nFuooko! Tiigure! \nAndiamo~! \nTiigure! Fuooko! Repurikante! Fiibura!\n👏👏👏👏👏 Aveemosu!\nTigurisu! Igunisu! Aatifishyaru! Fibura!\nUurinatore! Viburationisu! Sakkyarumu! Vora! \nErimotione!",
+    "variants": [],
+    "barCounts": [
+      20
+    ],
+    "tags": [],
+    "createdAt": "2026-11-10T00:34:31.863Z",
+    "updatedAt": "2026-11-10T00:52:49.340Z"
+  },
+  {
+    "id": "656a5932-8cc8-4513-a5ec-17e5d3c3bd0a",
+    "nameRomaji": "Ura Suwefin🇸🇪🇫🇮(Ura Suweeden Gyakuuchi Suweeden Kyanseru Finrando-go Gyakuuchi)",
+    "nameKana": "裏スウェフィン🇸🇪🇫🇮(裏スウェーデン逆打ちスウェーデンキャンセルフィンランド語逆打ち)",
+    "startRomaji": "Äventyr!",
+    "startKana": "エーヴェンテュール",
+    "startKanaRomaji": "Eeventyueru!",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Underlandet! Utrymme!\nAskungen! Ängel! Ren! Jul!\nGudinna! Sjögudinna! Vibration!\nHavsdykare! Fiber! Konstgjord!\nEld! Tiger! Vi går!\nTiger! Eld! Konstgjord! Fiber!\n👏👏👏👏👏 Poistaminen!\nHypätä! Joulupukki! Värähtely!\nSukeltaja! Kuitu! Keinotekoinen!\nTulipalo! Tiikeri! Mennään!",
+    "readingKana": "ウンデランデ ウートリューメ\nアスクンゲン エンエル レン ユール\nグディンナ シェーユングフル ヴィヴラション\nハフスディカレ フーベル コンストヨード\nエルド ツーゲル ヴィゴール\nツーゲル エルド コンストヨード フーベル\n👏👏👏👏👏 ポイスタミネン\nヒパタ ヨウルプッキ ヴァラーテリー\nスケルタヤ クイトウ ケイノテコイネン\nトゥリパロ ティーケリ メンナーン",
+    "readingKanaRomaji": "Underande! Uutoryuume!\nAsukungen! Eneru! Ren! Yuuru!\nGudinna! Sheeyungufuru! Vivurashyon!\nHafusudikare! Fuuberu! Konsutoyoodo!\nErudo! Tsuugeru! Vigooru!\nTsuugeru! Erudo! Konsutoyoodo! Fuuberu!\n👏👏👏👏👏 Poisutaminen!\nHipata! Yourupukki! Varaaterii!\nSukerutaya! Kuitou! Keinotekoinen!\nTuriparo! Tiikeri! Mennaan!",
+    "variants": [],
+    "barCounts": [
+      20
+    ],
+    "tags": [],
+    "createdAt": "2026-11-10T00:34:31.863Z",
+    "updatedAt": "2026-11-10T00:54:53.574Z"
+  },
+  {
+    "id": "2f2381da-9a77-4cbf-87ac-352ba16c7a68",
+    "nameRomaji": "Ura Fura Mania🇫🇷🇷🇴(Ura Furansu Gyakuuchi Furansu Kyanseru Ruumania-go)",
+    "nameKana": "裏フラマニア🇫🇷🇷🇴(裏フランス逆打ちフランスキャンセルルーマニア語)",
+    "startRomaji": "Merveille!",
+    "startKana": "メルヴェイユ",
+    "startKanaRomaji": "Merubeiyu!",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Pays de! Espace! Cendrillon!\nAnge! Renne! Noël! Déesse!\nSirène! Vibration!\nPlongeur! Fibre!\nCyber! Feu! Tigre!\nC’est parti! Tigre! Feu! Cyber! Fibre!\n👏👏👏👏👏 A merge!\nTigru! Foc! Artificial!\nFibră! Scafandru! Vibrație!\nFibră Sintetică! A Zbura! Eliminare!",
+    "readingKana": "ペイデ エスパス サンドリヨン\nアンジュ レンヌ ノエル デエス\nシレーヌ ビブハッション\nプロンジャー フィーヴァ\nシべー フー ティガ\nセバルティ ティガ フー シべー フィーヴァ\n👏👏👏👏👏 アーメルジェ\nティグル フォーク アルティフィチャル\nフィブレ スカファンドラ ヴィヴラツィエ\nフィブレシンテティカ アズブラ エリミナーレ",
+    "readingKanaRomaji": "Peide! Esupasu! Sandoriyon!\nAnjyu! Renu! Noeru! Deesu!\nShireenu! Biburashyon!\nPuronjyaa! Fiivaa!\nShibee! Fuu! Tiga!\nSebaruti! Tiga! Fuu! Shibee! Fiivaa!\n👏👏👏👏👏 Aameruje!\nTiguru! Fooku! Arutifichyaru!\nFibure! Sukafandora! Vivuratsie!\nFibureshintetika! Azubura! Eriminaare!",
+    "variants": [],
+    "barCounts": [
+      20
+    ],
+    "tags": [],
+    "createdAt": "2026-11-10T00:34:31.863Z",
+    "updatedAt": "2026-11-10T00:54:24.317Z"
+  },
+  {
+    "id": "b1c2f31f-78d0-42ca-8a2f-8739454bd358",
+    "nameRomaji": "Ura Aruchuu🇦🇲🇨🇳🍻(Ura Arumenia Gyakuuchi Arumenia Kyanseru Chuugoku-go Gyakuuchi)",
+    "nameKana": "裏アル中🇦🇲🇨🇳🍻(裏アルメニア逆打ちアルメニアキャンセル中国語逆打ち)",
+    "startRomaji": "Ashkharh!",
+    "startKana": "アシュハルフ",
+    "startKanaRomaji": "Ashuharufu!",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Furashyukuni! Taratsututiun!\nMofurotiku! Fureshyutaku!\nIefujeru! Surubutsununto!\nAsutovatsuhi! Jyuraharusu!\nTatanumu! Tsovikin! Teruku!\nAruhesutakan! Kuraku!\nVaguru! Gnatsinku! Vaguru!\nKuraku! Aruhesutakan! Teruku!\n👏👏👏👏👏 Huashen!\nZhendong! Haini! Xianwei! Renzao! Huo! Laohu! Women Zouba!",
+    "readingKana": "フラシュクニ タラツトゥティウン\nモフロティク フレシュタク\nイェフジェル スルブツヌント\nアストヴァツヒ ジュラハルス\nタタヌム ツォヴィキン テルク\nアルヘスタカン クラク\nヴァグル グナツィンク ヴァグル\nクラク アルヘスタカン テルク\n👏👏👏👏👏 ホアシェン\nジェンドン ハイニー シェンウェイ レンザオ フオ ラオフー ウォーメンゾウヴァー",
+    "readingKanaRomaji": "Furashyukuni! Taratsututiun!\nMofurotiku! Fureshyutaku!\nIefujeru! Surubutsununto!\nAsutovatsuhi! Jyuraharusu!\nTatanumu! Tsovikin! Teruku!\nAruhesutakan! Kuraku!\nVaguru! Gnatsinku! Vaguru!\nKuraku! Aruhesutakan! Teruku!\n👏👏👏👏👏 Hoashen!\nJendong! Hainii! Shenwei! Renzhao! Fuo! Laofuu! Woomenzouvaa!",
+    "variants": [],
+    "barCounts": [
+      20
+    ],
+    "tags": [],
+    "createdAt": "2026-11-10T00:34:31.863Z",
+    "updatedAt": "2026-11-10T00:53:56.056Z"
+  },
+  {
+    "id": "6f1e5aa6-92bd-403f-a919-e23725661989",
+    "nameRomaji": "Ura Giritai🇬🇷🇹🇭(Ura Girisha Gyakuuchi Girisha Kyanseru Tai-go)",
+    "nameKana": "裏ギリタイ🇬🇷🇹🇭(裏ギリシャ逆打ちギリシャキャンセルタイ語)",
+    "startRomaji": "Uragiritai! Uragiritai! Uragiritai kara!\nSavmaton!",
+    "startKana": "裏切りたい！裏切りたい！裏切りたいから\nサヴマトン",
+    "startKanaRomaji": "Uragiritai! Uragiritai! Uragiritai kara!\nSabumaton!",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Chora ton! Choros! Stachtopouta!\nAngelos! Tarandos! Christougena!\nThea! Seirina! Donisi!\nDytis! Ina!\nTechniti! Fotia! Tigri!\nPetó! Tigri! Fotia!\nTechniti! Ina!\n👏👏👏👏👏 Baikantu!\nShiiaa! Faimai! Toroon! Faibuu!\nBuradaanaa! Sutaan! Sankoraa!\nBin! Kaakamuchyaa!",
+    "readingKana": "コラトン コーロス スタクトプタ\nアンゲロス タランドス クリストゥゲナ\nセア セイレーン ドーニシ\nディーティス イーナ\nテクニトス フォティア ティグリ\nピゲーノ ティグリ フォティア\nテクニトス イーナ\n👏👏👏👏👏 バイカントゥ\nシーアー ファイマイ トローン ファイブー\nブラダーナー スターン サンコラー\nビン カーカムチャー",
+    "readingKanaRomaji": "Koraton! Koorosu! Sutakutoputa!\nAngerosu! Tarandosu! Kurisutugena!\nSea! Seireene! Doonishi!\nDiitisu! Iina!\nTekunitosu! Fotia! Tiguri!\nPigeeno! Tiguri! Fotia!\nTekunitosu! Iina!\n👏👏👏👏👏 Baikantu!\nShii aa! Faimai! Toroon! Faibuu!\nBuradaanaa! Sutaan! Sankoraa!\nBin! Kaakamuchyaa!",
+    "variants": [],
+    "barCounts": [
+      20
+    ],
+    "tags": [],
+    "createdAt": "2026-11-10T00:34:31.863Z",
+    "updatedAt": "2026-11-10T00:54:30.203Z"
+  },
+  {
+    "id": "f00d3b36-89b1-4733-b3c4-4cbc97eea17a",
+    "nameRomaji": "Ura Hanmaa🇰🇷🇩🇰🔨(Ura Hanguru Gyakuuchi Hanguru Kyanseru Denmaaku-go Gyakuuchi)",
+    "nameKana": "裏ハンマー🇰🇷🇩🇰🔨(裏ハングル逆打ちハングルキャンセルデンマーク語逆打ち)",
+    "startRomaji": "Isahan Nara!",
+    "startKana": "イサハン・ナラ",
+    "startKanaRomaji": "Isahan Nara!",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Gongang! Cinderella! Cheonsa!\nSeulleok! Seongtan Jeol! Yeosin!\nInou! Hwahakseomyu! Sindo!\nHaenyeo! Somyu! Injo! Bul!\nHorangi! Chakada!\nHorangi! Bul! Injo! Somyu!\n👏👏👏👏👏 Syntetisk Fiber!\nVibration! Dykker! Fiber!\nKunstig! Brand! Tiger! Lad os gå!",
+    "readingKana": "ゴンガン シンデレラ チョンサ\nスルロッ ソンタンジョル ヨシン\nイノウ ファハクソミュ シンド\nへニョ ソミュ インジョ ブル\nホランイ チャカダー\nホランイ ブル インジョ ソミュ\n👏👏👏👏👏 シンティーティス・フィーバ\nビブラシオ ドゥーガ フィーバ\nクンスティ ブラン ツイーヤ ラスゴー",
+    "readingKanaRomaji": "Gongang! Shinderera! Chonsa!\nSeulleok! Songtanjyoru! Yoshin!\nInou! Fahakusomyu! Shindo!\nHenyo! Somyu! Injo! Buru!\nHorani! Chakadaa!\nHorani! Buru! Injo! Somyu!\n👏👏👏👏👏 Shintiitisufiiba!\nBiburashio! Duuga! Fiiba!\nKunsuti! Buran! Tsuiiya! Rasugoo!",
+    "variants": [],
+    "barCounts": [
+      20
+    ],
+    "tags": [],
+    "createdAt": "2026-11-10T00:34:31.863Z",
+    "updatedAt": "2026-11-10T00:54:35.666Z"
+  },
+  {
+    "id": "e9d923e9-ada9-44d6-ad34-4a874bb86b12",
+    "nameRomaji": "Ura Chuutou🇨🇳🇨🇳(Ura Chainaa Gyakuuchi Chainaa Kyanseru Kantongo Gyakuuchi)",
+    "nameKana": "裏中東🇨🇳🇨🇳(裏チャイナ逆打ちチャイナキャンセル広東語逆打ち)",
+    "startRomaji": "Shiyenchin!",
+    "startKana": "シイェンチン",
+    "startKanaRomaji": "Shiyenchin!",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Maangyou! Yizhou! Fugu Nian!\nTianshi! Xinlu! Shengdanjie!\nNüshen! Meireny!\nZhendong! Haini! Xianwei! Renzao! Huo! Laohu! Women Zouba!\nLaohu! Huo! Renzao! Xianwei!\n👏👏👏👏👏 Faacim!\nJanzou! Hoinui! Cimwai! Yangzhou!\nFo! Loufu! Goodeizauraa!",
+    "readingKana": "マァンヨウ イーヂォウ フィグーニャン\nティェンシ シィンルー シェンダァンジエ\nヌゥーシェン メェイレンイー\nジェンドン ハイニー シェンウェイ レンザオ フオ ラオフー ウォーメンゾウヴァー\nラオフー フオ レンザオ シェンウェイ\n👏👏👏👏👏 ファーチーム\nジャンドン ホイヌイ チームワイ ヤンジョウ\nフォー ロウフー ゴーデイザウラー",
+    "readingKanaRomaji": "Maangyou! Iijyou! Figunyan!\nTenshi! Shinru! Shendaajie!\nNuushen! Meirenii!\nJendong! Hainii! Shenwei! Renzhao! Fuo! Laofuu! Woomenzouvaa!\nLaofuu! Fuo! Renzhao! Shenwei!\n👏👏👏👏👏 Faachiimu!\nJandong! Hoinui! Chiimuwai! Yanjou!\nFoo! Roufuu! Goodeizauraa!",
+    "variants": [],
+    "barCounts": [
+      20
+    ],
+    "tags": [],
+    "createdAt": "2026-11-10T00:34:31.863Z",
+    "updatedAt": "2026-11-10T00:54:06.208Z"
+  },
+  {
+    "id": "08b7f3b5-0ea6-47dd-9f51-2be0e254aef8",
+    "nameRomaji": "Ura Aisutii🇮🇸🇮🇳🇮🇩🫖(Ura Aisurando Gyakuuchi Terugu Kyanseru Indoneshia-go)",
+    "nameKana": "裏アイスティー🇮🇸🇮🇳🇮🇩🫖(裏アイスランド逆打ちテルグキャンセルインドネシア語)",
+    "startRomaji": "Aiventiri!",
+    "startKana": "アイヴェンティリ",
+    "startKanaRomaji": "Aiventiri!",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Undorarandi! Riimi! Esukyubusuka!\nEngiru! Heindiru! Yooru!\nGizuya! Hafumeiya! Titoringuru!\nShyaavarumaru! Torefa!\nGeruvinotturu! Eruduru!\nTiiguri! Verudaan!\nPuri! Aguni! Kuruturima! Faibaa!\n👏👏👏👏👏 Parugii!\nHarimau! Api! Buatan! Sera!\nPeniramu! Getaran! Shintatisu!\nTaruban! Penhapusan!",
+    "readingKana": "ウンドラランド リーミ エスキュブスカ\nエンギル ヘインディル ヨール\nギズヤ ハフメイヤ ティトリングル\nシャーヴァルマル トレファ\nゲルヴィノットゥル エルドゥル\nティーグリ ヴェルダーン\nプリ アグニ クルトゥリマ ファイバー\n👏👏👏👏👏 パルギー\nハリマウ アピ ブアタン セラ\nペニラム ゲタラン シンタティス\nタルバン ペンハプサン",
+    "readingKanaRomaji": "Undorarandi! Riimi! Esukyubusuka!\nEngiru! Heindiru! Yooru!\nGizuya! Hafumeiya! Titoringuru!\nShyaavarumaru! Torefa!\nGeruvinotturu! Eruduru!\nTiiguri! Verudaan!\nPuri! Aguni! Kuruturima! Faibaa!\n👏👏👏👏👏 Parugii!\nHarimau! Api! Buatan! Sera!\nPeniramu! Getaran! Shintatisu!\nTaruban! Penhapusan!",
+    "variants": [],
+    "barCounts": [
+      20
+    ],
+    "tags": [],
+    "createdAt": "2026-11-10T00:34:31.863Z",
+    "updatedAt": "2026-11-10T00:53:33.487Z"
+  },
+  {
+    "id": "afc8131b-fe4b-4cf2-9810-10909e842fd2",
+    "nameRomaji": "Ura Supeporu 3🇪🇸🇪🇸🇵🇹🇵🇹🇵🇹(Ura Supein Gyakuuchi Kyanseru Porutogaru 3ren)",
+    "nameKana": "裏スペポル３🇪🇸🇪🇸🇵🇹🇵🇹🇵🇹(裏スペイン逆打ちキャンセルポルトガル3連)",
+    "startRomaji": "Maravillas!",
+    "startKana": "マラビージャス",
+    "startKanaRomaji": "Marabiijyasu!",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "País de las! Expansión!\nCenicienta! Ángel! Reno!\nNavidad! Diosa! Sirena!\nVibra! Buzo! Fibra!\nCíber! Fuego! Tigre!\nVamos Galera!\nTigre! Fogo! Artificial!\nFibra! Pescadora! Vibração!\nSereia! Deusa! Natal! Rena! Anjo! Cinderela! Espaço! País das Maravilhas!\nMaravilhas! Faísca! Chama!\nPolar! Plêiades!\nCéu estrelado!",
+    "readingKana": "パイースデラス エスパンシオン\nセニシエンタ アンヘル レノ\nナヴィダ ディオサ シーレナ\nビブラル ブゾ フィブラ\nシベル フェゴ ティグレ\nバーモスガレーラ\nティグル フォーグ アルチフィシャル\nフィブラ ぺスカドーラ ヴィヴラザオ\nセレイア デウザ ナタル へーナ アンジョ スィンデレラ イスパーソ パイーズダス\nマラビーリャス ファグージャ シャーマ\nポラリス プレイアジス\nセーウ・イストレラード",
+    "readingKanaRomaji": "Paiisu Derasu! Espanshion!\nSenishienta! Anheru! Reno!\nNabida! Diosa! Shirena!\nBiburaru! Buzo! Fibura!\nShiberu! Fuego! Tigre!\nBaamosu Gaareera!\nTiguru! Foogu! Aruchifishyaru!\nFibura! Pesukadoora! Biburazao!\nSereiya! Deuza! Nataru! Heena! Anjyo! Shinderera! Isupaaso! Paizudasu!\nMarabiiriyas! Faguujya! Shaama!\nPorarisu! Pureiyajisu!\nSeeu Isutorerado!",
+    "variants": [],
+    "barCounts": [
+      24
+    ],
+    "tags": [],
+    "createdAt": "2026-11-10T00:34:31.863Z",
+    "updatedAt": "2026-11-10T01:00:59.257Z"
   }
 ]
