@@ -10113,8 +10113,8 @@
     "sortOrder": 7,
     "nameRomaji": "Donguri Takeshi",
     "nameKana": "どんぐりたけし",
-    "startRomaji": "",
-    "startKana": "",
+    "startRomaji": "Bamiyan!",
+    "startKana": "バーミヤン",
     "startKanaRomaji": "",
     "mainTitle": "Versión principal",
     "mainTitleKana": "",
@@ -10127,7 +10127,7 @@
     ],
     "tags": [],
     "createdAt": "2026-10-10T21:16:24Z",
-    "updatedAt": "2026-10-10T21:59:18.228Z"
+    "updatedAt": "2026-11-11T13:28:10Z"
   },
   {
     "id": "e2ad7ef2-a6a3-4862-81ca-972ad1427e9f",
@@ -12097,8 +12097,8 @@
   },
   {
     "id": "adae0ec1-537e-42f7-add8-5caf7d85f45d",
-    "nameRomaji": "Yami Unchi MIX",
-    "nameKana": "闇うんちmix",
+    "nameRomaji": "Yami Unchi Kahen",
+    "nameKana": "闇うんち可変",
     "startRomaji": "",
     "startKana": "",
     "startKanaRomaji": "",
@@ -12113,7 +12113,7 @@
     ],
     "tags": [],
     "createdAt": "2026-10-26T12:21:07Z",
-    "updatedAt": "2026-10-26T12:26:09.303Z"
+    "updatedAt": "2026-11-11T12:58:03.967Z"
   },
   {
     "id": "04c6f4b6-37c9-4a2e-8a0d-be734d865d73",
@@ -13176,13 +13176,26 @@
     "readingRomaji": "Noujou! Mai! Umiu! Chou!\n\"Jokyo Tobi Kasen Shindou Ama Sen'i Jinzou Hi!\" (Fast)\nTora! Hi! Tora! Hi!\n\"Tora Tora Tora Tora!\" (Fast) \"Tora Hi Jinzou Sen'i Ama Shindou!\" (4x speed)\n\"Amashin Amashin Amashindou! Amasen Amasen Jinzou Hi!\" (4x speed)\n<Tora Hi Jinzou Sen'i!> (Fast or normal speed, depending on the song) \n👏 Ama! Shindou!\nKasen! Tobi! Jokyo! Chou!\nUmiu! Mai! Noujou!",
     "readingKana": "農場 舞 海鵜 跳\n除去飛化繊振動海女繊維人造火【倍速】\n虎 火 虎 火\n虎虎虎虎【倍速】 虎火人造繊維海女振動【4倍速】\n海女振海女振海女振動 海女繊海女繊人造火【4倍速】\n〈虎　火　人造　繊維〉【曲によって倍速または等速】 \n👏 海女 振動\n化繊 飛 除去 跳\n海鵜 舞 農場",
     "readingKanaRomaji": "",
-    "variants": [],
+    "variants": [
+      {
+        "id": "5a297eec-81b8-4ec4-89b3-ebe228ed0fd0",
+        "title": "Normal Speed Accele Shuumaku Japa Kahen",
+        "titleKana": "等速アッチェレ終幕ジャパ可変",
+        "startRomaji": "",
+        "startKana": "",
+        "startKanaRomaji": "",
+        "readingRomaji": "Noujou! Mai! Umiu! Chou!\n\"Jokyo Tobi Kasen Shindou Ama Sen'i Jinzou Hi Tora!\" (Fast)\nTora! Hi! Tora! Hi!\n\"Tora Tora Tora Tora!\" (Fast) \"Tora Hi Jinzou Sen'i Ama Shindou!\" (4x speed)\n\"Amashin Amashin Amashindou!\" (4x speed) \"Amasen Amasen Jinzou Hi!\" (4x speed)\n👏 Tora! Hi! Jinzou!\nSen'i! Ama! Shindou! Kasen!\nTobi! Jokyo! Chou! Umiu!\nMai! Noujou!",
+        "readingKana": "農場 舞 海鵜 跳\n除去飛化繊振動海女繊維人造火虎【倍速】\n虎 火 虎 火\n虎虎虎虎【倍速】 虎火人造繊維海女振動【4倍速】\n海女振海女振海女振動【4倍速】 海女繊海女繊人造火【4倍速】\n👏 虎 火 人造\n繊維 海女 振動 化繊\n飛 除去 跳 海鵜\n舞 農場",
+        "readingKanaRomaji": ""
+      }
+    ],
     "barCounts": [
-      16
+      16,
+      17
     ],
     "tags": [],
     "createdAt": "2026-10-26T14:55:22.531Z",
-    "updatedAt": "2026-11-02T13:26:50.906Z"
+    "updatedAt": "2026-11-11T13:28:10Z"
   },
   {
     "id": "21aa3dba-10eb-4a23-90b7-fe920fb6abcf",
@@ -13276,8 +13289,8 @@
   },
   {
     "id": "e953f102-5336-4b92-9b0f-7bd0e7edf1d7",
-    "nameRomaji": "Ura Doitsu Rate🇩🇪☕️(Ura Doitsu Gyakuuchi Doitsu Kyanseru Raten-go)",
-    "nameKana": "裏ドイツラテ🇩🇪☕️(裏ドイツ逆打ちドイツキャンセルラテン語)",
+    "nameRomaji": "Ura Doitsu Rate",
+    "nameKana": "裏ドイツラテ",
     "startRomaji": "Karl-Heinz Schneider!",
     "startKana": "カールハインツシュナイダー",
     "startKanaRomaji": "Kaaru Haintsu Shunaidaa!",
@@ -13290,14 +13303,16 @@
     "barCounts": [
       20
     ],
-    "tags": [],
+    "tags": [
+      "gengo"
+    ],
     "createdAt": "2026-11-10T00:34:31.863Z",
-    "updatedAt": "2026-11-10T00:54:11.884Z"
+    "updatedAt": "2026-11-11T13:23:09Z"
   },
   {
     "id": "b52ac512-b501-44d3-a7ad-3f66dba4e66e",
-    "nameRomaji": "Ura Supeporuto🇪🇸🇵🇹(Ura Supein Gyakuuchi Supein Kyanseru Porutogaru-go Gyakuuchi)",
-    "nameKana": "裏スペポルト🇪🇸🇵🇹(裏スペイン逆打ちスペインキャンセルポルトガル語逆打ち)",
+    "nameRomaji": "Ura Supeporuto",
+    "nameKana": "裏スペポルト",
     "startRomaji": "Maravillas!",
     "startKana": "マラビージャス",
     "startKanaRomaji": "Marabiijyasu!",
@@ -13310,14 +13325,16 @@
     "barCounts": [
       20
     ],
-    "tags": [],
+    "tags": [
+      "gengo"
+    ],
     "createdAt": "2026-11-10T00:34:31.863Z",
-    "updatedAt": "2026-11-10T00:54:47.069Z"
+    "updatedAt": "2026-11-11T13:23:09Z"
   },
   {
     "id": "d296054f-377c-441c-ad12-90a8a19fce91",
-    "nameRomaji": "Ura Porutosupe🇵🇹🇪🇸(Ura Porutogaru Gyakuuchi Porutogaru Kyanseru Supein-go Gyakuuchi)",
-    "nameKana": "裏ポルトスペ🇵🇹🇪🇸(裏ポルトガル逆打ちポルトガルキャンセルスペイン語逆打ち)",
+    "nameRomaji": "Ura Porutosupe",
+    "nameKana": "裏ポルトスペ",
     "startRomaji": "Maravilhas!",
     "startKana": "マラヴィーリャス",
     "startKanaRomaji": "Marabiiriyasu!",
@@ -13330,14 +13347,16 @@
     "barCounts": [
       20
     ],
-    "tags": [],
+    "tags": [
+      "gengo"
+    ],
     "createdAt": "2026-11-10T00:34:31.863Z",
-    "updatedAt": "2026-11-10T00:54:41.450Z"
+    "updatedAt": "2026-11-11T13:23:09Z"
   },
   {
     "id": "61e8f9e9-78c7-4eb6-aa2d-7998853003e7",
-    "nameRomaji": "Ura Fura Girisha🇫🇷🇬🇷(Ura Furansu Gyakuuchi Furansu Kyanseru Girisha-go)",
-    "nameKana": "裏フラギリシャ🇫🇷🇬🇷(裏フランス逆打ちフランスキャンセルギリシャ語)",
+    "nameRomaji": "Ura Fura Girisha",
+    "nameKana": "裏フラギリシャ",
     "startRomaji": "Merveille!",
     "startKana": "メルヴェイユ",
     "startKanaRomaji": "Merubeiyu!",
@@ -13350,14 +13369,16 @@
     "barCounts": [
       20
     ],
-    "tags": [],
+    "tags": [
+      "gengo"
+    ],
     "createdAt": "2026-11-10T00:34:31.863Z",
-    "updatedAt": "2026-11-10T00:54:18.483Z"
+    "updatedAt": "2026-11-11T13:23:09Z"
   },
   {
     "id": "cf1435fb-64f5-44b0-864e-68fb8830e3d8",
-    "nameRomaji": "Ura Ara Tagarogu🇸🇦🇵🇭(Ura Arabia Gyakuuchi Arabia Kyanseru Tagarogu-go)",
-    "nameKana": "裏アラタガログ🇸🇦🇵🇭(裏アラビア逆打ちアラビアキャンセルタガログ語)",
+    "nameRomaji": "Ura Ara Tagarogu",
+    "nameKana": "裏アラタガログ",
     "startRomaji": "Al-Ajaaib!",
     "startKana": "アルアジャーイブ",
     "startKanaRomaji": "Aruajyaaibu!",
@@ -13370,14 +13391,16 @@
     "barCounts": [
       20
     ],
-    "tags": [],
+    "tags": [
+      "gengo"
+    ],
     "createdAt": "2026-11-10T00:34:31.863Z",
-    "updatedAt": "2026-11-10T00:53:45.317Z"
+    "updatedAt": "2026-11-11T13:23:09Z"
   },
   {
     "id": "1b0a402d-1596-4c3f-8a8f-1b953b7d52af",
-    "nameRomaji": "Ura Ita Rate🇮🇹☕️(Ura Itaria Gyakuuchi Itaria Kyanseru Raten-go)",
-    "nameKana": "裏イタラテ🇮🇹☕️(裏イタリア逆打ちイタリアキャンセルラテン語)",
+    "nameRomaji": "Ura Ita Rate",
+    "nameKana": "裏イタラテ",
     "startRomaji": "Meraviglie!",
     "startKana": "メラヴィーリェ",
     "startKanaRomaji": "Merabiirye!",
@@ -13390,14 +13413,16 @@
     "barCounts": [
       20
     ],
-    "tags": [],
+    "tags": [
+      "gengo"
+    ],
     "createdAt": "2026-11-10T00:34:31.863Z",
-    "updatedAt": "2026-11-10T00:52:49.340Z"
+    "updatedAt": "2026-11-11T13:23:09Z"
   },
   {
     "id": "656a5932-8cc8-4513-a5ec-17e5d3c3bd0a",
-    "nameRomaji": "Ura Suwefin🇸🇪🇫🇮(Ura Suweeden Gyakuuchi Suweeden Kyanseru Finrando-go Gyakuuchi)",
-    "nameKana": "裏スウェフィン🇸🇪🇫🇮(裏スウェーデン逆打ちスウェーデンキャンセルフィンランド語逆打ち)",
+    "nameRomaji": "Ura Suwefin",
+    "nameKana": "裏スウェフィン",
     "startRomaji": "Äventyr!",
     "startKana": "エーヴェンテュール",
     "startKanaRomaji": "Eeventyueru!",
@@ -13410,14 +13435,16 @@
     "barCounts": [
       20
     ],
-    "tags": [],
+    "tags": [
+      "gengo"
+    ],
     "createdAt": "2026-11-10T00:34:31.863Z",
-    "updatedAt": "2026-11-10T00:54:53.574Z"
+    "updatedAt": "2026-11-11T13:23:09Z"
   },
   {
     "id": "2f2381da-9a77-4cbf-87ac-352ba16c7a68",
-    "nameRomaji": "Ura Fura Mania🇫🇷🇷🇴(Ura Furansu Gyakuuchi Furansu Kyanseru Ruumania-go)",
-    "nameKana": "裏フラマニア🇫🇷🇷🇴(裏フランス逆打ちフランスキャンセルルーマニア語)",
+    "nameRomaji": "Ura Fura Mania",
+    "nameKana": "裏フラマニア",
     "startRomaji": "Merveille!",
     "startKana": "メルヴェイユ",
     "startKanaRomaji": "Merubeiyu!",
@@ -13430,14 +13457,16 @@
     "barCounts": [
       20
     ],
-    "tags": [],
+    "tags": [
+      "gengo"
+    ],
     "createdAt": "2026-11-10T00:34:31.863Z",
-    "updatedAt": "2026-11-10T00:54:24.317Z"
+    "updatedAt": "2026-11-11T13:23:09Z"
   },
   {
     "id": "b1c2f31f-78d0-42ca-8a2f-8739454bd358",
-    "nameRomaji": "Ura Aruchuu🇦🇲🇨🇳🍻(Ura Arumenia Gyakuuchi Arumenia Kyanseru Chuugoku-go Gyakuuchi)",
-    "nameKana": "裏アル中🇦🇲🇨🇳🍻(裏アルメニア逆打ちアルメニアキャンセル中国語逆打ち)",
+    "nameRomaji": "Ura Aruchuu",
+    "nameKana": "裏アル中",
     "startRomaji": "Ashkharh!",
     "startKana": "アシュハルフ",
     "startKanaRomaji": "Ashuharufu!",
@@ -13450,14 +13479,16 @@
     "barCounts": [
       20
     ],
-    "tags": [],
+    "tags": [
+      "gengo"
+    ],
     "createdAt": "2026-11-10T00:34:31.863Z",
-    "updatedAt": "2026-11-10T00:53:56.056Z"
+    "updatedAt": "2026-11-11T13:23:09Z"
   },
   {
     "id": "6f1e5aa6-92bd-403f-a919-e23725661989",
-    "nameRomaji": "Ura Giritai🇬🇷🇹🇭(Ura Girisha Gyakuuchi Girisha Kyanseru Tai-go)",
-    "nameKana": "裏ギリタイ🇬🇷🇹🇭(裏ギリシャ逆打ちギリシャキャンセルタイ語)",
+    "nameRomaji": "Ura Giritai",
+    "nameKana": "裏ギリタイ",
     "startRomaji": "Uragiritai! Uragiritai! Uragiritai kara!\nSavmaton!",
     "startKana": "裏切りたい！裏切りたい！裏切りたいから\nサヴマトン",
     "startKanaRomaji": "Uragiritai! Uragiritai! Uragiritai kara!\nSabumaton!",
@@ -13470,14 +13501,16 @@
     "barCounts": [
       20
     ],
-    "tags": [],
+    "tags": [
+      "gengo"
+    ],
     "createdAt": "2026-11-10T00:34:31.863Z",
-    "updatedAt": "2026-11-10T00:54:30.203Z"
+    "updatedAt": "2026-11-11T13:23:09Z"
   },
   {
     "id": "f00d3b36-89b1-4733-b3c4-4cbc97eea17a",
-    "nameRomaji": "Ura Hanmaa🇰🇷🇩🇰🔨(Ura Hanguru Gyakuuchi Hanguru Kyanseru Denmaaku-go Gyakuuchi)",
-    "nameKana": "裏ハンマー🇰🇷🇩🇰🔨(裏ハングル逆打ちハングルキャンセルデンマーク語逆打ち)",
+    "nameRomaji": "Ura Hanmaa",
+    "nameKana": "裏ハンマー",
     "startRomaji": "Isahan Nara!",
     "startKana": "イサハン・ナラ",
     "startKanaRomaji": "Isahan Nara!",
@@ -13490,14 +13523,16 @@
     "barCounts": [
       20
     ],
-    "tags": [],
+    "tags": [
+      "gengo"
+    ],
     "createdAt": "2026-11-10T00:34:31.863Z",
-    "updatedAt": "2026-11-10T00:54:35.666Z"
+    "updatedAt": "2026-11-11T13:23:09Z"
   },
   {
     "id": "e9d923e9-ada9-44d6-ad34-4a874bb86b12",
-    "nameRomaji": "Ura Chuutou🇨🇳🇨🇳(Ura Chainaa Gyakuuchi Chainaa Kyanseru Kantongo Gyakuuchi)",
-    "nameKana": "裏中東🇨🇳🇨🇳(裏チャイナ逆打ちチャイナキャンセル広東語逆打ち)",
+    "nameRomaji": "Ura Chuutou",
+    "nameKana": "裏中東",
     "startRomaji": "Shiyenchin!",
     "startKana": "シイェンチン",
     "startKanaRomaji": "Shiyenchin!",
@@ -13510,14 +13545,16 @@
     "barCounts": [
       20
     ],
-    "tags": [],
+    "tags": [
+      "gengo"
+    ],
     "createdAt": "2026-11-10T00:34:31.863Z",
-    "updatedAt": "2026-11-10T00:54:06.208Z"
+    "updatedAt": "2026-11-11T13:23:09Z"
   },
   {
     "id": "08b7f3b5-0ea6-47dd-9f51-2be0e254aef8",
-    "nameRomaji": "Ura Aisutii🇮🇸🇮🇳🇮🇩🫖(Ura Aisurando Gyakuuchi Terugu Kyanseru Indoneshia-go)",
-    "nameKana": "裏アイスティー🇮🇸🇮🇳🇮🇩🫖(裏アイスランド逆打ちテルグキャンセルインドネシア語)",
+    "nameRomaji": "Ura Aisutii",
+    "nameKana": "裏アイスティー",
     "startRomaji": "Aiventiri!",
     "startKana": "アイヴェンティリ",
     "startKanaRomaji": "Aiventiri!",
@@ -13530,14 +13567,16 @@
     "barCounts": [
       20
     ],
-    "tags": [],
+    "tags": [
+      "gengo"
+    ],
     "createdAt": "2026-11-10T00:34:31.863Z",
-    "updatedAt": "2026-11-10T00:53:33.487Z"
+    "updatedAt": "2026-11-11T13:23:09Z"
   },
   {
     "id": "afc8131b-fe4b-4cf2-9810-10909e842fd2",
-    "nameRomaji": "Ura Supeporu 3🇪🇸🇪🇸🇵🇹🇵🇹🇵🇹(Ura Supein Gyakuuchi Kyanseru Porutogaru 3ren)",
-    "nameKana": "裏スペポル３🇪🇸🇪🇸🇵🇹🇵🇹🇵🇹(裏スペイン逆打ちキャンセルポルトガル3連)",
+    "nameRomaji": "Ura Supeporu 3",
+    "nameKana": "裏スペポル３",
     "startRomaji": "Maravillas!",
     "startKana": "マラビージャス",
     "startKanaRomaji": "Marabiijyasu!",
@@ -13550,8 +13589,281 @@
     "barCounts": [
       24
     ],
-    "tags": [],
+    "tags": [
+      "gengo"
+    ],
     "createdAt": "2026-11-10T00:34:31.863Z",
-    "updatedAt": "2026-11-10T01:00:59.257Z"
+    "updatedAt": "2026-11-11T13:23:09Z"
+  },
+  {
+    "id": "7a173280-a7db-41d4-83fa-1622dab1006c",
+    "nameRomaji": "Gachi Koi Kahen Sanren",
+    "nameKana": "ガチ恋可変3連",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Iitai koto ga! Faibo Waipa!\nYappari Taiga! Tatatatataiga!\nSuki Suki Daisuki! Chape Ape Kara Kina!\nYatto Mitsuketa! 👏 Waipa!\nOre ga! Umarete! Tora Tora! Kara Kina!\nSore wa! Omae to! Ama Ama! Jasupaa!\nOre to issho ni! Tora Taiga!\nSekai de ichiban! Yett Taiga!",
+    "readingKana": "言いたいことが　ファイボワイパー\nやっぱりタイガー　タタタタタイガー\n好き好き大好き　チャペ アペ カラ キナ\nやっと見つけた　👏　ワイパー\n俺が 生まれて　虎虎 カラキナ\nそれは お前と　海女海女 ジャスパー\n俺と一緒に　虎 タイガー\n世界で一番　イエッタイガー",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      16
+    ],
+    "tags": [
+      "kahen-sanren"
+    ],
+    "createdAt": "2026-11-11T13:28:10Z",
+    "updatedAt": "2026-11-11T13:28:10Z"
+  },
+  {
+    "id": "dab95fbe-3109-4d96-9ec4-21ecf098f83c",
+    "nameRomaji": "TF Shidou Standard MIX",
+    "nameKana": "TF始動スタンダードmix",
+    "startRomaji": "Taiga Faiya!",
+    "startKana": "タイガーファイヤー",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Taitataitaitai! Taitataitaitai!\nTaitataitaitai!\nSaiba! Faiba! Daiba! Baiba!\nJya Jya! Faibo! Waipa!",
+    "readingKana": "タイタタタイタイ！ タイタタタイタイ！\nタイタタタイタイ！\nサイバー ファイバー ダイバー バイバー\nジャージャー ファイボ ワイパー",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      4,
+      8
+    ],
+    "tags": [],
+    "createdAt": "2026-11-11T13:28:10Z",
+    "updatedAt": "2026-11-11T13:28:10Z"
+  },
+  {
+    "id": "f648f375-0384-440f-ae83-7c6b38fd6956",
+    "nameRomaji": "Imifu iLiFE!",
+    "nameKana": "意味不アイライフ",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "A! A! iLiFE!\nAi Ai Ai Ai! iLiFE!\nAi Ai Ai Ai! iLiFE!\niLiFE! iLiFE!\niLiFE! iLiFE!\nAi Ai Ai Ai! iLiFE!\nAi Ai Ai Ai! iLiFE!",
+    "readingKana": "ア！ア！アイライフ！\nアイアイアイアイ　アイライフ！\nアイアイアイアイ　アイライフ！\nアイライフ！　アイライフ！\nアイライフ！　アイライフ！\nアイアイアイアイ　アイライフ！\nアイアイアイアイ　アイライフ！",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      16
+    ],
+    "tags": [],
+    "createdAt": "2026-11-11T13:28:10Z",
+    "updatedAt": "2026-11-11T13:28:10Z"
+  },
+  {
+    "id": "4e7e567e-3837-4062-bf1a-6742f6bda45d",
+    "nameRomaji": "iLiFE! Koujou",
+    "nameKana": "iLiFE!口上",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Watashi to anata de tsukutteku!\nIdoru raifu! iLiFE!\nAisuta! Aibusu! Aiekku! Aimega!\nSuki ga tomaranai! Oremoo!\nYappa suki nano! Oremoo!\nSuki sugite kowai! Oremoo!\nSuki koete chuki! Oremoo!\nA! A! A! iLiFE!",
+    "readingKana": "私と貴方で作ってく\nアイドルライフ　iLiFE!\nアイスタ　アイブス　アイエク　アイメガ\n好きが止まらない　オレモー\nやっぱ好きなの　オレモー\n好きすぎて怖い　オレモー\n好き超えてちゅき　オレモー\nア！ア！ア！　iLiFE!",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      16
+    ],
+    "tags": [
+      "koujou"
+    ],
+    "createdAt": "2026-11-11T13:28:10Z",
+    "updatedAt": "2026-11-11T13:28:10Z"
+  },
+  {
+    "id": "2a5a7fce-2907-4ef9-a774-71ce9983ea09",
+    "nameRomaji": "Standard Unchi Kahen",
+    "nameKana": "スタンダードうんち可変",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Taiga Faiya Tatatatataiga!\nSaiba Faiba Sasasasasaiba!\nDaiba Baiba Dadadadadaiba!\nJya Jya! Jya Jya! Jya Jya! Jya Jya! Jya Jya!",
+    "readingKana": "タイガファイヤータタタタタイガー\nサイバファイバーサササササイバー\nダイババイバーダダダダダイバー\nジャージャジャージャージャジャジャジャジャージャー",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      8
+    ],
+    "tags": [],
+    "createdAt": "2026-11-11T13:28:10Z",
+    "updatedAt": "2026-11-11T13:28:10Z"
+  },
+  {
+    "id": "dfae0918-090d-4db7-a0f2-5873d8753129",
+    "nameRomaji": "Encho Unchi Kahen",
+    "nameKana": "園長うんち可変",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Faibo Waipa! Wa Wa Wa Wa Waipa!\nFaama Jasupaa! Jya Jya Jya Jya Jasupaa!\nHowaipa Kuupaa! Ku Ku Ku Ku Kuupaa!\nYesu Kureipaa! Ye Yesu Kureipaa!",
+    "readingKana": "ファイボワイパーワワワワワイパー\nファーマジャスパージャジャジャジャジャスパー\nホワイパクーパークククククーパー\nイェスクレイパーイェイェスクレイパー",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      8
+    ],
+    "tags": [],
+    "createdAt": "2026-11-11T13:28:10Z",
+    "updatedAt": "2026-11-11T13:28:10Z"
+  },
+  {
+    "id": "dec52d3e-b8ec-4e47-a77e-26c63ce3ce64",
+    "nameRomaji": "Yottsume no Unchi MIX",
+    "nameKana": "4つ目のうんちmix",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Taiga! Faiya! Tatatatataiga!\nSaiba! Faiba! Sasasasasaiba!\nDaiba! Baiba! Dadadadadaiba!\nJya Jya! Faibo! Wawawawa Waipa!\nJanpaa! Pingaa! Pipipipipinga!\nDansu! Faamaa! Fafafafafaamaa!\nSapuri! Fingaa! Fififififingaa!\nSeibu! Baizaa! Bababababaizaa!",
+    "readingKana": "タイガー ファイヤー タタタタタイガー\nサイバー ファイバー サササササイバー\nダイバー バイバー ダダダダダイバー\nジャージャー ファイボ ワワワワワイパー\nジャンパー ピンガー ピピピピピンガー\nダンス ファーマー ファファファファファーマー\nサプリ フィンガー フィフィフィフィフィンガー\nセイブ バイザー バババババイザー",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      16
+    ],
+    "tags": [],
+    "createdAt": "2026-11-11T13:28:10Z",
+    "updatedAt": "2026-11-11T13:28:10Z"
+  },
+  {
+    "id": "6b9c8cb1-45de-40a6-a2cc-dbe4abf8de5d",
+    "nameRomaji": "Resu Kojiki",
+    "nameKana": "レス乞食",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Resu kudasai! Resu kudasai!\nDare demo ii kara resu kudasai!\nResu kudasai! Resu kudasai!\nYappari ○○ no resu kudasai!",
+    "readingKana": "レスください！レスください！\n誰でもいいからレスください！\nレスください！レスください！\nやっぱり○○のレスください！",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      8
+    ],
+    "tags": [],
+    "createdAt": "2026-11-11T13:28:10Z",
+    "updatedAt": "2026-11-11T13:28:10Z"
+  },
+  {
+    "id": "7bc28142-6601-4756-847a-383004acbfee",
+    "nameRomaji": "Moe Kyun Cancel",
+    "nameKana": "萌えキュンキャンセル",
+    "startRomaji": "Sha~ Ikanai!",
+    "startKana": "しゃーいかない",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Moe Moe Kyun! Moe Moe Kyun!\nMoe Moe Kyun!\nMoe Moe Kyun! Moe Moe Kyun!\nMoe Moe Kyun! Moe Moe Kyun!",
+    "readingKana": "萌え萌えキュン！萌え萌えキュン！\n萌え萌えキュン！\n萌え萌えキュン！萌え萌えキュン！\n萌え萌えキュン！萌え萌えキュン！",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      4,
+      8
+    ],
+    "tags": [],
+    "createdAt": "2026-11-11T13:28:10Z",
+    "updatedAt": "2026-11-11T13:28:10Z"
+  },
+  {
+    "id": "dc1a258a-66e7-4599-b8f8-d53b1f3a3abc",
+    "nameRomaji": "Cheruga Koujou",
+    "nameKana": "チェルガ口上",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Dare ni mo makenai kono kimochi!\n〇〇 ni mukatte saiteiru!\nSekai de ichiban daisuki na!\n〇〇 ni motto koi shitai!",
+    "readingKana": "誰にも負けないこの気持ち\n〇〇に向かって咲いている\n世界で一番大好きな\n〇〇にもっと恋したい",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      8
+    ],
+    "tags": [
+      "koujou"
+    ],
+    "createdAt": "2026-11-11T13:28:10Z",
+    "updatedAt": "2026-11-11T13:28:10Z"
+  },
+  {
+    "id": "0ccdfc1d-337d-4969-84a7-158fa3debc66",
+    "nameRomaji": "Urusai Koujou",
+    "nameKana": "煩い口上",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Iitai koto nanka... Nai mon!\nKawaii toka omotte... Nai mon!\nSuki Suki nante ienai shi!\nOhimesama? Motte no hoka!\nKoi wazurai toka mitomemasen!\nTsundere nanka ja arimasen!\nIssho ni jinsei ayumu da nante!\nHazukashisugite iemasen!\nI! E! Ma! Se! N!",
+    "readingKana": "言いたいことなんか…ないもん！\nかわいいとか思って…ないもん！\n好き好きなんて言えないし\nお姫様？もってのほか！\n恋煩いとか認めません！\nツンデレなんかじゃありません！\n一緒に人生歩むだなんて\n恥ずかしすぎて言えません！\n言・え・ま・せ・ん！",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      16,
+      17
+    ],
+    "tags": [
+      "koujou"
+    ],
+    "createdAt": "2026-11-11T13:28:10Z",
+    "updatedAt": "2026-11-11T13:28:10Z"
+  },
+  {
+    "id": "d7f59354-e3dc-46a4-a820-6eedbdb7e117",
+    "nameRomaji": "Hayashi Osamu MIX",
+    "nameKana": "林修mix",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Uryaoi! Uryaoi! Uryaoi! Uryaoi!\nAa! Mada ikanai!\nUryaoi! Uryaoi! Uryaoi! Uryaoi!\nAa! Mada ikanai!\nItsu iku no? Ima desho!\nAa! Sha~ Ikuzo!",
+    "readingKana": "うりゃおい！ うりゃおい！ うりゃおい！ うりゃおい！\nあー！　まだ行かない！\nうりゃおい！ うりゃおい！ うりゃおい！ うりゃおい！\nあー！　まだ行かない！\nいつ行くの？　今でしょ！\nあー！　しゃーいくぞ",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      8
+    ],
+    "tags": [],
+    "createdAt": "2026-11-11T13:28:10Z",
+    "updatedAt": "2026-11-11T13:28:10Z"
+  },
+  {
+    "id": "8d5aa313-8f6b-4e32-b391-58343eb77b8f",
+    "nameRomaji": "Tanbo Sanren MIX",
+    "nameKana": "田んぼ3連mix",
+    "startRomaji": "",
+    "startKana": "",
+    "startKanaRomaji": "",
+    "mainTitle": "Versión principal",
+    "mainTitleKana": "",
+    "readingRomaji": "Nouringyou! Suisangyou!\nSakana no yousu mo! 👏 Okashii!\nKoshihikari~ Sasanishiki~\nIya iya iya iya! Mate mate mate mate!\nYousuiro! Konbain!\nTanbo no yousu ga! 👏 Okashii!",
+    "readingKana": "農林業 水産業\n魚の様子も👏おかしい\nコシヒカリ〜ササニシキ〜\nいやいやいやいやまてまてまてまて\n用水路 コンバイン\n田んぼの様子が👏おかしい！",
+    "readingKanaRomaji": "",
+    "variants": [],
+    "barCounts": [
+      12
+    ],
+    "tags": [],
+    "createdAt": "2026-11-11T13:28:10Z",
+    "updatedAt": "2026-11-11T13:28:10Z"
   }
 ]
