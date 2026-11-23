@@ -10066,13 +10066,26 @@
     "readingRomaji": "Myouhontusuke! Kasen Tobi Jokyo!\nJya Jya! Faibo! Waipa!",
     "readingKana": "ミョーホントゥスケ　化繊飛除去\nジャージャー　ファイボ　ワイパー",
     "readingKanaRomaji": "",
-    "variants": [],
+    "variants": [
+      {
+        "id": "24ad1dc7-3146-4d47-8183-1f5d7bfb1539",
+        "title": "Myouhontusuke ga Hajimaruyo!",
+        "titleKana": "ミョーホントゥスケが始まるよ",
+        "startRomaji": "",
+        "startKana": "",
+        "startKanaRomaji": "",
+        "readingRomaji": "Myouhontusuke ga Hajimaruyo!\nMyouhontusuke! Kasen Tobi Jokyo!\nJya Jya! Faibo! Waipa!",
+        "readingKana": "ミョーホントゥスケが始まるよ\nミョーホントゥスケ　化繊飛除去\nジャージャー　ファイボ　ワイパー",
+        "readingKanaRomaji": ""
+      }
+    ],
     "barCounts": [
-      4
+      4,
+      6
     ],
     "tags": [],
     "createdAt": "2026-10-10T21:16:24Z",
-    "updatedAt": "2026-10-10T21:47:42.312Z"
+    "updatedAt": "2026-11-23T23:23:24.423Z"
   },
   {
     "id": "3a38f1e5-8452-495d-92e0-2db68aee2256",
@@ -10665,7 +10678,7 @@
     ],
     "tags": [],
     "createdAt": "2026-10-10T21:16:24Z",
-    "updatedAt": "2026-10-10T22:00:47.987Z"
+    "updatedAt": "2026-11-13T00:44:51.107Z"
   },
   {
     "id": "bbd9c29e-6093-4732-bac1-e8776a8eb007",
@@ -12186,8 +12199,8 @@
     "startKanaRomaji": "",
     "mainTitle": "Versión principal",
     "mainTitleKana": "",
-    "readingRomaji": "Takamaru yo! Takamaru yo!\nTakamaru Hikumaru Bisumaruku!\nShijimaaru! Arushindo!\nKazudansu! Niihai Ouhai!\nKan Chuu Hai! Uuron Hai!\nNachuraru Hai! Ai Kyan Furai!",
-    "readingKana": "高まるよ　高まるよ\n高まる低まるビスマルク\nシジマール　アルシンド\nカズダンス　ニーハイオーハイ\n缶チューハイ ウーロンハイ\nナチュラルハイ アイキャンフライ",
+    "readingRomaji": "Takamaru yo! Takamaru yo!\nTakamaru Hikumaru Bisumaruku!\nShijimaaru! Arushindo!\nKazudansu! Niihai Ouhai!👏\nKan Chuu Hai! Uuron Hai!\nNachuraru Hai! Ai Kyan Furai!",
+    "readingKana": "高まるよ　高まるよ\n高まる低まるビスマルク\nシジマール　アルシンド\nカズダンス　ニーハイオーハイ👏\n缶チューハイ ウーロンハイ\nナチュラルハイ アイキャンフライ",
     "readingKanaRomaji": "",
     "variants": [],
     "barCounts": [
@@ -12195,7 +12208,7 @@
     ],
     "tags": [],
     "createdAt": "2026-10-26T12:43:23Z",
-    "updatedAt": "2026-10-26T12:43:23Z"
+    "updatedAt": "2026-11-21T18:03:52.009Z"
   },
   {
     "id": "fe56c98f-59a8-4a6d-b3da-7e4fbfb17f8d",
