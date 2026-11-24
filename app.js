@@ -25,11 +25,11 @@
     variantList: $("#variantList"), addVariant: $("#addVariant"), baseReadingHint: $("#baseReadingHint"),
     baseRomajiRequiredMark: $("#baseRomajiRequiredMark"), baseKanaRequiredMark: $("#baseKanaRequiredMark"),
     tagInputs: [...document.querySelectorAll('input[name="mixTag"]')],
-    saveButton: $("#saveMixButton"), toast: $("#toast"), importFile: $("#importFile"),
+    saveButton: $("#saveMixButton"), toast: $("#toast"), importButton: $("#importButton"), importFile: $("#importFile"),
   };
 
   let mixes = [];
-  let jsonConnected = false;
+  let storageMode = "connecting";
   let nameMode = readPreference(NAME_MODE_KEY) === "kana" ? "kana" : "romaji";
   let toastTimer;
   let formDraftActive = false;
@@ -130,7 +130,7 @@
 
   async function persist(nextMixes) {
     try {
-      if (!jsonConnected) throw new Error("El servidor JSON no está conectado.");
+      if (storageMode !== "api") throw new Error("La colección publicada es de solo lectura.");
       const response = await fetch("/api/mixes", {
         method: "PUT",
         headers: { "content-type": "application/json" },
@@ -141,7 +141,7 @@
       elements.storageLabel.textContent = "Guardado en data/mixes.json";
       return "file";
     } catch {
-      elements.storageLabel.textContent = "No se pudo guardar en data/mixes.json";
+      if (storageMode !== "readonly") elements.storageLabel.textContent = "No se pudo guardar en data/mixes.json";
       return "failed";
     }
   }
@@ -164,15 +164,35 @@
       const fileMixes = fileValues.map(normalizeMix);
       if (fileMixes.some((mix) => !mix)) throw new Error("data/mixes.json contiene un mix incompleto o no válido.");
       mixes = fileMixes;
-      jsonConnected = true;
+      storageMode = "api";
       elements.storageLabel.textContent = "Guardado en data/mixes.json";
-    } catch (error) {
-      mixes = [];
-      jsonConnected = false;
-      elements.storageLabel.textContent = "No se pudo leer data/mixes.json · inicia node server.js y recarga";
-      showToast(error.message || "No se pudo leer data/mixes.json.");
+    } catch (apiError) {
+      try {
+        const staticUrl = new URL("./data/mixes.json", document.baseURI);
+        const response = await fetch(staticUrl, {
+          headers: { accept: "application/json" },
+          cache: "no-cache",
+        });
+        if (!response.ok) throw new Error("No se pudo cargar data/mixes.json desde esta publicación.");
+        const payload = await response.json();
+        const fileValues = Array.isArray(payload) ? payload : payload?.mixes;
+        if (!Array.isArray(fileValues)) throw new Error("data/mixes.json no contiene una lista de mixes.");
+        const fileMixes = fileValues.map(normalizeMix);
+        if (fileMixes.some((mix) => !mix)) throw new Error("data/mixes.json contiene un mix incompleto o no válido.");
+        mixes = fileMixes;
+        storageMode = "readonly";
+        elements.storageLabel.textContent = "Solo lectura · edita en local y publica data/mixes.json";
+      } catch (staticError) {
+        mixes = [];
+        storageMode = "unavailable";
+        elements.storageLabel.textContent = "No se pudo leer data/mixes.json · inicia node server.js o revisa GitHub Pages";
+        showToast(staticError.message || apiError.message || "No se pudo leer data/mixes.json.");
+      }
     } finally {
-      elements.appShell.inert = !jsonConnected;
+      const canEdit = storageMode === "api";
+      elements.addTab.hidden = !canEdit;
+      elements.importButton.hidden = !canEdit;
+      elements.appShell.inert = storageMode === "unavailable";
       elements.appShell.removeAttribute("aria-busy");
       render();
     }
@@ -296,12 +316,13 @@
       elements.list.replaceChildren();
       elements.empty.hidden = false;
       const isSearching = Boolean(elements.search.value.trim());
-      elements.emptyTitle.textContent = isSearching ? "No encontramos ese mix" : hasFilters ? "No hay mixes con esos filtros" : "Tu colección empieza aquí";
+      elements.emptyTitle.textContent = isSearching ? "No encontramos ese mix" : hasFilters ? "No hay mixes con esos filtros" : storageMode === "readonly" ? "No hay mixes publicados" : "Tu colección empieza aquí";
       elements.emptyCopy.textContent = isSearching
         ? "Prueba con otra palabra, en kana o en romaji."
         : hasFilters ? "Prueba quitando algún filtro o elige otra duración o etiqueta."
-          : "Añade tu primer mix para tener tus calls siempre a mano.";
-      $("#emptyAddButton").hidden = isSearching || hasFilters;
+          : storageMode === "readonly" ? "Añade mixes en local y publica el archivo data/mixes.json para mostrarlos aquí."
+            : "Añade tu primer mix para tener tus calls siempre a mano.";
+      $("#emptyAddButton").hidden = storageMode !== "api" || isSearching || hasFilters;
       return;
     }
 
@@ -334,13 +355,17 @@
         </summary>
         <div class="mix-detail">
           ${sharedStart}${mainReading}${variantReadings}
-          <div class="detail-actions"><button class="small-action" type="button" data-action="edit" data-id="${escapeHtml(mix.id)}">Editar</button><button class="small-action delete" type="button" data-action="delete" data-id="${escapeHtml(mix.id)}">Eliminar</button></div>
+          ${storageMode === "api" ? `<div class="detail-actions"><button class="small-action" type="button" data-action="edit" data-id="${escapeHtml(mix.id)}">Editar</button><button class="small-action delete" type="button" data-action="delete" data-id="${escapeHtml(mix.id)}">Eliminar</button></div>` : ""}
         </div>
       </details>`;
     }).join("");
   }
 
   function openForm(mix = null) {
+    if (storageMode !== "api") {
+      showToast("La colección publicada es de solo lectura. Edita los mixes en local.");
+      return;
+    }
     if (mix || !formDraftActive) {
       elements.formTitle.textContent = mix ? "Edita el mix" : "Añade un mix";
       elements.saveButton.innerHTML = mix ? "Guardar cambios <span aria-hidden=\"true\">↗</span>" : "Guardar mix <span aria-hidden=\"true\">↗</span>";
@@ -453,6 +478,10 @@
 
   async function importBackup(file) {
     if (!file) return;
+    if (storageMode !== "api") {
+      showToast("La colección publicada es de solo lectura. Importa el JSON en local.");
+      return;
+    }
     try {
       const parsed = JSON.parse(await file.text());
       const list = Array.isArray(parsed) ? parsed : parsed?.mixes;
@@ -552,6 +581,10 @@
 
   elements.form.addEventListener("submit", async (event) => {
     event.preventDefault();
+    if (storageMode !== "api") {
+      showToast("La colección publicada es de solo lectura. Edita los mixes en local.");
+      return;
+    }
     const editId = elements.editId.value;
     const previous = mixes.find((mix) => mix.id === editId);
     const variants = readVariantDrafts();
@@ -606,7 +639,7 @@
 
   elements.list.addEventListener("click", async (event) => {
     const button = event.target.closest("button[data-action]");
-    if (!button) return;
+    if (!button || storageMode !== "api") return;
     const mix = mixes.find((entry) => entry.id === button.dataset.id);
     if (!mix) return;
     if (button.dataset.action === "edit") {

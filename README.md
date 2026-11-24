@@ -12,11 +12,13 @@ node server.js
 
 Abre [http://localhost:8000](http://localhost:8000) en el navegador. Cada cambio se escribe en `data/mixes.json`.
 
-## Datos
+## Datos y GitHub Pages
 
-`data/mixes.json` es la única fuente de la colección: la app la lee al iniciarse y escribe ahí cada alta, edición, eliminación e importación. La colección no se guarda en `localStorage`. **Exportar** y **Importar** permiten crear o recuperar copias JSON; importar reemplaza la colección del archivo.
+`data/mixes.json` es la única fuente de la colección. En local, la app la lee y escribe cada alta, edición, eliminación e importación a través del servidor Node. La colección no se guarda en `localStorage`.
 
-Para editar la colección, inicia `node server.js` y abre `http://localhost:8000`. Sin el servidor, la app no carga ni guarda mixes; los cambios no se guardan en el navegador como alternativa.
+GitHub Pages publica una versión de solo lectura que carga `data/mixes.json`. Para cambiar los mixes, inicia `node server.js`, edítalos en `http://localhost:8000` y sube el `data/mixes.json` actualizado al repositorio. GitHub Pages mostrará los cambios después de publicar el commit.
+
+**Exportar** permite descargar una copia JSON. **Importar** está disponible al usar el servidor local y reemplaza la colección del archivo.
 
 ## Funciones
 

@@ -13634,22 +13634,24 @@
     "id": "dab95fbe-3109-4d96-9ec4-21ecf098f83c",
     "nameRomaji": "TF Shidou Standard MIX",
     "nameKana": "TF始動スタンダードmix",
-    "startRomaji": "Taiga Faiya!",
-    "startKana": "タイガーファイヤー",
+    "startRomaji": "",
+    "startKana": "",
     "startKanaRomaji": "",
     "mainTitle": "Versión principal",
     "mainTitleKana": "",
-    "readingRomaji": "Taitataitaitai! Taitataitaitai!\nTaitataitaitai!\nSaiba! Faiba! Daiba! Baiba!\nJya Jya! Faibo! Waipa!",
-    "readingKana": "タイタタタイタイ！ タイタタタイタイ！\nタイタタタイタイ！\nサイバー ファイバー ダイバー バイバー\nジャージャー ファイボ ワイパー",
+    "readingRomaji": "Taitataitaitai! Taitataitaitai!\nTaitataitaitai! Taiga Faiya!\nSaiba! Faiba! Daiba! Baiba!\nJya Jya! Faibo! Waipa!",
+    "readingKana": "タイタタタイタイ！ タイタタタイタイ！\nタイタタタイタイ！タイガーファイヤー!\nサイバー ファイバー ダイバー バイバー\nジャージャー ファイボ ワイパー",
     "readingKanaRomaji": "",
     "variants": [],
     "barCounts": [
       4,
       8
     ],
-    "tags": [],
+    "tags": [
+      "gengo"
+    ],
     "createdAt": "2026-11-11T13:28:10Z",
-    "updatedAt": "2026-11-11T13:28:10Z"
+    "updatedAt": "2026-11-23T12:01:38.462Z"
   },
   {
     "id": "f648f375-0384-440f-ae83-7c6b38fd6956",
@@ -13662,14 +13664,14 @@
     "mainTitleKana": "",
     "readingRomaji": "A! A! iLiFE!\nAi Ai Ai Ai! iLiFE!\nAi Ai Ai Ai! iLiFE!\niLiFE! iLiFE!\niLiFE! iLiFE!\nAi Ai Ai Ai! iLiFE!\nAi Ai Ai Ai! iLiFE!",
     "readingKana": "ア！ア！アイライフ！\nアイアイアイアイ　アイライフ！\nアイアイアイアイ　アイライフ！\nアイライフ！　アイライフ！\nアイライフ！　アイライフ！\nアイアイアイアイ　アイライフ！\nアイアイアイアイ　アイライフ！",
-    "readingKanaRomaji": "",
+    "readingKanaRomaji": "A! A! Airaifu!\nAi Ai Ai Ai! Airaifu!\nAi Ai Ai Ai! Airaifu!\nAiraifu! Airaifu!\nAiraifu! Airaifu!\nAi Ai Ai Ai! Airaifu!\nAi Ai Ai Ai! Airaifu!",
     "variants": [],
     "barCounts": [
       16
     ],
     "tags": [],
     "createdAt": "2026-11-11T13:28:10Z",
-    "updatedAt": "2026-11-11T13:28:10Z"
+    "updatedAt": "2026-11-23T12:03:12.098Z"
   },
   {
     "id": "4e7e567e-3837-4062-bf1a-6742f6bda45d",
@@ -13777,13 +13779,13 @@
     "id": "7bc28142-6601-4756-847a-383004acbfee",
     "nameRomaji": "Moe Kyun Cancel",
     "nameKana": "萌えキュンキャンセル",
-    "startRomaji": "Sha~ Ikanai!",
-    "startKana": "しゃーいかない",
+    "startRomaji": "",
+    "startKana": "",
     "startKanaRomaji": "",
     "mainTitle": "Versión principal",
     "mainTitleKana": "",
-    "readingRomaji": "Moe Moe Kyun! Moe Moe Kyun!\nMoe Moe Kyun!\nMoe Moe Kyun! Moe Moe Kyun!\nMoe Moe Kyun! Moe Moe Kyun!",
-    "readingKana": "萌え萌えキュン！萌え萌えキュン！\n萌え萌えキュン！\n萌え萌えキュン！萌え萌えキュン！\n萌え萌えキュン！萌え萌えキュン！",
+    "readingRomaji": "Moe Moe Kyun! Moe Moe Kyun!\nMoe Moe Kyun! Ja~ Ikanai!\nMoe Moe Kyun! Moe Moe Kyun!\nMoe Moe Kyun! Moe Moe Kyun!",
+    "readingKana": "萌え萌えキュン！萌え萌えキュン！\n萌え萌えキュン！しゃーいかない！\n萌え萌えキュン！萌え萌えキュン！\n萌え萌えキュン！萌え萌えキュン！",
     "readingKanaRomaji": "",
     "variants": [],
     "barCounts": [
@@ -13792,7 +13794,7 @@
     ],
     "tags": [],
     "createdAt": "2026-11-11T13:28:10Z",
-    "updatedAt": "2026-11-11T13:28:10Z"
+    "updatedAt": "2026-11-23T12:08:18.754Z"
   },
   {
     "id": "dc1a258a-66e7-4599-b8f8-d53b1f3a3abc",
@@ -13848,7 +13850,7 @@
     "startKanaRomaji": "",
     "mainTitle": "Versión principal",
     "mainTitleKana": "",
-    "readingRomaji": "Uryaoi! Uryaoi! Uryaoi! Uryaoi!\nAa! Mada ikanai!\nUryaoi! Uryaoi! Uryaoi! Uryaoi!\nAa! Mada ikanai!\nItsu iku no? Ima desho!\nAa! Sha~ Ikuzo!",
+    "readingRomaji": "Uryaoi! Uryaoi! Uryaoi! Uryaoi!\nAa! Mada ikanai!\nUryaoi! Uryaoi! Uryaoi! Uryaoi!\nAa! Mada ikanai!\nItsu iku no? Ima desho!\nAa! Ja~ Ikuzo!",
     "readingKana": "うりゃおい！ うりゃおい！ うりゃおい！ うりゃおい！\nあー！　まだ行かない！\nうりゃおい！ うりゃおい！ うりゃおい！ うりゃおい！\nあー！　まだ行かない！\nいつ行くの？　今でしょ！\nあー！　しゃーいくぞ",
     "readingKanaRomaji": "",
     "variants": [],
@@ -13857,7 +13859,7 @@
     ],
     "tags": [],
     "createdAt": "2026-11-11T13:28:10Z",
-    "updatedAt": "2026-11-11T13:28:10Z"
+    "updatedAt": "2026-11-23T12:07:48.723Z"
   },
   {
     "id": "8d5aa313-8f6b-4e32-b391-58343eb77b8f",
