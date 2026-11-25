@@ -97,6 +97,9 @@ kbd { min-width: 21px; height: 22px; display: grid; place-items: center; border:
 .filter-chip { min-height: 27px; padding: 4px 9px; border: 1px solid var(--line); border-radius: 20px; background: var(--page); color: var(--ink-soft); font-size: 10px; cursor: pointer; transition: border .15s, color .15s, background .15s; }
 .filter-chip:hover { border-color: var(--accent); color: var(--accent-dark); }
 .filter-chip[aria-pressed="true"] { border-color: var(--accent); background: var(--accent-soft); color: var(--accent-dark); font-weight: 600; }
+.filter-chip--exclude[aria-pressed="true"] { border-color: #BF616A; background: color-mix(in srgb, #BF616A 15%, var(--page)); color: #BF616A; }
+.filter-state-mark { margin-right: 4px; font-size: 12px; font-weight: 700; }
+.filter-help { margin: 0; color: var(--ink-faint); font-size: 10px; }
 .filter-empty { padding: 6px 0; color: var(--ink-faint); font-size: 10px; }
 .clear-filters { align-self: flex-end; padding: 2px 0; border: 0; background: transparent; color: var(--accent-dark); font-size: 10px; cursor: pointer; }.clear-filters[hidden] { display: none; }
 .primary-button, .secondary-button { min-height: 45px; padding: 0 17px; display: inline-flex; align-items: center; justify-content: center; gap: 9px; border: 1px solid var(--accent); border-radius: 11px; background: var(--accent); color: var(--button-ink); font-size: 12px; font-weight: 600; cursor: pointer; transition: background .2s, transform .2s, box-shadow .2s; }

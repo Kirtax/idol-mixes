@@ -35,8 +35,8 @@
   let formDraftActive = false;
   let formBarCounts = [];
   let variantDrafts = [];
-  const selectedBars = new Set();
-  const selectedTags = new Set();
+  const selectedBars = new Map();
+  const selectedTags = new Map();
 
   function readPreference(key) {
     try { return localStorage.getItem(key); } catch { return null; }
@@ -208,8 +208,43 @@
     return value.toLocaleLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").trim();
   }
 
+  function getFilterCriteria(filters) {
+    const include = new Set();
+    const exclude = new Set();
+    filters.forEach((state, value) => (state === 1 ? include : exclude).add(value));
+    return { include, exclude };
+  }
+
+  function matchesFilterValues(values, criteria) {
+    return (criteria.include.size === 0 || values.some((value) => criteria.include.has(value)))
+      && !values.some((value) => criteria.exclude.has(value));
+  }
+
+  function cycleFilterState(filters, key) {
+    const current = filters.get(key) ?? 0;
+    if (current === 0) filters.set(key, 1);
+    else if (current === 1) filters.set(key, -1);
+    else filters.delete(key);
+  }
+
+  function filterStateClass(state) {
+    if (state === 1) return "filter-chip--include";
+    if (state === -1) return "filter-chip--exclude";
+    return "";
+  }
+
+  function filterStateMark(state) {
+    return state === 1 ? "+" : state === -1 ? "−" : "";
+  }
+
+  function filterStateLabel(state) {
+    return state === 1 ? "incluir" : state === -1 ? "excluir" : "sin filtrar";
+  }
+
   function matchingMixes() {
     const terms = normalizeText(elements.search.value).split(/\s+/).filter(Boolean);
+    const barCriteria = getFilterCriteria(selectedBars);
+    const tagCriteria = getFilterCriteria(selectedTags);
     const searchable = mixes.filter((mix) => {
       const tagText = mix.tags.flatMap((id) => MIX_TAGS.find((tag) => tag.id === id) ?? []);
       const content = normalizeText([
@@ -219,8 +254,8 @@
         ...tagText.flatMap((tag) => [tag.romaji, tag.kana]),
       ].join(" "));
       const matchesSearch = terms.every((term) => content.includes(term));
-      const matchesBars = selectedBars.size === 0 || mix.barCounts.some((count) => selectedBars.has(count));
-      const matchesTags = selectedTags.size === 0 || mix.tags.some((tag) => selectedTags.has(tag));
+      const matchesBars = matchesFilterValues(mix.barCounts, barCriteria);
+      const matchesTags = matchesFilterValues(mix.tags, tagCriteria);
       return matchesSearch && matchesBars && matchesTags;
     });
     const collator = new Intl.Collator(nameMode === "kana" ? "ja" : "en", { sensitivity: "base", numeric: true });
@@ -234,12 +269,18 @@
 
   function renderFilterOptions() {
     const allBars = new Set(mixes.flatMap((mix) => mix.barCounts));
-    selectedBars.forEach((count) => allBars.add(count));
+    selectedBars.forEach((_, count) => allBars.add(count));
     const bars = [...allBars].sort((a, b) => a - b);
     elements.barFilters.innerHTML = bars.length
-      ? bars.map((count) => `<button class="filter-chip" type="button" data-filter-kind="bar" data-filter-value="${count}" aria-pressed="${selectedBars.has(count)}">${count} 小節</button>`).join("")
+      ? bars.map((count) => {
+        const state = selectedBars.get(count) ?? 0;
+        return `<button class="filter-chip ${filterStateClass(state)}" type="button" data-filter-kind="bar" data-filter-value="${count}" aria-pressed="${state !== 0}" aria-label="${count} compases: ${filterStateLabel(state)}" title="Clic 1: incluir · clic 2: excluir · clic 3: quitar">${state ? `<span class="filter-state-mark" aria-hidden="true">${filterStateMark(state)}</span>` : ""}${count} 小節</button>`;
+      }).join("")
       : '<span class="filter-empty">Aún no hay duraciones</span>';
-    elements.tagFilters.innerHTML = MIX_TAGS.map((tag) => `<button class="filter-chip" type="button" data-filter-kind="tag" data-filter-value="${tag.id}" aria-pressed="${selectedTags.has(tag.id)}" title="${tag.kana}">${tag.romaji} · ${tag.kana}</button>`).join("");
+    elements.tagFilters.innerHTML = MIX_TAGS.map((tag) => {
+      const state = selectedTags.get(tag.id) ?? 0;
+      return `<button class="filter-chip ${filterStateClass(state)}" type="button" data-filter-kind="tag" data-filter-value="${tag.id}" aria-pressed="${state !== 0}" aria-label="${tag.romaji}, ${tag.kana}: ${filterStateLabel(state)}" title="Clic 1: incluir · clic 2: excluir · clic 3: quitar">${state ? `<span class="filter-state-mark" aria-hidden="true">${filterStateMark(state)}</span>` : ""}${tag.romaji} · ${tag.kana}</button>`;
+    }).join("");
     elements.clearFilters.hidden = selectedBars.size === 0 && selectedTags.size === 0;
   }
 
@@ -553,8 +594,7 @@
     const button = event.target.closest('button[data-filter-kind="bar"]');
     if (!button) return;
     const count = Number(button.dataset.filterValue);
-    if (selectedBars.has(count)) selectedBars.delete(count);
-    else selectedBars.add(count);
+    cycleFilterState(selectedBars, count);
     render();
     elements.barFilters.querySelector(`[data-filter-value="${count}"]`)?.focus();
   });
@@ -562,8 +602,7 @@
     const button = event.target.closest('button[data-filter-kind="tag"]');
     if (!button) return;
     const tag = button.dataset.filterValue;
-    if (selectedTags.has(tag)) selectedTags.delete(tag);
-    else selectedTags.add(tag);
+    cycleFilterState(selectedTags, tag);
     render();
     elements.tagFilters.querySelector(`[data-filter-value="${tag}"]`)?.focus();
   });

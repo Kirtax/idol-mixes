@@ -26,6 +26,7 @@ GitHub Pages publica una versión de solo lectura que carga `data/mixes.json`. P
 - Añadir varias versiones dentro de un mix, cada una con subtítulo y lectura propia; también puedes cambiar el nombre de la versión principal.
 - Guardar un inicio opcional (始動) en romaji y kana.
 - Guardar una o varias duraciones en compases (小節) y filtrar por ellas.
+- Filtrar compases y etiquetas con clics sucesivos: incluir, excluir y quitar el filtro.
 - Etiquetar y filtrar por Kahen Sanren (可変三連), Konton (混沌), Koujou (口上) y Gengo (言語).
 - Cambiar el idioma visible de los nombres.
 - Desplegar cada mix para ver su lectura en romaji y kana.
